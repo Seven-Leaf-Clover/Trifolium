@@ -12,7 +12,7 @@ This mod is an attempt at providing this space with thoughtful balance and desig
 All of this changes can be fully reviewed in the changelog folder above. Over time I will also provide with full explanations for the changes.
 
 Vanilla:
-A handful of changes to polish some rough edges to the base game.
+A handful of changes to polish some rough edges of the base game.
 - 16 Jokers.
 - 2 Consumables.
 - 3 Vouchers.
@@ -23,7 +23,7 @@ Opandora's Box:
 Full rebalance and redesign. Plus a handful of bans.
 - 42 Rebalanced and redesigned Jokers.
 - 1 Redesigned Spectral
-- 20 Joker or Consumable Bans.
+- 20 Joker and Consumable Bans.
 
 # **Suported Mods**
 All of these are incredible works of art. Check them out, with or without my mod.
