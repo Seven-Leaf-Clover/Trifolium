@@ -31,3 +31,8 @@ All of these are incredible works of art. Check them out, with or without my mod
 Opandora's Box.
 https://github.com/ohpahn/opandoras-box/
 
+# **Bugs**
+
+Please mention any problems this mod might have in Discord or here on GitHub. 
+While I've not found any problems, I literally learned to code a week ago. So, you know.
+
