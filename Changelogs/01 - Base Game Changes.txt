@@ -82,4 +82,4 @@
 
 --- Stakes ---
 
- Blue Stake: Spectral Packs appear x1.8 times often --- Scoring scales faster: Last Ante starts at 300k Chips.
+ Blue Stake: Spectral Packs appear x1.8 times often --- Scoring scales faster: Last Ante starts at 300k Chips in Gold Stake.
