@@ -1,0 +1,16 @@
+{
+	"id": "Trifolium",
+	"name": "Trifolium",
+	"display_name": "Trifolium",
+	"author": ["Clover"],
+	"description": "Gold Stake focused vanilla and mod rebalance.",
+	"prefix": "tfl",
+	"main_file": "main.lua",
+	"priority": 0,
+	"badge_colour": "3f8451",
+	"badge_text_colour": "FFFFFF",
+	"version": "1.0",
+	"dependencies": [
+
+	        ],
+}
