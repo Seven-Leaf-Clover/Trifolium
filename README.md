@@ -28,8 +28,20 @@ Full rebalance and redesign. Plus a handful of bans.
 # **Suported Mods**
 All of these are incredible works of art. Check them out, with or without my mod.
 
-Opandora's Box.
-https://github.com/ohpahn/opandoras-box/
+- Opandora's Box.
+- https://github.com/ohpahn/opandoras-box/
+
+# **Future Work**
+
+As of writing I'm expecting to work on:
+
+- Plantain.
+
+- Greener Jokers
+
+- All in Jest
+
+If you like my work, please tell me about any mod you would like to see me working on. Preferably those that are meant to be balanced but didn't quite bring it to high stake level.
 
 # **Bugs**
 
