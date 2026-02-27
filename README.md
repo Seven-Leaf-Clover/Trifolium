@@ -20,9 +20,9 @@ A handful of changes to polish some rough edges to the base game.
 - 6 Tags.
 
 Opandora's Box:
-Full rebalance and redisign. Plus a handful of bans.
-- 42 Rebalanced and redisigned Jokers.
-- 1 Redisigned Spectral
+Full rebalance and redesign. Plus a handful of bans.
+- 42 Rebalanced and redesigned Jokers.
+- 1 Redesigned Spectral
 - 20 Joker or Consumable Bans.
 
 # **Suported Mods**
