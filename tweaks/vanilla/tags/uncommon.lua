@@ -13,7 +13,7 @@ SMODS.Tag:take_ownership("uncommon", {
         tag:yep('+', G.C.GREEN, function()
             card:start_materialize()
             card.ability.couponed = true
-            card.cost = (math.floor(context.card.cost * .75))
+            card.cost = (math.floor(card.cost * .75))
             return true
         end)
         return card
