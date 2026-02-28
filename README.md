@@ -9,7 +9,7 @@ on creative expression making them, it does leave a big gap for people like me w
 This mod is an attempt at providing this space with thoughtful balance and design, by tweaking redesigning the community's favorite mods.
 
 # **Content**
-All of this changes can be fully reviewed in the changelog folder above. Over time I will also provide with full explanations for the changes.
+All of this changes can be fully reviewed in the changelog folder above.
 
 Vanilla:
 A handful of changes to polish some rough edges of the base game.
