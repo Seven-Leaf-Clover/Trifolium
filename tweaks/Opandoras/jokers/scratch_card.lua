@@ -17,7 +17,8 @@ SMODS.Joker:take_ownership('opan_scratchcard', {
             delay = 0.1,
             func = function()
                 SMODS.add_card({ set = 'Joker',
-                                 rarity = 'Common'
+                                 rarity = 'Common',
+                                 key_append = 'scratch_1'
                 })
                 return true
             end
@@ -30,7 +31,8 @@ SMODS.Joker:take_ownership('opan_scratchcard', {
             delay = 0.4,
             func = function()
                 SMODS.add_card({ set = 'Joker',
-                                 rarity = 'Uncommon'
+                                 rarity = 'Uncommon',
+                                 key_append = 'scratch_2'
                 })
                 return true
             end
@@ -43,7 +45,9 @@ SMODS.Joker:take_ownership('opan_scratchcard', {
             delay = 0.7,
             func = function()
                 SMODS.add_card({ set = 'Joker',
-                                 rarity = 'Rare'
+                                 rarity = 'Rare',
+                                 key_append = 'scratch_3'
+                                 
                 })
                 return true
             end
@@ -57,16 +61,16 @@ SMODS.Joker:take_ownership('opan_scratchcard', {
             delay = 0.9,
             func = function()
                 SMODS.add_card({ set = 'Spectral',
-                                 key = 'c_soul'
+                                 key = 'c_soul',
+                                 key_append = 'scratch_4',
                 })
                 G.GAME.consumeable_buffer = 0
                 play_sound('opan_jackpothit')
                 return true
             end
             }))
-            return {
-                --play_sound('opan_jackpothit'),            
-                message = localize('k_lotterysoul'),
+            return {            
+                message = 'WINNER!',
                 colour = G.C.PURPLE,
             }
         end    
