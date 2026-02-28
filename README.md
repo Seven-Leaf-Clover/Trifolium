@@ -49,7 +49,7 @@ If you like my work, please tell me about any mod you would like to see me worki
 
 # **Communication**
 
-You can reach me here on GitHub, over at Discord in this channel or in my Direct Messages in both(? Idk if GitHub has that).
+You can reach me here on GitHub and over at Discord in this channel or in my Direct Messages in both(? Idk if GitHub has that).
 
 - https://discord.com/channels/1116389027176787968/1477075771049902221
 
