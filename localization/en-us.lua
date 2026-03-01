@@ -31,6 +31,18 @@ return {
                 },
             },
          },
+      -- Plantain's Deck   
+         Back={
+            b_pl_sponsored = {
+                name = "Sponsored Deck",
+                text = {
+                    'Start run with',
+                    '{C:attention,T:v_pl_ad_break}Ad Break{} and',
+                    '{C:attention,T:j_pl_plantain}Plantain{}',
+                    '{C:attention}-1{} shop slot'
+                },
+            },
+         },
        --Vanilla Tags 
          Tag = {
             tag_uncommon = {
@@ -209,7 +221,7 @@ return {
 		     "Gain {C:attention}+#1#{} per {C:attention}played hand{}.",
 		     "if {C:attention}total{} number of hands is a {C:attention}whole number,",
 		     "{C:attention}retrigger all{} cards equal to {C:attention}total",
-		     "{C:inactive}(Currently #2#)",
+		     "{C:inactive}(Currently {C:attention}#2#{C:inactive})",
 		 },
 	    },
 	   -- Legendary Jokers
@@ -241,6 +253,47 @@ return {
 		     "a random {C:dark_edition}Negative{} {C:spectral}Spectral{} card",
 	         },
 	    },
+	 --- Plantain Jokers
+	  -- Common Jokers
+	    j_pl_postcard = {
+                 name = 'Postcard',
+                 text = {
+                     'Gains {X:mult,C:white}X1{} Mult for each',
+                     '{C:attention}Postcard{} sold this run.',
+                     'Creates a random {C:planet}Planet{} from',
+                     '{C:attention}High Card{} to {C:attention}Full House{} when sold',
+                     '{C:inactive}(Currently {X:mult,C:white} X#1# {C:inactive} Mult)',
+                 },
+            },
+            j_pl_archaeologist = {
+                 name = 'Archaeologist',
+                 text = {
+                     'Each card held in',
+                     'hand with {V:1}#1#{} suit',
+                     'gives {C:mult}+#2#{} Mult',
+                     '{s:0.8}suit changes at end of round'
+                 },
+            },
+            j_pl_odd_sock = {
+                 name = 'Odd Sock',
+                 text = {
+                     'This Joker gains {X:mult,C:white}X#1#{} Mult',
+                     'per {C:attention}consecutive{} discard',
+                     'containing no {C:attention}Pairs',
+                     '{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)'
+                 },
+            },
+          -- Rare Jokers
+            j_pl_raw_meat = {
+                 name = 'Raw Meat',
+                 text = {
+                     'After defeating', 
+                     '{C:attention}#1#{} {C:attention}Boss Blinds{}',
+                     'sell this Joker to',
+                     'go back #3# {C:attention}Ante',
+                     '{C:inactive}(Currently {C:attention}#2#{C:inactive}/2)'
+                 },
+            },
         },		   
     },
     misc = {
@@ -252,6 +305,7 @@ return {
                                  "{C:spectral}Spectral{} packs appear more often",
                                  "Required score scales faster each {C:attention}Ante",
              },
+             k_postcard_tfl="Hello!",
         },    
     },
 }    
