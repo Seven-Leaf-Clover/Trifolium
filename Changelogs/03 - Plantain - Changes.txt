@@ -1,0 +1,180 @@
+--- Total Jokers After Rebalance = 30 --- 1 Ban = 29
+
+-- Commons = 7 --- 0 Bans --
+   - 3 are Direct Mult    --- 1 is Direct Chips --- 1 is Direct Level
+   - 1 is Indirect X/Mult --- 1 is Direct Econ
+   
+-- Uncommons = 17 --- 1 Ban = 16 --
+   - 1 is Direct XMult   --- 1 is Direct Mult  --- 2 are Scaling Econ  --- 3 are Scaling Scoring
+   - 3 are Scaling XMult --- 1 is Scaling Mult --- 4 are Indirect Econ --- 1 Reduces Ante
+
+
+
+-- Rares = 6 --- 0 Bans --
+   - 3 are Direct XMult --- 1 Scales chips --- 1 Scales Scoring
+                                           --- 1 Scales Level
+   
+
+
+----- Jokers -----
+
+
+--- Common Jokers ---
+
+
+-- Plantain --                                 
+
+- Original: 4 Cost --- +80 Chips --- 1 in 4 chance this card is destroyed at end of round
+            
+- Change: 4 Cost >>> 5 Cost --- 1/4 Chance to destroy itself >>> 1/6
+  
+                                        
+-- Postcard --
+
+- Original: 2 Cost --- Gains X1 mult for each Postcard sold this game --- Base Xmult of X1
+
+- Change: Additionally now has: Creates a random Planet from High Card to Full House when sold
+  -  2 Cost >>> 3 Cost
+
+
+-- Bingo --
+
+- Original: 5 Cost --- Each played X and Y gives +25 Chips and +5 Mult when scored
+
+- Change: +25 Chips >>> +20 --- +5 Mult >>> +3
+
+
+-- Pop-Up Joker --
+
+Original: 4 Cost --- Common --- 1 in 2 chance to refill 1 Booster Pack in shop on reroll
+
+Change: Common >>> Uncommon --- 4 Cost >>> 5 Cost
+
+
+-- Lamp --
+
+Original: 5 Cost --- Common --- +3 Mult when Joker card sold, -1 Mult each round, Base of +3 Mult
+
+Change: 5 Cost >>>> 8 Cost --- Common >>> Uncommon --- +3 Mult when Joker card sold >>> +2
+
+
+-- Early Man -- 
+
+Original: 3 Cost --- Common --- Create a copy of The Wheel of Fortune when Blind selected 
+
+Change: 3 Cost >>> 5 Cost --- Common >>> Uncommon
+
+
+-- Archaeologist --
+
+Original: 5 Cost --- Each card held in hand with *suit* gives +25 Chips
+
+Change: +25 Chips >>> +3 Mult
+              
+
+                        
+----- Uncommon Jokers -----
+
+
+-- Matryoshka --
+
+Original: 6 Cost --- Retrigger all scoring cards if played hand contains a Straight
+
+Change: 6 Cost >>> 7 Cost
+
+
+-- El Dorado --
+
+Original: Earn $3 for each Wild card in your full deck at end of round
+
+Change: Earn $3 >>> $2
+
+
+-- Black Cat --
+
+Original: Uncommon --- 6 Cost --- Gains +13 Chips each time a Lucky card fails to trigger
+
+Change: Uncommon >>> Rare --- 6 Cost >>> 9 Cost
+
+
+-- Odd Sock --
+
+Original: 5 Cost --- Gains +5 Chips if discarded hand contains no Pairs
+
+Change: Rework: Gain X0.1 per consecutive discard containing no pairs --- 5 Cost >>> 6 Cost
+
+
+-- Loose Batteries --
+
+Original: 6 Cost --- Retrigger all played Aces, 1 in 2 chance played Aces are retriggered again
+
+Change: 6 Cost >>> 7 Cost
+
+
+-- Painterly Joker --
+
+Original: 5 Cost --- Gains X0.1 Mult when a card changes suits
+
+Change: 5 Cost >>> 6 Cost
+
+
+
+----- Rare Jokers -----
+
+
+-- Mossy Joker --
+
+Original: 8 Cost --- Convert a random card held in hand into a random scored card
+
+Change: 8 Cost >>> 9 Cost
+
+
+-- Calculator --
+
+Original: 7 Cost --- Each played card with even rank gives X1.5 Mult when scored
+
+Change: 7 Cost >>> 8 Cost
+
+
+-- Raw Meat --
+
+- Original: Rare --- 9 Cost --- After defeating a Boss Blind sell this to go back 1 ante.
+
+- Change: Rare >>> Uncommon --- 9 Cost >>> 5 Cost --- Now requires defeating 2 bosses to activate.
+
+
+-- Quarry --
+
+Original: 6 Cost --- Rare --- Gains X0.5 Mult each time a Stone card scores, destroy all played Stone cards
+
+Change: Rare >>> Uncommon --- Gains X0.5 >>> X0.4
+
+
+-- Lasagna --
+
+Original: 8 Cost --- X3 Mult, loses X0.5 Mult per card sold
+
+Change: 8 Cost >>> 9 Cost
+
+
+
+----- Decks -----
+
+-- Sponsored Deck --
+
+Original: Start run with Ad Break --- -1 shop slot 
+
+Change: Now also starts with the Joker "Plantain"
+
+
+
+----- Bans -----
+
+--- Jokers ---
+
+-- Three Body Problem --
+                      
+                      
+--- Consumables ---
+                                      
+-- Rebirth --
