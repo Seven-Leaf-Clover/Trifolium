@@ -62,4 +62,17 @@ local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)
     end
 -- Bans
 SMODS.load_file('tweaks/opandoras/bans.lua')()
+
+
+
+----- Plantain
+
+--- Jokers and Deck
+local subdir = "tweaks/plantain/jokers"
+local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(jokers) do
+        assert(SMODS.load_file(subdir .. "/" .. filename))()  
+    end    
+-- Bans
+SMODS.load_file('tweaks/plantain/bans.lua')()
     
