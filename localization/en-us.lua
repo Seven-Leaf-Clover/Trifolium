@@ -25,7 +25,7 @@ return {
                 name = "Summon",
                 text= {
                     "Creates {C:attention}#1#{} random",
-                    "{C:dark_edition}Negative{} {C:tarot}Tarot{} cards.",
+                    "{C:dark_edition}Negative{} {C:tarot}Tarot{} cards",
                     "Apply {C:spectral}Perishable{} to",
                     "{C:attention}#2#{} random {C:attention}Joker",
                 },
