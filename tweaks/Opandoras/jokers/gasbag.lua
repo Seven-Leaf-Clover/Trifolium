@@ -1,4 +1,5 @@
-SMODS.Joker:take_ownership('opan_gasbag', { 
+SMODS.Joker:take_ownership('opan_gasbag', {
+	eternal_compat = false,	
     cost = 1,
     
     config = {extra = {odds = 2, Xmult = 2}},
