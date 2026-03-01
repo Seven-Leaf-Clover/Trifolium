@@ -305,7 +305,6 @@ return {
                                  "{C:spectral}Spectral{} packs appear more often",
                                  "Required score scales faster each {C:attention}Ante",
              },
-             k_postcard_tfl="Hello!",
         },    
     },
 }    
