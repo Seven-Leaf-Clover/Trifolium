@@ -33,6 +33,9 @@ All of these are incredible works of art. Check them out, with or without my mod
 - Opandora's Box.
 - https://github.com/ohpahn/opandoras-box/
 
+- Plantain.
+- https://github.com/IcebergLettuce0/Plantain
+
 # **Future Work**
 
 As of writing I'm expecting to work on:
