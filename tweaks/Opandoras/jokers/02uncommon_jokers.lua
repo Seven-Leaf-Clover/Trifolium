@@ -44,6 +44,7 @@ SMODS.Joker:take_ownership('opan_ansaunum', {
         only_booster_pool = true
     },
     
+    perishable_compat = false,
     cost = 7,
     
     set_ability = function(self, card, initial)

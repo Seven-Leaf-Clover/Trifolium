@@ -44,6 +44,7 @@ SMODS.Joker:take_ownership('opan_lord', {
 	end,
 },true)
 
-SMODS.Joker:take_ownership('opan_tab', { 
+SMODS.Joker:take_ownership('opan_tab', {
+    eternal_compat = false,
     cost = 2
 },true)
