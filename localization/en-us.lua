@@ -294,6 +294,91 @@ return {
                      '{C:inactive}(Currently {C:attention}#2#{C:inactive}/2)'
                  },
             },
+         --- Cmykl Jokers
+          -- Common Jokers
+            j_cmykl_matchingcolorchip = {
+                 name = '{V:1}M{}atching Color Chip',
+                 text = {
+                     'Gains {C:red}+#2#{} Mult when a',
+                     'scoring hand has at least {C:attention}3{}',
+                     'cards of the {C:attention}same suit{}',
+                     '{C:inactive}(Currently{} {C:red}+#1#{} {C:inactive}Mult){}'
+                 },
+            },
+          -- Uncommon Jokers
+            j_cmykl_yellowmark = {
+                 name = '{C:money}Y{}ellow Mark',
+                 text = {
+                     'Earn {C:money}$#1#{} at end of',
+                     'round for each {C:attention}Voucher{}',
+                     'redeemed this run',
+                     '{C:inactive}(Currently{} {C:money}$#2#{}{C:inactive}){}'
+                 },
+            },
+            j_cmykl_stripedjoker = {
+                 name = 'Striped Joker',
+                 text = {
+                     '{X:red,C:white}X#1#{} Mult if the scoring',
+                     'cards\' {C:attention}rank{} is {C:attention}alternating{}',
+                     '{C:inactive}(ex: 7, 5, 7, 5, 7){}'
+                 },
+            },
+            j_cmykl_invitationcard = {
+                 name = 'Invitation Card',
+                 text = {
+                     'Stores {X:mult,C:white} X#2#{} Mult',
+                     'for each scored card',
+                     'Unleashes it at the {C:attention}Boss Blind{}',
+                     '{C:inactive}(Currently {}{X:mult,C:white} X#1#{}{C:inactive} Mult){}'
+                 },
+            },
+            j_cmykl_doubletap = {
+                 name = 'Double Tap',
+                 text = {
+                     'Retrigger {C:atttention}last{} played',
+                     'card used in scoring',
+                     '{C:attention}#1#{} more time',
+                     'It gives {C:mult}+#2#{} Mult'
+                 },
+            },
+            j_cmykl_rockjoker = {
+                 name = 'Rock Joker',
+                 text = {
+                     "Every played {C:attention}card{}",
+                     "permanently gains",
+                     "{C:chips}+#1#{} Chips for each",
+                     "{C:attention}Stone Card{} in your",
+                     "{C:attention}full deck{} when scored",
+                     "{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)"
+                 },
+            },
+            j_cmykl_crystalgeode = {
+                 name = 'Crystal Geode',
+                 text = {
+                     'Whenever a {C:attention}Stone Card{}',
+                     'is scored earn {C:money}$#1#{}',
+                     'and destroy it at',
+                     'the end of scoring'
+                 },    
+            },
+            j_cmykl_stickerbomb = {
+                 name = 'Sticker Bomb',
+                 text = {
+                     'Scored cards have',
+                     'a {C:green}#1# in #2#{} chance',
+                     'of getting a',
+                     '{C:attention}random seal{} applied'
+                 },    
+            },
+            j_cmykl_apparition = {
+                 name = 'Apparition',
+                 text = {
+                     '{C:green}#1# in #2# chance{} to',
+                     'create a {C:spectral}Spectral{} card',
+                     'per {C:attention}reroll{} in the shop',
+                     '{C:inactive}(Does not need room)'
+                 },    
+            },
         },		   
     },
     misc = {
@@ -301,7 +386,6 @@ return {
              tfl_requires_restart = "Requires Restart",
              tfl_blue_stake_rework = 'Blue Stake Rework',
              tfl_enable_blue_info = {
-                                 --'Replaces the base game {C:blue}Blue{} Stake',
                                  "{C:spectral}Spectral{} packs appear more often",
                                  "Required score scales faster each {C:attention}Ante",
              },
