@@ -15,8 +15,8 @@ Trifolium.config = SMODS.current_mod.config
 SMODS.load_file("lovely/fixes.toml")
 
 -- Libs
-SMODS.load_file('libs/utils.lua')()
-SMODS.load_file('libs/ui.lua')()
+assert(SMODS.load_file('libs/utils.lua'))()
+assert(SMODS.load_file('libs/ui.lua'))()
 
 
 -- Bans
@@ -27,14 +27,14 @@ SMODS.load_file('libs/ui.lua')()
 ----- Vanilla
 
 -- Jokers
-SMODS.load_file('tweaks/vanilla/jokers/common_jokers.lua')()
-SMODS.load_file('tweaks/vanilla/jokers/uncommon_jokers.lua')()
-SMODS.load_file('tweaks/vanilla/jokers/rare_jokers.lua')()
+assert(SMODS.load_file('tweaks/vanilla/jokers/common_jokers.lua'))()
+assert(SMODS.load_file('tweaks/vanilla/jokers/uncommon_jokers.lua'))()
+assert(SMODS.load_file('tweaks/vanilla/jokers/rare_jokers.lua'))()
 -- Consumables
-SMODS.load_file('tweaks/vanilla/consumables/tarots.lua')()
-SMODS.load_file('tweaks/vanilla/consumables/spectrals.lua')()
+assert(SMODS.load_file('tweaks/vanilla/consumables/tarots.lua'))()
+assert(SMODS.load_file('tweaks/vanilla/consumables/spectrals.lua'))()
 -- Vouchers
-SMODS.load_file('tweaks/vanilla/vouchers/vouchers.lua')()
+assert(SMODS.load_file('tweaks/vanilla/vouchers/vouchers.lua'))()
 -- Tags
 local subdir = "tweaks/vanilla/tags"
 local tags = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
@@ -43,10 +43,10 @@ local tags = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)
     end
 -- Stakes
 if Trifolium.config.tfl_blue_stake_rework then
-  SMODS.load_file('tweaks/vanilla/stakes/blue.lua')()
+  assert(SMODS.load_file('tweaks/vanilla/stakes/blue.lua'))()
 end
 -- Decks
-SMODS.load_file('tweaks/vanilla/decks/green.lua')()
+assert(SMODS.load_file('tweaks/vanilla/decks/green.lua'))()
 
 
 
@@ -61,7 +61,7 @@ local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)
         assert(SMODS.load_file(subdir .. "/" .. filename))()  
     end
 -- Bans
-SMODS.load_file('tweaks/opandoras/bans.lua')()
+assert(SMODS.load_file('tweaks/opandoras/bans.lua'))()
 
 
 
@@ -74,5 +74,17 @@ local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)
         assert(SMODS.load_file(subdir .. "/" .. filename))()  
     end    
 -- Bans
-SMODS.load_file('tweaks/plantain/bans.lua')()
-    
+assert(SMODS.load_file('tweaks/plantain/bans.lua'))()
+
+
+
+----- Cmykl
+
+--- Jokers and Seal
+local subdir = "tweaks/cmykl/jokers"
+local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(jokers) do
+        assert(SMODS.load_file(subdir .. "/" .. filename))()  
+    end 
+-- Bans
+assert(SMODS.load_file('tweaks/cmykl/bans.lua'))()
