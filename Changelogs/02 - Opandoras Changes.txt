@@ -60,7 +60,7 @@
 
 - Miner: 7 Cost >>> 6 Cost --- 1 Re-trigger >>> 2 --- Now has a rental sticker.
 
-- Moolah 7 Cost >>> 6 Cost --- $2 Dollars per 2 Gold Cards >>> $3
+- Moolah: $2 Dollars per 2 Gold Cards >>> $5
 
 - More the Merrier: X1.5 Chips >>> X1.25 Chips
 
