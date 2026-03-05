@@ -169,8 +169,8 @@ SMODS.Joker:take_ownership('opan_miner', {
 },true)
 
 SMODS.Joker:take_ownership('opan_moolah', { 
-    cost = 6,
-    config = {extra = 3},
+    cost = 7,
+    config = {extra = 5},
     enhancement_gate = "m_gold",
     
     loc_vars = function(self, info_queue, card)
