@@ -1,0 +1,153 @@
+--- Total Jokers After Rebalance = 23 --- 2 Bans = 21
+
+-- Commons = 4 --- 0 Bans --
+   - 1 is Direct Mult  --- 1 is Direct Econ
+   - 1 is Scaling Mult --- 1 is extra hand
+   
+-- Uncommons = 12 --- 0 Bans --
+   - 4 are Direct XMult --- 2 Scales Scoring --- 1 is Direct Econ
+   - 1 is Direct Mult   --- 1 Scales Chips   --- 3 are Indirect Econ
+   
+-- Rares = 6 --- 1 Ban = 5 --   
+   - 1 is Direct XMult  --- 1 is Direct chips --- 1 is Direct Econ
+   - 1 is Scaling XMult --- 1 is Direct Mult
+   
+   
+   
+----- Jokers -----
+
+
+--- Common Jokers ---
+
+
+-- Humanity --
+
+Original: 5 Cost --- +1 Hand this round when 0 hands and discrds remaining
+
+Change: 5 Cost >>> 2 Cost
+
+
+-- Rock Joker --
+
+Original: Common --- 4 Cost --- Stone Cards held in hand give +50 chips
+
+Change: Common >>> Uncommon --- 4 Cost >>> 6 Cost --- Rework: Scored cards permanently give +2 chips for each Stone Card in your full deck
+
+
+-- Double Tap --
+
+Original: 4 Cost --- Retrigger last played card used in scoring 1 more time
+
+Change: 4 Cost >>> 5 Cost --- Now the last card also give +2 Mult when scored
+
+
+-- Invitation Card --
+
+Original: Common --- 5 Cost --- Stores +2 Mult for each scored card unleashes mult during the boss
+
+Change: Common >>> Uncommon --- 5 Cost >>> 7 Cost --- +2 Mult for each scored card >>> +0.07 XMult for each scored card
+
+
+
+----- Uncommon Jokers -----
+
+
+-- Sticker Bomb --
+
+Original: 7 Cost --- Scored Cards have a 1 in 12 Chance of getting a random seal applied
+
+Change: 7 Cost >>> 8 Cost --- 1 in 12 Chance of getting a random seal >>> 1 in 7 
+
+
+-- Crystal Geode --
+
+Original: 6 Cost --- Whenever a Stone Card is scored 1 in 3 chance of getting $12 and destroying it
+
+Change: Now the effect always happens
+
+
+-- Polycoria --
+
+Original: 6 Cost --- X2 Mult if played poker hand has not been played this round
+
+Change: 6 Cost >>> 7 Cost
+
+
+-- Scrapbook --
+
+Original: 5 Cost --- X0.2 Mult for each unique suit, edition, enhancement and seal in scored cards
+
+Change: 5 Cost >>> 6 Cost
+
+
+-- Apparition --
+
+Original: 4 Cost --- 1 in 8 chance to create a spectral card per reroll on the shop
+
+Change: 4 Cost >>> 5 Cost --- 1 in 8 chance to create a spectral card >>> 1 in 5 --- Clarified it doesn't need consumable space
+
+
+-- Company ID --
+
+Original: 5 Cost --- Gains +1 Chips for every $1 Spent
+
+Change: 5 Cost >>> 6 Cost
+
+
+-- Matching Color Chip --
+
+Original: Uncommon --- 5 Cost --- Gains +2 Mult when a scoring hand has at least 3 cards of the same suit
+
+Change: Uncommon >>> Common --- Gains +2 Mult >>> +1 Mult
+
+
+-- License Plate --
+
+Original: 5 Cost --- Each played 6, 7, 8, 9, 10 gives +6 Mult when scored
+
+Change: 5 Cost >>> 7 Cost
+
+
+
+----- Rare Jokers -----
+
+
+-- Striped Joker --
+
+Original: Rare --- 8 Cost --- X3 Mult if the scoring card's rank is alternating
+
+Change: Rare >>> Uncommon --- X3 Mult >>> X2
+
+
+-- ~All 4 Landscape Jokers~ --
+
+Original: 8 Cost --- ~Give a direct and scaling effect based on the amount of cards of a given suit there is in the deck~
+
+Change: 8 Cost >>> 9 Cost
+
+
+
+----- Seal -----
+
+-- Spectral Seal --
+
+Original: Create a Spectral card when destroyed (Must have room)
+
+Change: Create a Negative Spectral card when destroyed (No room needed)
+
+
+
+----- Bans -----
+
+--- Rare Jokers ---
+
+-- Twister --
+
+--- Legendary Jokers ---
+
+-- Medrano --
+
+
+--- Booster Pack ---
+
+-- Mega Spectral Pack --
