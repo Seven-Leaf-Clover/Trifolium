@@ -18,8 +18,8 @@ local function tfl_middle_calc_effect(card, extramult, extrachips)
             cards_to_right = cards_to_right + 1
         end
     end
-    local chips = cards_to_right * extrachips
-    local mult = cards_to_left * extramult
+    local chips = cards_to_left * extrachips
+    local mult = cards_to_right * extramult
     if my_pos == nil then
         chips = 0
         mult = 0
@@ -44,16 +44,32 @@ SMODS.Joker:take_ownership('opan_middle_child', {
             local target_card = context.blueprint_card or card
             local effect = tfl_middle_calc_effect(target_card, card.ability.extra.mult, card.ability.extra.chips)
         
+            local mult_message = nil
             if effect.mult > 0 then
-                return {
-                mult = -effect.mult
+                mult_message = {
+                    mult_mod = -effect.mult,
+                    message = localize {
+                        type = 'variable',
+                        key = 'a_mult',
+                        vars = {effect.mult}
+                    },
+                    colour = G.C.MULT
                 }
             end
             
             if effect.chips > 0 then
                 return {
-                chips = -effect.chips
+                    chip_mod = -effect.chips,
+                    message = localize {
+                        type = 'variable',
+                        key = 'a_chips',
+                        vars = {effect.chips}
+                    },
+                    colour = G.C.CHIPS,
+                    extra = mult_message
                 }
+            else
+                return mult_message
             end
         end    
         
