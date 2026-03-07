@@ -49,3 +49,23 @@ SMODS.Joker:take_ownership('opan_encore', {
 		end
 	end
 },true)
+
+SMODS.Joker:take_ownership('opan_inferno', { 
+    cost = 7,   
+    rarity = 2,
+    config = {extra = 1},
+
+	loc_vars = function(self, info_queue, card)
+		return {vars = {card.ability.extra}}
+	end,
+
+	calculate = function(self, card, context)
+		if context.destroy_card and context.cardarea == G.play and G.GAME.current_round.hands_played == 0 and not context.blueprint then
+			return {remove = true}
+		end
+		if context.cardarea == G.play and context.individual and G.GAME.current_round.hands_played == 0 then
+			ease_dollars(-card.ability.extra)
+		end
+	end
+    
+},true)
