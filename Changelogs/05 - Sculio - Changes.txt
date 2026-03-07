@@ -159,6 +159,13 @@ Original: 9 Cost --- After 2 rounds give a random joker negative
 Change: 9 Cost >>> 8 Cost --- After 2 rounds >>> 3 Rounds
 
 
+-- Cut Out Joker --
+
+Original: 8 Cost --- Gives X0.5 Mult per occupied Joker slot
+
+Change: Gives X0.5 Mult >>> X0.6 Mult >>> Now Gives a -1 Joker Slot
+
+
 -- Cloning Vat, Pyromaniac, Chicken Coupon --
 
 Original: 10 Cost
