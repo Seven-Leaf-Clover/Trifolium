@@ -88,3 +88,16 @@ local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)
     end 
 -- Bans
 assert(SMODS.load_file('tweaks/cmykl/bans.lua'))()
+
+
+
+----- Sculio
+
+--- Jokers
+local subdir = "tweaks/sculio/jokers"
+local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(jokers) do
+        assert(SMODS.load_file(subdir .. "/" .. filename))()  
+    end 
+-- Bans
+assert(SMODS.load_file('tweaks/sculio/bans.lua'))()
