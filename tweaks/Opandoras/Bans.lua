@@ -21,7 +21,6 @@ local banned_Opandoras_Box_jokers = {
     "pollux",
     "sacrificialtanto",
     "lifeline",
-    "inferno",
 }
 
 for i=1,#banned_Opandoras_Box_jokers do
