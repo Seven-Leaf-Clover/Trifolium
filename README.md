@@ -39,6 +39,9 @@ All of these are incredible works of art. Check them out, with or without my mod
 - Cmykl. (Check my fork with a config tab added!)
 - https://github.com/Seven-Leaf-Clover/cmykl
 
+- Sculio.
+- https://github.com/crmykybord/Sculio
+
 # **Future Work**
 
 As of writing I'm expecting to work on:
@@ -46,10 +49,6 @@ As of writing I'm expecting to work on:
 - Greener Jokers
 
 - All in Jest
-
-- Sculio
-
-- Reverie
 
 If you like my work, please tell me about any mod you would like to see me working on. Preferably those that are meant to be balanced but didn't quite bring it to high stake level.
 
