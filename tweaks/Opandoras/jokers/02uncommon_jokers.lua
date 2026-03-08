@@ -55,10 +55,12 @@ SMODS.Joker:take_ownership('opan_ansaunum', {
 
 SMODS.Joker:take_ownership('opan_caveman', { 
     cost = 6,
+    perishable_compat = false
 },true)
 
 SMODS.Joker:take_ownership('opan_blackfriday', { 
     cost = 6,
+    perishable_compat = true,
     
 loc_vars = function(self, info_queue, card)
        info_queue[#info_queue + 1] = { key = 'tag_coupon', set = 'Tag' }
@@ -112,6 +114,7 @@ SMODS.Joker:take_ownership('opan_blob', {
 
 SMODS.Joker:take_ownership('opan_eyeforaneye', { 
     cost = 6,
+    perishable_compat = false,
     enhancement_gate = "m_bonus",
     config = {extra = 0.75},
     
@@ -155,11 +158,12 @@ SMODS.Joker:take_ownership('opan_last_resort', {
 },true)
 
 SMODS.Joker:take_ownership('opan_litany', { 
-    config = {extra = 0.6, Xmult = 1},
+    perishable_compat = false,
+    config = {extra = 0.6, Xmult = 1}
 },true)
 
 SMODS.Joker:take_ownership('opan_miner', { 
-    cost = 6,
+    cost = 7,
     config = {extra = 2},
     
     set_ability = function(self, card, initial)
@@ -199,6 +203,7 @@ SMODS.Joker:take_ownership('opan_morethemerrier', {
 },true)
 
 SMODS.Joker:take_ownership('opan_multitool', {
+    perishable_compat = false,
     config = {extra = {mult = 4, chips = 0, chip_mod = 20}},
 },true)
 
@@ -208,5 +213,6 @@ SMODS.Joker:take_ownership('opan_pickpocket', {
 
 SMODS.Joker:take_ownership('opan_whitecollar', { 
     cost = 6,
-    config = {extra = 0.5},
+    perishable_compat = false,
+    config = {extra = 0.5}
 },true)

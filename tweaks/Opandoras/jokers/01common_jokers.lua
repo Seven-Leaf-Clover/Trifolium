@@ -1,6 +1,7 @@
 SMODS.Joker:take_ownership('opan_cobblestonejoker', { 
     cost = 6,
     rarity = 2,
+    perishable_compat = false,
     enhancement_gate = "m_stone",
     
     loc_vars = function(self, info_queue, card)
@@ -45,6 +46,6 @@ SMODS.Joker:take_ownership('opan_lord', {
 },true)
 
 SMODS.Joker:take_ownership('opan_tab', {
-    eternal_compat = false,
-    cost = 2
+    cost = 2,
+    eternal_compat = false
 },true)

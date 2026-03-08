@@ -7,6 +7,7 @@ SMODS.Joker:take_ownership('opan_pendulum', {
 SMODS.Joker:take_ownership('opan_nothanks', { 
     rarity = 2,
     cost = 7,
+    perishable_compat = false,
     
     loc_vars = function(self, info_queue, card)
         info_queue[#info_queue + 1] = G.P_CENTERS.m_steel
@@ -17,13 +18,13 @@ SMODS.Joker:take_ownership('opan_nothanks', {
 },true)
 
 SMODS.Joker:take_ownership('opan_pyramid', { 
-    cost = 9
-    
+    cost = 9,
+    perishable_compat = false   
 },true)
 
 SMODS.Joker:take_ownership('opan_fermata_tremolo', { 
-    cost = 10
-    
+    cost = 10,
+    perishable_compat = false   
 },true)
 
 SMODS.Joker:take_ownership('opan_encore', { 
