@@ -1,20 +1,20 @@
---- Total Jokers After Rebalance = 60 --- 18 Bans = 42
+--- Total Jokers After Rebalance = 60 --- 14 Bans = 46
 
 -- Commons = 19 --- 7 Bans = 12 --
    - 6 are Direct Mult --- 2 are Direct Econ --
    - 1 is Direct Chips --- 3 are Indirect Econ
 
--- Uncommons = 29 --- 7 Bans = 22 --
+-- Uncommons = 31 --- 6 Bans = 25 --
    - 3 are Direct XMult   --- 3 are Direct Econ   --- 4 are Scaling Scoring
-   - 3 are Scaling XMult  --- 1 is Scaling Econ   --- 1 Creates a Powerful Card
+   - 4 are Scaling XMult  --- 1 is Scaling Econ   --- 1 Creates a Powerful Card
    - 2 are Scaling XChips --- 2 are Indirect Econ --- 1 Scales Joker Slots
-   - 2 are Scaling Mult   ---
+   - 2 are Scaling Mult   --- 1 is Direct destroy --- 1 is roulette of effects
     
--- Rares = 9 --- 4 Bans = 5 --
-   - 2 are Direct XMult --- 1 is Scaling Scoring
+-- Rares = 7 --- 1 Bans = 6 --
+   - 1 are Direct XMult --- 2 is Scaling XMult      --- 1 is Scaling Scoring
    - 1 is Direct XChips --- 1 is Scaling Joker Slot
 
--- Legendary = 3
+-- Legendary = 3 --- 0 Bans --
 
 
 
@@ -32,6 +32,9 @@
 
 - Tab: 4 Cost >>> 2 Cost
 
+- Crumpled Lucky Card: 3 Cost >>> 4 Cost --- Rework: Now has a 1/2 Chance for +7 Mult --
+  - 1/7 for +77 Chips --- 1/30 for X777 Mult
+
 
 
 --- Uncommon Jokers ---
@@ -44,7 +47,7 @@
 
 - Caveman: 7 Cost >>> 6 Cost
 
-- Blob: 7 Cost >>> 5 Cost --- $5 per played hand >>> $1 --
+- Blob: 7 Cost >>> 5 Cost --- $5 per played card >>> $1 per scored card --
   - Sets Discards to 1 instead of Hands
   
 - Eye for an eye: 7 Cost >>> 6 Cost --- Xchips +0.5 >>> +0.75
@@ -70,6 +73,11 @@
 
 - White Collar Joker: +1.5 XChips >>> +0.5 XChips
 
+- Inferno: 8 Cost >>> 7 Cost --- Rare >>> Uncommon --- Now only works on first hand of round
+
+- Polyglot: 6 Cost >>> 8 Cost --- $6 Dollars at end of round >>> $7 >>> +15 Mult >>> +20 --
+  - +50 Chips >>> +100
+
 
 
 --- Rare Jokers ---
@@ -86,6 +94,12 @@
 - Pyramid: 8 Cost >>> 9 Cost
 
 - Fermata's Tremolo: 8 Cost >>> 10 Cost
+
+- Lifeline: 35 Cost (lmao) >>> 8 Cost --- Rework: Now gives X3.5 Mult if hand is played with exactly $0 Dollars
+
+- Baroness: Rare >>> Uncommon --- X1.5 Mult >>> X1.4
+
+- Sacrificial Tanto: X0.5 Mult when destorying joker to the left >>> X0.3 Mult
 
 
 
@@ -136,14 +150,6 @@
 
 - Chromahand 
 
-- Polyglot
-
 --- Rare Jokers ---
 
 - Pollux
-
-- Sacrificial Tanto
-
-- Lifeline
-
-- Inferno
