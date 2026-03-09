@@ -16,11 +16,8 @@ local banned_Opandoras_Box_jokers = {
     "numerophobia",
     "void",
     "chromahand",
-    "polyglot",
  -- Rares
     "pollux",
-    "sacrificialtanto",
-    "lifeline",
 }
 
 for i=1,#banned_Opandoras_Box_jokers do
