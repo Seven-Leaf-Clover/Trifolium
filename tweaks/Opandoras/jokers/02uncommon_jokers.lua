@@ -216,3 +216,14 @@ SMODS.Joker:take_ownership('opan_whitecollar', {
     perishable_compat = false,
     config = {extra = 0.5}
 },true)
+
+SMODS.Joker:take_ownership('opan_polyglot', { 
+    cost = 8,
+    config = {extra = {
+	dollars = 7, 
+	mult = 20, 
+	chips = 100, 
+	Xmult = 2, 
+	Xchips = 2, 
+	toggle = 2}}
+},true)

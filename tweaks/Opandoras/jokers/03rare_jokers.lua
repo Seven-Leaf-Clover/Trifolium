@@ -1,7 +1,6 @@
 SMODS.Joker:take_ownership('opan_pendulum', { 
     rarity = 2,
-    config = {extra = {Xmult = 2, Xchips = 2, toggle = 1}}
-    
+    config = {extra = {Xmult = 2, Xchips = 2, toggle = 1}}   
 },true)
 
 SMODS.Joker:take_ownership('opan_nothanks', { 
@@ -13,8 +12,7 @@ SMODS.Joker:take_ownership('opan_nothanks', {
         info_queue[#info_queue + 1] = G.P_CENTERS.m_steel
         info_queue[#info_queue + 1] = G.P_CENTERS.m_gold
 	    return {vars = {card.ability.extra, card.ability.x_mult}}
-	end,
-    
+	end,   
 },true)
 
 SMODS.Joker:take_ownership('opan_pyramid', { 
@@ -69,4 +67,32 @@ SMODS.Joker:take_ownership('opan_inferno', {
 		end
 	end
     
+},true)
+
+SMODS.Joker:take_ownership('opan_lifeline', { 
+    cost = 8,    
+    config = {extra = {xmult = 3.5, dollars = 0}},
+
+	loc_vars = function(self, info_queue, card)
+		return {vars = {card.ability.extra.xmult, card.ability.extra.dollars}}
+	end,
+
+	calculate = function(self, card, context)
+	   if context.joker_main then
+	       if G.GAME.dollars == card.ability.extra.dollars then
+	            return {
+	                    xmult = card.ability.extra.xmult
+	            }
+	       end
+	   end
+	end   
+},true)
+
+SMODS.Joker:take_ownership('opan_baroness', { 
+    rarity = 2,
+    config = {extra = 1.4}   
+},true)
+
+SMODS.Joker:take_ownership('opan_sacrificialtanto', { 
+    config = {extra = 0.3}   
 },true)
