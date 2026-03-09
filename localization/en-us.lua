@@ -152,7 +152,7 @@ return {
 		 text = {
 		     "When {C:attention}Blind{} is selected",
 		     "set {C:red}Discards{} to {C:attention}1{} and",
-		     "gain {C:money}$#1#{} {C:attention}per card played",
+		     "gain {C:money}$#1#{} {C:attention}per card scored",
 		 },
 	    },
 	    j_opan_fannypack = {
@@ -222,6 +222,14 @@ return {
 		     "your most played {C:attention}poker hand",
 		     "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
 	         },
+	    },
+	    j_opan_lifeline = {
+		 name = "Lifeline",
+		 text = {
+		     "{X:mult,C:white}X#1#{} Mult if hand is",
+		     "played with {C:attention}exactly{} {C:money}$#2#{}",
+		     "{C:inactive}(Sells for{} {C:money}$0{}{C:inactive}){}",
+		 },
 	    },
 	    j_opan_fermata_tremolo = {
 		 name = "Fermata's Tremolo",
@@ -447,7 +455,16 @@ return {
                                  "{C:spectral}Spectral{} packs appear more often",
                                  "Required score scales faster each {C:attention}Ante",
              },
-        },    
+        },
+        v_dictionary = {
+             -- For Opandora's Polyglot Joker
+             polyglot_dollars="$7",
+             polyglot_mult="+20 Mult",
+             polyglot_chip="+100 Chips",
+             polyglot_Xmult="X2 Mult",
+             polyglot_Xchip="X2 Chips",
+             -----
+        },
     },
 }    
         
