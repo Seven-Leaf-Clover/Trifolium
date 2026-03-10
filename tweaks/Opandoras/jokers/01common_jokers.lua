@@ -43,6 +43,17 @@ SMODS.Joker:take_ownership('opan_lord', {
     info_queue[#info_queue + 1] = { key = 'c_emperor', set = 'Tarot' }
     return {vars = {card.ability.extra}}
 	end,
+	
+    in_pool = function(self, args)
+        if G.GAME and G.playing_cards then
+            for _, card in ipairs(G.playing_cards) do
+                if card.seal and card.seal == 'Purple' then
+                    return true
+                end
+            end
+        end
+        return false
+    end,    
 },true)
 
 SMODS.Joker:take_ownership('opan_tab', {
