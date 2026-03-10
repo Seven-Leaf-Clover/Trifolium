@@ -1,18 +1,18 @@
---- Total Jokers After Rebalance = 23 --- 2 Bans = 21
+--- Total Jokers After Rebalance = 23 --- 1 Bans = 22
 
 -- Commons = 4 --- 0 Bans --
    - 1 is Direct Mult  --- 1 is Direct Econ
    - 1 is Scaling Mult --- 1 is extra hand
    
 -- Uncommons = 12 --- 0 Bans --
-   - 4 are Direct XMult --- 2 Scales Scoring --- 1 is Direct Econ
-   - 1 is Direct Mult   --- 1 Scales Chips   --- 3 are Indirect Econ
+   - 3 are Direct XMult --- 1 is Scaling XMult --- 2 Scales Scoring --- 1 is Direct Econ
+   - 1 is Direct Mult   --- 1 Scales Chips     --- 3 are Indirect Econ
    
--- Rares = 6 --- 1 Ban = 5 --   
-   - 1 is Direct XMult  --- 1 is Direct chips --- 1 is Direct Econ
-   - 1 is Scaling XMult --- 1 is Direct Mult
-
--- Legendary = 1 --- 1 Ban = 0 --
+-- Rares = 6 --- 0 Bans --   
+   - 3 is Direct XMult  --- 1 is Direct chips --- 1 is Direct Econ
+   - 1 is Direct Mult
+   
+-- Legendary = 1 --- 1 Ban = 0 --   
    
    
    
@@ -77,9 +77,9 @@ Change: 6 Cost >>> 7 Cost
 
 -- Scrapbook --
 
-Original: 5 Cost --- X0.2 Mult for each unique suit, edition, enhancement and seal in scored cards
+Original: Uncommon --- 5 Cost --- X0.2 Mult for each unique suit, edition, enhancement and seal in scored cards
 
-Change: 5 Cost >>> 6 Cost
+Change: Uncommon >>> Rare --- 5 Cost >>> 9 Cost --- X0.2 Mult >>> X0.3
 
 
 -- Apparition --
@@ -128,6 +128,19 @@ Original: 8 Cost --- ~Give a direct and scaling effect based on the amount of ca
 Change: 8 Cost >>> 9 Cost
 
 
+-- Rebellion --
+
+Original: Rare --- 8 Cost --- Gain X0.07 per face card discarded --- reset when face card scores
+
+Change: Rare >>> Uncommon --- 8 Cost >>> 6 Cost --- Gain X0.07 >>> X0.03
+
+-- Twister --
+
+Original: 9 Cost --- Seals have a 1 in 4 chance of triggering another seal when triggered
+
+Change: 9 Cost >>> 8 Cost --- Rework: Played cards with a seal give X2 Mult
+
+
 
 ----- Seal -----
 
@@ -140,10 +153,6 @@ Change: Create a Negative Spectral card when destroyed (No room needed)
 
 
 ----- Bans -----
-
---- Rare Jokers ---
-
--- Twister --
 
 --- Legendary Jokers ---
 
