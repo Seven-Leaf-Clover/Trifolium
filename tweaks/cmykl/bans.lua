@@ -1,6 +1,4 @@
 local banned_cmykl_jokers = {
- -- Rares
-    "twister",
  -- Legendaries
     "medrano",
 }

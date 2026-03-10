@@ -25,10 +25,6 @@ SMODS.Joker:take_ownership('cmykl_polycoria', {
     cost = 7
 },true)
 
-SMODS.Joker:take_ownership('cmykl_scrapbook', {
-    cost = 6
-},true)
-
 SMODS.Joker:take_ownership('cmykl_apparition', {
     cost = 5,
     config = {
