@@ -422,56 +422,7 @@ return {
                      'give {X:red,C:white}X#1#{} Mult when scored'
                  },    
             },
-         --- Sculio's Jokers
-          -- Common Jokers
-            j_Sculio_schrodinger = {
-                 name = 'Schrödinger\'s Joker',
-                 text = {
-                     '{C:green}#1# in #2#{} chance',
-                     'for {C:mult}+#3#{} Mult'
-                 },    
-            },
-            j_Sculio_stonks = {
-                 name = 'Wall Street Joker',
-                 text = {
-                     '{C:chips}+#1#{} Chips',
-                     'Doubles each {C:attention}Ante{}'
-                 },    
-            },
-          -- Uncommon Jokers
-            j_Sculio_cutout = {
-                 name = 'Joker Cutout',
-                 text = {
-                     '{C:red}-#1#{} Joker slot.',
-                     '{X:red,C:white}X#2#{} Mult for each',
-                     '{C:attention}other{} occupied {C:attention}Joker{} slot',
-                     '{C:inactive}(Currently {X:red,C:white}X#3#{C:inactive} Mult)'
-                 },    
-            },
-            j_Sculio_receipt = {
-                 name = 'Receipt',
-                 text = {
-                     '{X:mult,C:white} X#1#{} Mult'
-                 },    
-            },
-            j_Sculio_jokerium = {
-                 name = 'Jokerium',
-                 text = {
-                     'When {C:attention}Boss Blind{} is selected',
-                     'create a {C:dark_edition}Negative{} copy of',
-                     '1 random {C:attention}consumable{} card',
-                     'in your possesion'
-                 },    
-            },
-          -- Rare Jokers
-            j_Sculio_earthbound = {
-                 name = 'Auto Battle',
-                 text = {
-                     '{C:attention}#1#{} free {C:green}Rerolls{} per shop.',
-                     'Automatically selects {C:attention}highest{}',
-                     '{C:attention}level{} hand available'
-                 },    
-            },
+            
         },		   
     },
     misc = {
