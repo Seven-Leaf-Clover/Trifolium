@@ -395,6 +395,33 @@ return {
                      '{C:inactive}(Does not need room)'
                  },    
             },
+            j_cmykl_scrapbook = {
+                 name = 'Scrapbook',
+                 text = {
+                     '{X:red,C:white}X0.3{} Mult for each',
+                     'unique {C:attention}suit{}, {C:attention}edition{},',
+                     '{C:attention}enhancement{}, and {C:attention}seal{}',
+                     'in scored cards'
+                 },    
+            },
+          -- Rare Jokers  
+            j_cmykl_rebellion = {
+                 name = 'Rebellion',
+                 text = {
+                     'Gains {X:red,C:white}X0.03{} Mult for',
+                     'each {C:attention}face card{} discarded',
+                     'resets when a',
+                     '{C:attention}face card{} scores',
+                     '{C:inactive}(Currently{} {X:red,C:white}X#1#{} {C:inactive}Mult){}'
+                 },    
+            },
+            j_cmykl_twister = {
+                 name = 'Twister',
+                 text = {
+                     'Played cards with a {C:attention}Seal{}',
+                     'give {X:red,C:white}X#1#{} Mult when scored'
+                 },    
+            },
          --- Sculio's Jokers
           -- Common Jokers
             j_Sculio_schrodinger = {
