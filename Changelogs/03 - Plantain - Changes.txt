@@ -118,6 +118,13 @@ Original: 5 Cost --- Gains X0.1 Mult when a card changes suits
 Change: 5 Cost >>> 6 Cost
 
 
+-- Hot Air Balloon --
+
+Original: 6 Cost --- Gain $1 at end of round. When Tarot used increase this payout by $1 with a 1 in 15 chance to destroy the joker.
+ 
+Change: 6 Cost >>> 5 Cost --- No longer can destroy itself ---  Now has a perisable sticker --- Base payout of $2
+
+
 
 ----- Rare Jokers -----
 
@@ -158,6 +165,19 @@ Change: 8 Cost >>> 9 Cost
 
 
 
+----- Consumables -----
+
+
+--- Spectrals ---
+
+-- Rebirth--
+
+Original: Select 3 cards. Destroy the middle one and give it's rank to the left and right cards.
+
+Change: Rework: Randomize rank and suit of all playing cards in the deck
+
+
+
 ----- Decks -----
 
 -- Sponsored Deck --
@@ -173,8 +193,3 @@ Change: Now also starts with the Joker "Plantain"
 --- Jokers ---
 
 -- Three Body Problem --
-                      
-                      
---- Consumables ---
-                                      
--- Rebirth --
