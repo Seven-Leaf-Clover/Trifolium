@@ -16,8 +16,8 @@ return {
             c_sigil = {
                 text = {
                     "Converts all cards in",
-                    "hand to {C:attention}selected suit{},",
-                    "lose half of your money",
+                    "hand to {C:attention}selected suit{}.",
+                    "Lose {C:attention}half{} of your money",
                 },
             },
           -- Opandora's Spectrals  
@@ -28,6 +28,14 @@ return {
                     "{C:dark_edition}Negative{} {C:tarot}Tarot{} cards",
                     "Apply {C:spectral}Perishable{} to",
                     "{C:attention}#2#{} random {C:attention}Joker",
+                },
+            },
+          -- Plantain's Spectrals   
+            c_pl_spec_rebirth = {
+                name = "Rebirth",
+                text= {
+                    'Randomizes {C:attention}rank{} and {C:attention}suit{} of',
+                    '{C:attention}all playing cards{} in the deck',
                 },
             },
          },
@@ -91,9 +99,20 @@ return {
                     "{C:inactive,s:0.8}(Without Stickers)",
                 }
             },
-        },
-       -- Opandora's Jokers 
+        }, 
         Joker = {
+          --- Vanilla Jokers
+           -- Rare Jokers
+            j_dusk = {
+                 name = "Dusk",
+	         text = {
+		     "Retrigger all played",
+		     "cards in {C:attention}final hand",
+		     "of round, twice"
+				
+	         },
+	    },
+          --- Opandora's Jokers
            -- Common Jokers 
             j_opan_encore = {
                  name = "Encore",
@@ -139,6 +158,26 @@ return {
 		 },
 	    },
 	   -- Uncommon Jokers
+	    j_opan_cobblestonejoker = {
+                 name = "Shale Joker",
+	         text = {
+		     "This Joker gains {C:mult}+#1#{} Mult",
+		     "when each played",
+		     "{C:attention}Stone Card{} is scored",
+		     "{C:inactive}(Currently {C:red}+#2#{C:inactive} Mult)"
+				
+	         },
+	    },
+	    j_opan_caveman = {
+                 name = "Caveman",
+	         text = {
+		     "This Joker gains {X:red,C:white} X#1# {} Mult",
+		     "when each played",
+		     "{C:attention}Stone Card{} is scored",
+		     "{C:inactive}(Currently {X:red,C:white}X#2#{C:inactive} Mult)"
+				
+	         },
+	    },
 	    j_opan_blackfriday = {
 		 name = "Black Friday",
 		 text = {
@@ -199,7 +238,7 @@ return {
 		 name = "Inferno",
 		 text = {
 		     "When playing {C:attention}first hand{} of",
-		     "round each {C:attention}scored card",
+		     "round, each {C:attention}scored card",
 		     "gives {C:red}-{}{C:money}$#1#{} and is {C:attention}destroyed{}",
 		 },
 	    },
@@ -290,6 +329,7 @@ return {
                      '{s:0.8}suit changes at end of round'
                  },
             },
+          -- Uncommon Jokers  
             j_pl_odd_sock = {
                  name = 'Odd Sock',
                  text = {
@@ -297,6 +337,14 @@ return {
                      'per {C:attention}consecutive{} discard',
                      'containing no {C:attention}Pairs',
                      '{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)'
+                 },
+            },
+            j_pl_hot_air_balloon = {
+                 name = 'Hot Air Balloon',
+                 text = {
+                     'Earn {C:money}$#1#{} at end of round',
+                     'When a {C:tarot}Tarot{} card is used',
+                     'increase payout by {C:money}$#2#{}'
                  },
             },
           -- Rare Jokers
