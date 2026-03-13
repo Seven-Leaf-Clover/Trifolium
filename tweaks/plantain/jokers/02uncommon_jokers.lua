@@ -19,3 +19,32 @@ SMODS.Joker:take_ownership('pl_loose_batteries', {
 SMODS.Joker:take_ownership('pl_painterly_joker', {
     cost = 6,
 },true)
+
+SMODS.Joker:take_ownership('pl_hot_air_balloon', {
+    cost = 5,
+    perishable_compat = true,
+    config = { extra = { money = 2, money_mod = 1 } },
+    
+    set_ability = function(self, card, initial)
+        card:set_perishable(true)
+    end,
+    
+  loc_vars = function(self, info_queue, card)
+    return { vars = { card.ability.extra.money, card.ability.extra.money_mod } }
+  end,
+  
+  calc_dollar_bonus = function(self, card)
+    local bonus = card.ability.extra.money
+    if bonus > 0 then return bonus end
+  end,
+
+  calculate = function(self, card, context)
+    if context.using_consumeable and not context.blueprint and not context.repetition and not context.individual and (context.consumeable.ability.set == "Tarot") then
+        card.ability.extra.money = card.ability.extra.money + card.ability.extra.money_mod
+        return {
+            message = localize('k_upgrade_ex'),
+            colour = G.C.PURPLE
+        }
+    end
+  end
+},true)
