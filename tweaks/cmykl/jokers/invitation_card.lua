@@ -1,5 +1,5 @@
 SMODS.Joker:take_ownership('cmykl_invitationcard', {
-    cost = 7,
+    cost = 6,
     rarity = 2,
     
     config = { extra = { hype = 1, xmult_gain = 0.07 } },
@@ -15,7 +15,7 @@ SMODS.Joker:take_ownership('cmykl_invitationcard', {
                 message = "Hype!"
             }
         end
-        if G.GAME.blind and G.GAME.blind.boss then
+        if G.GAME.blind and G.GAME.blind.boss and card.ability.extra.hype > 1 then
             if context.cardarea == G.jokers and context.joker_main  then
                     return {
                         message = "Celebrate!",
@@ -23,7 +23,7 @@ SMODS.Joker:take_ownership('cmykl_invitationcard', {
                     }
             end
         end
-        if context.end_of_round and context.main_eval and G.GAME.blind.boss  then
+        if context.end_of_round and context.main_eval and G.GAME.blind.boss and card.ability.extra.hype > 1 then
                 return {
                     message = "End!",
                     func = function()
