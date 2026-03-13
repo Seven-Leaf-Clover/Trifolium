@@ -47,7 +47,7 @@ Change: 4 Cost >>> 5 Cost --- Now the last card also give +2 Mult when scored
 
 Original: Common --- 5 Cost --- Stores +2 Mult for each scored card unleashes mult during the boss
 
-Change: Common >>> Uncommon --- 5 Cost >>> 7 Cost --- +2 Mult for each scored card >>> +0.07 XMult for each scored card
+Change: Common >>> Uncommon --- 5 Cost >>> 6 Cost --- +2 Mult for each scored card >>> +0.07 XMult for each scored card
 
 
 
