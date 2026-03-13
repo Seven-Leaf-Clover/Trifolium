@@ -12,7 +12,8 @@ SMODS.Joker:take_ownership('j_space', {
 })
 
 SMODS.Joker:take_ownership('j_card_sharp', { 
-    cost = 7
+    cost = 7,
+    config = {extra = {Xmult = 2.5}}
 })
 
 SMODS.Joker:take_ownership('j_hack', { 
@@ -27,4 +28,8 @@ SMODS.Joker:take_ownership('j_idol', {
     cost = 5
 })
 
-
+SMODS.Joker:take_ownership('j_dusk', { 
+    cost = 7,
+    rarity = 3,
+    config = {extra = 2}
+})
