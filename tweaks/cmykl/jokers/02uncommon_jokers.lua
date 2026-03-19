@@ -18,7 +18,7 @@ config = { extra = { illustrative_dollar_gain = 2, dollar_mult = 2 } },
 SMODS.Joker:take_ownership('cmykl_stickerbomb', {
     cost = 8,
     config = {
-        extra = { odds = 7 } },
+        extra = { odds = 8 } },
 },true)
 
 SMODS.Joker:take_ownership('cmykl_polycoria', {
