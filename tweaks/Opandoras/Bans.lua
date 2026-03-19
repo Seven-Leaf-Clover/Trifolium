@@ -30,25 +30,11 @@ end
 --- Consumables ---
 
 local banned_Opandoras_Box_consumables = {
-    "fragility",
- -- Spectrals   
+    "fragility",  
 }    
 
 for i=1,#banned_Opandoras_Box_consumables do
     SMODS.Consumable:take_ownership('opan_'..banned_Opandoras_Box_consumables[i], {
-        no_collection = true,
-        in_pool = function() return false end
-    }, true)
-end
-
---- Tags ---
-
-local banned_Opandoras_Box_tags = {
-    "focus",
-}    
-
-for i=1,#banned_Opandoras_Box_tags do
-    SMODS.Tag:take_ownership('opan_'..banned_Opandoras_Box_tags[i], {
         no_collection = true,
         in_pool = function() return false end
     }, true)
