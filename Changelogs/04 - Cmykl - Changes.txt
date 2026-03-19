@@ -58,7 +58,7 @@ Change: Common >>> Uncommon --- 5 Cost >>> 6 Cost --- +2 Mult for each scored ca
 
 Original: 7 Cost --- Scored Cards have a 1 in 12 Chance of getting a random seal applied
 
-Change: 7 Cost >>> 8 Cost --- 1 in 12 Chance of getting a random seal >>> 1 in 7 
+Change: 7 Cost >>> 8 Cost --- 1 in 12 Chance of getting a random seal >>> 1 in 8 
 
 
 -- Crystal Geode --
@@ -138,7 +138,7 @@ Change: Rare >>> Uncommon --- 8 Cost >>> 6 Cost --- Gain X0.07 >>> X0.03
 
 Original: 9 Cost --- Seals have a 1 in 4 chance of triggering another seal when triggered
 
-Change: 9 Cost >>> 8 Cost --- Rework: Played cards with a seal give X2 Mult
+Change: 9 Cost >>> 8 Cost --- Rework: Played and held in hand cards with a seal give X2 Mult
 
 
 

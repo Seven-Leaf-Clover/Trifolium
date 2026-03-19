@@ -38,6 +38,8 @@
 
 - Dusk: Uncommon >>> Rare --- 5 Cost >>> 7 Cost --- 1 retrigger >>> 2
 
+- Mime: Uncommon >>> Rare --- 5 Cost >>> 7 Cost --- Now can only appear if there is a gold or steel card in deck
+
 
 
 --- Rare ---
@@ -80,7 +82,21 @@
   - Now don't have stickers in them
   - Are 25% off instead of instead of being free
   
-- Rare Tag: Now appers on Ante 2 onwards
+- Buffoon and Top Up Tag: Now appear on all antes  
+  
+- Rare, Voucher, D6, Economy and Skip Tags: Now appear on Ante 2 onwards
+
+- Charm Tag: Now appears on ante 3 onwards
+
+- Juggle and Boss Tag: Now appear on ante 6 onwards
+
+- Investment Tag: +$25 at the end of the Boss Blind >>> +$20
+
+- Orbital Tag: Now upgrades the most played hand by 2 levels --- Appears on ante 3+
+
+- Meteor Tag: Now upgrades all hands by 1 level --- Appears on all antes
+
+- Standard Tag: Now adds 2 cards of your most played rank to the deck --- Appears on ante 3+
 
 
 

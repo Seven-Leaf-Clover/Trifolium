@@ -116,7 +116,15 @@
 
 --- Spectrals ---
 
-- Summon: Now creates 2 Negative Tarots and gives Perishable to 1 Joker.
+- Summon: Now creates 3 Negative Tarots and gives Perishable to 1 Joker.
+
+
+
+--- Tags ---
+
+- Focus: Now enhances 4 unenhanced cards in deck to Mult, Bonus or Wild Cards.
+
+
 
 ----- Bans -----
 
