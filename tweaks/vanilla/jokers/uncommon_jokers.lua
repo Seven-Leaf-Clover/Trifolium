@@ -33,3 +33,17 @@ SMODS.Joker:take_ownership('j_dusk', {
     rarity = 3,
     config = {extra = 2}
 })
+
+SMODS.Joker:take_ownership('j_mime', { 
+    cost = 7,
+    rarity = 3,
+    in_pool = function(self, args)
+     if G.playing_cards then
+      for _, card in ipairs(G.playing_cards) do
+       if SMODS.has_enhancement(card, 'm_gold') or SMODS.has_enhancement(card, 'm_steel') then
+       return true
+       end
+      end
+     end
+    end,
+})
