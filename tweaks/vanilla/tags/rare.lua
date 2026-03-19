@@ -1,7 +1,5 @@
 SMODS.Tag:take_ownership("rare", {
-    in_pool = function()
-        return (G.GAME.round_resets.ante >= 2)
-    end,
+    min_ante = 2,
 
     apply = function(self, tag, context)
         if context.type ~= 'store_joker_create' or tag.triggered then return end
