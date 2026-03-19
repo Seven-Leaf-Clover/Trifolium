@@ -1,5 +1,5 @@
 SMODS.Consumable:take_ownership('opan_summon', {
-    config = { extra = { tarots = 2, perish = 1 } },
+    config = { extra = { tarots = 3, perish = 1 } },
     loc_vars = function(self, info_queue, card)
     --info_queue[#info_queue+1] = { key = 'perishable', set = 'Other' }
     info_queue[#info_queue + 1] = { key = 'e_negative_consumable', set = 'Edition', config = { extra = 1 } }
