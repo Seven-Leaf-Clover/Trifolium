@@ -14,21 +14,21 @@ return {
       -- Vanilla Spectrals
          Spectral = {
             c_sigil = {
-                text = {
-                    "Converts all cards in",
-                    "hand to {C:attention}selected suit{}.",
-                    "Lose {C:attention}half{} of your money",
-                },
+                 text = {
+                     "Converts all cards in",
+                     "hand to {C:attention}selected suit{}.",
+                     "Lose {C:attention}half{} of your money",
+                 },
             },
           -- Opandora's Spectrals  
             c_opan_summon = {
-                name = "Summon",
-                text= {
-                    "Creates {C:attention}#1#{} random",
-                    "{C:dark_edition}Negative{} {C:tarot}Tarot{} cards",
-                    "Apply {C:spectral}Perishable{} to",
-                    "{C:attention}#2#{} random {C:attention}Joker",
-                },
+                 name = "Summon",
+                 text = {
+                     "Creates {C:attention}#1#{} random",
+                     "{C:dark_edition}Negative{} {C:tarot}Tarot{} cards",
+                     "Apply {C:spectral}Perishable{} to",
+                     "{C:attention}#2#{} random {C:attention}Joker",
+                 },
             },
           -- Plantain's Spectrals   
             c_pl_spec_rebirth = {
@@ -97,6 +97,38 @@ return {
                     "Joker is {C:attention}25%{} off and",
                     "becomes {C:dark_edition}Polychrome",
                     "{C:inactive,s:0.8}(Without Stickers)",
+                }
+            },
+            tag_meteor = {
+                text = { 
+                    "Upgrade every",
+                    "{C:attention}poker hand",
+                    "by {C:attention}1{} level",
+                }
+            },
+            tag_orbital = {
+                text = { 
+                    'Upgrade most played',
+                    '{C:attention}poker hand{} by',
+                    '{C:attention}#1#{} levels',
+                }
+            },
+            tag_standard = {
+                text = { 
+                    'Add {C:attention}#1#{} cards of',
+                    'your most played',
+                    '{C:attention}rank{} to deck',
+                    '{C:inactive}(Currently {C:attention}#2#{}{C:inactive})'
+                }
+            },
+          -- Opandora's Tags
+            tag_opan_focus = {
+                name = "Marker Tag",
+                text = { 
+                    "Enhance {C:attention}#1#{} random",
+                    "unenhanced cards",
+                    "in deck to {C:attention}Mult{},",
+                    "{C:attention}Bonus{} or {C:attention}Wild Cards",
                 }
             },
         }, 
@@ -339,6 +371,15 @@ return {
                      '{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)'
                  },
             },
+            j_pl_early_man = {
+                 name = 'Early Man',
+                 text = {
+                     'Create a copy of',
+                     '{C:tarot}The Wheel of Fortune',
+                     'when {C:attention}Blind{} is selected',
+                     '{C:inactive}(Must have room)'
+                 },
+            },
             j_pl_hot_air_balloon = {
                  name = 'Hot Air Balloon',
                  text = {
@@ -466,8 +507,9 @@ return {
             j_cmykl_twister = {
                  name = 'Twister',
                  text = {
-                     'Played cards with a {C:attention}Seal{}',
-                     'give {X:red,C:white}X#1#{} Mult when scored'
+                     'Played and held in hand',
+                     'cards with a {C:attention}Seal{}',
+                     'give {X:red,C:white}X#1#{} Mult'
                  },    
             },
             
@@ -475,21 +517,23 @@ return {
     },
     misc = {
         dictionary = {
+           -- For the config tab  
              tfl_requires_restart = "Requires Restart",
              tfl_blue_stake_rework = 'Blue Stake Rework',
              tfl_enable_blue_info = {
                                  "{C:spectral}Spectral{} packs appear more often",
                                  "Required score scales faster each {C:attention}Ante",
              },
+           ----  
         },
         v_dictionary = {
-             -- For Opandora's Polyglot Joker
+           -- For Opandora's Polyglot Joker
              polyglot_dollars="$7",
              polyglot_mult="+20 Mult",
              polyglot_chip="+100 Chips",
              polyglot_Xmult="X2 Mult",
              polyglot_Xchip="X2 Chips",
-             -----
+           -----
         },
     },
 }    
