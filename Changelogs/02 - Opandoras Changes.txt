@@ -122,7 +122,8 @@
 
 --- Tags ---
 
-- Focus: Now enhances 4 unenhanced cards in deck to Mult, Bonus or Wild Cards.
+- Focus:Rework: Now enhances 4 unenhanced cards in deck to Mult, Bonus or Wild Cards.
+ - And may only appear from ante 3 to 7
 
 
 

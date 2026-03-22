@@ -125,6 +125,14 @@ Original: 6 Cost --- Gain $1 at end of round. When Tarot used increase this payo
 Change: 6 Cost >>> 5 Cost --- No longer can destroy itself ---  Now has a perisable sticker --- Base payout of $2
 
 
+-- Three Body Problem --
+
+Original: Uncommon --- 6 Cost --- If played hand is a a three of a kind. Upgrade last played hand
+
+Change: Uncommon >>> Rare --- 6 Cost >>> 8 Cost --- Rework: 4X Mult if you have more than $25, 
+--less than 52 cards in your full deck and exactly 4 jokers when hand is played
+
+
 
 ----- Rare Jokers -----
 
@@ -185,11 +193,3 @@ Change: Rework: Randomize rank and suit of all playing cards in the deck
 Original: Start run with Ad Break --- -1 shop slot 
 
 Change: Now also starts with the Joker "Plantain"
-
-
-
------ Bans -----
-
---- Jokers ---
-
--- Three Body Problem --

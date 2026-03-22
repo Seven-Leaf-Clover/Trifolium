@@ -66,7 +66,7 @@
 
 --- Vouchers ---
 
-- Magic Trick, Tarot and Planet Merchant: Now to appear on Ante 4 onwards.
+- Tarot and Planet Merchant: Now to appear on Ante 3 onwards.
 
 
 
@@ -82,13 +82,23 @@
   - Now don't have stickers in them
   - Are 25% off instead of instead of being free
   
-- Buffoon and Top Up Tag: Now appear on all antes  
+-- Ante Changes --  
   
-- Rare, Voucher, D6, Economy and Skip Tags: Now appear on Ante 2 onwards
+- Top Up, Foil, Holographic and Uncommon Tags now only may appear from ante 1 to 3
+
+- Buffoon and Coupon Tags now only may appear from ante 1 to 5
+
+- Rare and D6 Tags now may only appear from ante 2 to 5
+
+- Investment and Polychrome Tags now may only appear from ante 1 to 7
+  
+- Voucher, Economy and Skip Tags: Now appear on Ante 2 onwards
 
 - Charm Tag: Now appears on ante 3 onwards
 
 - Juggle and Boss Tag: Now appear on ante 6 onwards
+
+-- Re-balance --
 
 - Investment Tag: +$25 at the end of the Boss Blind >>> +$20
 
@@ -103,3 +113,13 @@
 --- Stakes ---
 
  Blue Stake: Spectral Packs appear x1.8 times often --- Scoring scales faster: Last Ante starts at 300k Chips in Gold Stake.
+ 
+ 
+ 
+--- Bans ---
+
+-- Vouchers --
+
+- Magic Trick -
+
+- Illusion - 
