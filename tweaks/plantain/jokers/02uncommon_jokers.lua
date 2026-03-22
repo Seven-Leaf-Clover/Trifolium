@@ -48,3 +48,29 @@ SMODS.Joker:take_ownership('pl_hot_air_balloon', {
     end
   end
 },true)
+
+SMODS.Joker:take_ownership('pl_three_body_problem', {
+    cost = 8,
+    rarity = 3,   
+    config = {extra = {xmult = 4, dollars = 25, jokers = 4, cards = 52}},
+    
+    loc_vars = function(self, info_queue, card)
+        return {vars = {card.ability.extra.xmult, 
+                        card.ability.extra.dollars, 
+                        card.ability.extra.jokers, 
+                        card.ability.extra.cards
+        }}
+    end,
+    
+    calculate = function(self, card, context)
+        if context.joker_main then
+            if G.GAME.dollars > card.ability.extra.dollars 
+                and #G.jokers.cards == card.ability.extra.jokers
+                    and #G.playing_cards < card.ability.extra.cards then
+                        return {
+                                xmult = card.ability.extra.xmult
+                        }
+            end
+        end
+    end    
+},true)
