@@ -47,6 +47,8 @@ if Trifolium.config.tfl_blue_stake_rework then
 end
 -- Decks
 assert(SMODS.load_file('tweaks/vanilla/decks/green.lua'))()
+-- Bans
+assert(SMODS.load_file('tweaks/vanilla/bans.lua'))()
 
 
 
@@ -72,9 +74,13 @@ local subdir = "tweaks/plantain/jokers"
 local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
     for k, filename in pairs(jokers) do
         assert(SMODS.load_file(subdir .. "/" .. filename))()  
-    end    
--- Bans
-assert(SMODS.load_file('tweaks/plantain/bans.lua'))()
+    end
+-- Spectrals
+local subdir = "tweaks/plantain/spectrals"
+local tags = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(tags) do
+        assert(SMODS.load_file(subdir .. "/" .. filename))()  
+    end
 
 
 
