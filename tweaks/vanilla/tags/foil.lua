@@ -1,4 +1,8 @@
 SMODS.Tag:take_ownership("foil", {
+    in_pool = function()
+        return (G.GAME.round_resets.ante >= 1 and G.GAME.round_resets.ante <= 3)
+    end,
+    
     apply = function(self, tag, context)
             if context.type == 'store_joker_modify' and not context.card.edition and not context.card.temp_edition and context.card.config.center.set == 'Joker' then
                 local lock = tag.ID
