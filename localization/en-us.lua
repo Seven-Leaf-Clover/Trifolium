@@ -11,6 +11,15 @@ return {
                 },    
              },  
          } or {},
+      -- Vanilla Tarots
+         Tarot = {
+            c_lovers = {
+                 text = {
+                     "Enhances {C:attention}#1#{} selected",
+                     "cards to {C:attention}Wild Cards{}",
+                 },
+            },
+         },   
       -- Vanilla Spectrals
          Spectral = {
             c_sigil = {
@@ -347,8 +356,9 @@ return {
                  text = {
                      'Gains {X:mult,C:white}X1{} Mult for each',
                      '{C:attention}Postcard{} sold this run.',
-                     'Creates a random {C:planet}Planet{} from',
-                     '{C:attention}High Card{} to {C:attention}Full House{} when sold',
+                     'Creates a random {C:planet}Planet{}',
+                     'from {C:attention}High Card{} to',
+                     '{C:attention}Full House{} when sold',
                      '{C:inactive}(Currently {X:mult,C:white} X#1# {C:inactive} Mult)',
                  },
             },
@@ -399,6 +409,17 @@ return {
                      '{C:inactive}(Currently {C:attention}#2#{C:inactive}/2)'
                  },
             },
+            j_pl_three_body_problem = {
+                 name = "Three Body Problem",
+	         text = {
+		     "{X:red,C:white}X#1#{} Mult if you have",
+		     "{C:attention}more{} than {C:money}$#2#{},",
+		     "{C:attention}less{} than {C:attention}#4#{} cards",
+		     "in your {C:attention}full deck{}",
+		     "and {C:attention}exactly{} {C:attention}#3#{} Jokers",
+		     "when hand is played"
+	         },
+	    },
          --- Cmykl Jokers
           -- Common Jokers
             j_cmykl_matchingcolorchip = {
@@ -498,9 +519,9 @@ return {
                  name = 'Rebellion',
                  text = {
                      'Gains {X:red,C:white}X0.03{} Mult for',
-                     'each {C:attention}face card{} discarded',
+                     'each {C:attention}face{} card discarded,',
                      'resets when a',
-                     '{C:attention}face card{} scores',
+                     '{C:attention}face{} card is scored',
                      '{C:inactive}(Currently{} {X:red,C:white}X#1#{} {C:inactive}Mult){}'
                  },    
             },
