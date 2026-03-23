@@ -9,21 +9,7 @@ on creative expression making them, it does leave a big gap for people like me w
 This mod is an attempt at providing this space with thoughtful balance and design, by tweaking redesigning the community's favorite mods.
 
 # **Content**
-All of this changes can be fully reviewed in the changelog folder above.
-
-Vanilla:
-A handful of changes to polish some rough edges of the base game.
-- 16 Jokers.
-- 2 Consumables.
-- 3 Vouchers.
-- 1 Deck.
-- 6 Tags.
-
-Opandora's Box:
-Full rebalance and redesign. Plus a handful of bans.
-- 42 Rebalanced and redesigned Jokers.
-- 1 Redesigned Spectral
-- 20 Joker and Consumable Bans.
+All of the changes can be fully reviewed in the changelog folder above.
 
 Please reach out to ask about any questions you might have about the changes made.
 
