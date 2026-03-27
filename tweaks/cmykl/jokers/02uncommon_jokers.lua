@@ -28,7 +28,7 @@ SMODS.Joker:take_ownership('cmykl_polycoria', {
 SMODS.Joker:take_ownership('cmykl_apparition', {
     cost = 5,
     config = {
-        extra = { odds = 5 } },
+        extra = { odds = 4 } },
 },true)
 
 SMODS.Joker:take_ownership('cmykl_companyid', {
@@ -37,4 +37,25 @@ SMODS.Joker:take_ownership('cmykl_companyid', {
 
 SMODS.Joker:take_ownership('cmykl_licenseplate', {
     cost = 7
+},true)
+
+SMODS.Joker:take_ownership('cmykl_cubedjoker', {
+    rarity = 3,
+    cost = 7,
+    
+    config = { extra = { xmult = 4, cards = 64 } },
+    
+    loc_vars = function(self, info_queue, card)
+        return { vars = { card.ability.extra.xmult, card.ability.extra.cards}}
+    end,
+    
+    calculate = function(self, card, context)
+        if context.joker_main then
+            if #G.playing_cards >= card.ability.extra.cards then
+                return {
+                        xmult = card.ability.extra.xmult
+                }
+            end
+        end
+    end    
 },true)

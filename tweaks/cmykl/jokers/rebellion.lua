@@ -1,7 +1,6 @@
 SMODS.Joker:take_ownership('cmykl_rebellion', { 
     cost = 6,
     rarity = 2,
-    perishable_compat = false,
     config = { extra = { Xmult = 1 } },
     
     loc_vars = function(self, info_queue, card)
