@@ -22,8 +22,8 @@ All of these are incredible works of art. Check them out, with or without my mod
 - Plantain.
 - https://github.com/IcebergLettuce0/Plantain
 
-- Cmykl. (Check my fork with a config tab added!)
-- https://github.com/Seven-Leaf-Clover/cmykl
+- Cmykl.
+- https://github.com/comykel/cmykl
 
 # **Future Work**
 
