@@ -74,3 +74,27 @@ SMODS.Joker:take_ownership('pl_three_body_problem', {
         end
     end    
 },true)
+
+SMODS.Joker:take_ownership('pl_dunce', {
+    cost = 7,
+    config = { extra = { mult = 11 } },
+    
+    loc_vars = function(self, info_queue, card)
+        return {vars = { card.ability.extra.mult }}
+    end,
+  
+    calculate = function(self, card, context)
+        if context.individual and context.cardarea == G.play then
+            if not SMODS.has_no_rank(context.other_card) then
+                local rank = context.other_card:get_id()
+                if rank == 11 or rank == 12 or rank == 13 then rank = 10 end
+                if rank == 14 then rank = 11 end
+                local new_mult = card.ability.extra.mult - rank
+                    return {
+                            mult = new_mult,
+                            card = card
+                    }
+            end
+        end
+    end    
+},true)
