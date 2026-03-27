@@ -110,6 +110,13 @@ Original: 5 Cost --- Each played 6, 7, 8, 9, 10 gives +6 Mult when scored
 Change: 5 Cost >>> 7 Cost
 
 
+-- Cubed Joker --
+
+Original: Uncommon --- 8 Cost --- +8 Mult for each card above 64 in your full deck
+
+Change: Uncommon >>> Rare --- 8 Cost >>> 7 Cost --- Rework: Now gives X4 Mult if you have 64 or more cards in your full deck
+
+
 
 ----- Rare Jokers -----
 

@@ -1,17 +1,17 @@
---- Total Jokers After Rebalance = 30 --- 1 Ban = 29
+--- Total Jokers After Rebalance = 30 --- 0 Bans
 
 -- Commons = 7 --- 0 Bans --
    - 3 are Direct Mult    --- 1 is Direct Chips --- 1 is Direct Level
    - 1 is Indirect X/Mult --- 1 is Direct Econ
    
--- Uncommons = 17 --- 1 Ban = 16 --
+-- Uncommons = 16 --- 0 Bans --
    - 1 is Direct XMult   --- 1 is Direct Mult  --- 2 are Scaling Econ  --- 3 are Scaling Scoring
    - 3 are Scaling XMult --- 1 is Scaling Mult --- 4 are Indirect Econ --- 1 Reduces Ante
 
 
 
--- Rares = 6 --- 0 Bans --
-   - 3 are Direct XMult --- 1 Scales chips --- 1 Scales Scoring
+-- Rares = 7 --- 0 Bans --
+   - 4 are Direct XMult --- 1 Scales chips --- 1 Scales Scoring
                                            --- 1 Scales Level
    
 
