@@ -398,6 +398,15 @@ return {
                      'increase payout by {C:money}$#2#{}'
                  },
             },
+            j_pl_dunce = {
+                 name = 'Dunce',
+                 text = {
+                     'Played cards give',
+                     '{C:mult}+#1#{} Mult {C:attention}minus',
+                     'their {C:attention}base chips',
+                     'when scored'
+                 },
+            },
           -- Rare Jokers
             j_pl_raw_meat = {
                  name = 'Raw Meat',
@@ -410,7 +419,7 @@ return {
                  },
             },
             j_pl_three_body_problem = {
-                 name = "Three Body Problem",
+                 name = "3 Body Problem",
 	         text = {
 		     "{X:red,C:white}X#1#{} Mult if you have",
 		     "{C:attention}more{} than {C:money}$#2#{},",
@@ -496,15 +505,6 @@ return {
                      '{C:attention}random seal{} applied'
                  },    
             },
-            j_cmykl_apparition = {
-                 name = 'Apparition',
-                 text = {
-                     '{C:green}#1# in #2# chance{} to',
-                     'create a {C:spectral}Spectral{} card',
-                     'per {C:attention}reroll{} in the shop',
-                     '{C:inactive}(Does not need room)'
-                 },    
-            },
             j_cmykl_scrapbook = {
                  name = 'Scrapbook',
                  text = {
@@ -512,6 +512,14 @@ return {
                      'unique {C:attention}suit{}, {C:attention}edition{},',
                      '{C:attention}enhancement{}, and {C:attention}seal{}',
                      'in scored cards'
+                 },    
+            },
+            j_cmykl_cubedjoker = {
+                 name = 'Cubed Joker',
+                 text = {
+                     '{X:red,C:white}X#1#{} Mult if your',
+                     '{C:attention}full deck{} has {C:attention}#2#{}',
+                     'or more cards'
                  },    
             },
           -- Rare Jokers  
