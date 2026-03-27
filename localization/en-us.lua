@@ -505,6 +505,15 @@ return {
                      '{C:attention}random seal{} applied'
                  },    
             },
+			j_cmykl_apparition = {
+                 name = 'Apparition',
+                 text = {
+                     '{C:green}#1# in #2# chance{} to',
+                     'create a {C:spectral}Spectral{} card',
+                     'per {C:attention}reroll{} in the shop',
+                     '{C:inactive}(Must have room)'
+                 },    
+            },
             j_cmykl_scrapbook = {
                  name = 'Scrapbook',
                  text = {
