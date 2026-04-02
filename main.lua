@@ -19,9 +19,6 @@ assert(SMODS.load_file('libs/utils.lua'))()
 assert(SMODS.load_file('libs/ui.lua'))()
 
 
--- Bans
-
-
 
 
 ----- Vanilla
@@ -77,8 +74,8 @@ local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)
     end
 -- Spectrals
 local subdir = "tweaks/plantain/spectrals"
-local tags = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
-    for k, filename in pairs(tags) do
+local spectral = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(spectral) do
         assert(SMODS.load_file(subdir .. "/" .. filename))()  
     end
 
@@ -86,11 +83,29 @@ local tags = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)
 
 ----- Cmykl
 
---- Jokers and Seal
-local subdir = "tweaks/cmykl/jokers"
+--- Common Jokers
+local subdir = "tweaks/cmykl/jokers/common"
 local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
     for k, filename in pairs(jokers) do
         assert(SMODS.load_file(subdir .. "/" .. filename))()  
     end 
+-- Uncommon Jokers
+local subdir = "tweaks/cmykl/jokers/uncommon"
+local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(jokers) do
+        assert(SMODS.load_file(subdir .. "/" .. filename))()  
+    end 
+-- Rare Jokers    
+local subdir = "tweaks/cmykl/jokers/rare"
+local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(jokers) do
+        assert(SMODS.load_file(subdir .. "/" .. filename))()  
+    end 
+-- Seal
+local subdir = "tweaks/cmykl/seals"
+local seal = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(seal) do
+        assert(SMODS.load_file(subdir .. "/" .. filename))()  
+    end
 -- Bans
 assert(SMODS.load_file('tweaks/cmykl/bans.lua'))()
