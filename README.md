@@ -33,8 +33,6 @@ As of writing I'm expecting to work on:
 
 - All in Jest
 
-If you like my work, please tell me about any mod you would like to see me working on. Preferably those that are meant to be balanced but didn't quite bring it to high stake level.
-
 # **Communication**
 
 You can reach me here on GitHub and over at Discord in this channel or in my Direct Messages in both(? Idk if GitHub has that).
