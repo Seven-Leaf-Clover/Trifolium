@@ -30,7 +30,7 @@ SMODS.Joker:take_ownership('opan_pyramid', {
 },true)
 
 SMODS.Joker:take_ownership('opan_fermata_tremolo', { 
-    cost = 10,
+    cost = 9,
     perishable_compat = false   
 },true)
 

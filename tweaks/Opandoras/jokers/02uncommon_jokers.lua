@@ -124,11 +124,6 @@ SMODS.Joker:take_ownership('opan_eyeforaneye', {
 	end,
 },true)
 
-SMODS.Joker:take_ownership('opan_framework', { 
-    cost = 6,
-    config = {extra = {odds = 7}}
-},true)
-
 SMODS.Joker:take_ownership('opan_leprechaun', { 
     cost = 8,
     enhancement_gate = "m_lucky",

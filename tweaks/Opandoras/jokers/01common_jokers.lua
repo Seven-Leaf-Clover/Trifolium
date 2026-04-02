@@ -60,3 +60,29 @@ SMODS.Joker:take_ownership('opan_tab', {
     cost = 2,
     eternal_compat = false
 },true)
+
+SMODS.Joker:take_ownership('opan_potato_chips', {
+    cost = 6,
+    rarity = 2,
+    config = {extra = {chips = 1, xchips = 2}},
+    
+    loc_vars = function(self, info_queue, card)
+        return { vars = { card.ability.extra.chips, card.ability.extra.xchips } }
+    end,
+    
+    calculate = function(self, card, context)
+        if context.individual and context.cardarea == G.play then
+            context.other_card.ability.perma_bonus = (context.other_card.ability.perma_bonus or 0) - card.ability.extra.chips
+            return {
+                message = localize('k_potato_chips'),
+                colour = G.C.CHIPS
+            }
+        end
+        
+        if context.joker_main then
+            return {
+                    x_chips = card.ability.extra.xchips
+            }
+        end
+    end    
+},true)
