@@ -254,8 +254,8 @@ return {
 	    j_opan_miner = {
 		 name = "Miner",
 		 text = {
-		     "Retrigger all",
-		     "played {C:attention}Stone{} cards twice",
+		     "Retrigger all played",
+		     "{C:attention}Stone Cards{}, twice",
 		 },
 	    },
 	    j_opan_morethemerrier = {
@@ -281,6 +281,15 @@ return {
 		     "When playing {C:attention}first hand{} of",
 		     "round, each {C:attention}scored card",
 		     "gives {C:red}-{}{C:money}$#1#{} and is {C:attention}destroyed{}",
+		 },
+	    },
+	    j_opan_potato_chips = {
+		 name = "Potato Chips",
+		 text = {
+		     "{X:blue,C:white}X#2#{} Chips",
+		     "Every played {C:attention}card{}",
+		     "permanently loses",
+		     "{C:chips}-#1#{} Chip when scored"
 		 },
 	    },
 	   -- Rare Jokers 
@@ -336,8 +345,8 @@ return {
 		 name = "Balanzone",
 		 text = {
 		     "{C:attention}Retrigger{} all Jokers",
-		     "{C:attention}one more time{}",
-		     "for every {C:money}$#2#{} you have",
+		     "{C:attention}one more time{} for",
+		     "every {C:money}$#2#{} you have",
 		     "{C:inactive}(Currently {C:attention}#3#{C:inactive} retriggers)",
 		 },
 	    },
@@ -505,7 +514,7 @@ return {
                      '{C:attention}random seal{} applied'
                  },    
             },
-			j_cmykl_apparition = {
+            j_cmykl_apparition = {
                  name = 'Apparition',
                  text = {
                      '{C:green}#1# in #2# chance{} to',
@@ -550,6 +559,24 @@ return {
                      'give {X:red,C:white}X#1#{} Mult'
                  },    
             },
+            j_cmykl_themountain = {
+                 name = 'The Mountain',
+                 text = {
+                     '{C:blue}+#2#{} Chips for each',
+                     '{C:spades}Spade{} card in',
+                     'your {C:attention}full deck{}',
+                     '{C:inactive}(Currently{} {C:blue}+#1#{} {C:inactive}Chips){}'
+                 },    
+            },
+            j_cmykl_thevalley = {
+                 name = 'The Valley',
+                 text = {
+                     '{C:red}+#2#{} Mult for each',
+                     '{C:clubs}Club{} card in',
+                     'your {C:attention}full deck{}',
+                     '{C:inactive}(Currently{} {C:red}+#1#{} {C:inactive}Mult){}'
+                 },    
+            },
             
         },		   
     },
@@ -562,7 +589,17 @@ return {
                                  "{C:spectral}Spectral{} packs appear more often",
                                  "Required score scales faster each {C:attention}Ante",
              },
-           ----  
+           ---- 
+             k_potato_chips = "Nom!",
+           -- Framework Joker
+             k_frame1 = "VAL = 1",
+	     k_frame2 = "VAL = 2",
+	     k_frame3 = "VAL = 3",
+	     k_frame4 = "VAL = 4",
+	     k_frame5 = "VAL = 5",
+	     k_frame6 = "VAL = 6",
+	     k_frame7 = "VAL = 7",
+	   ----  
         },
         v_dictionary = {
            -- For Opandora's Polyglot Joker
