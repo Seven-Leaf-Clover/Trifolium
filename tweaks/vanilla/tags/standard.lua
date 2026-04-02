@@ -31,11 +31,12 @@ SMODS.Tag:take_ownership("standard", {
                 for i = 1, math.min(tag.config.extra.add_cards) do
                     G.E_MANAGER:add_event(Event({
                         func = function()
-                            SMODS.add_card({ set = 'Base',
-                                             rank = mostplayedkey,
-                                             area = G.deck,
-                                             key_append = 'standard_tfl'
+                            local cards = SMODS.add_card({ set = 'Base',
+                                                           rank = mostplayedkey,
+                                                           area = G.deck,
+                                                           key_append = 'standard_tfl'
                             })
+                            SMODS.calculate_context({ playing_card_added = true, cards = { cards } })
                             return true
                         end
                     }))    

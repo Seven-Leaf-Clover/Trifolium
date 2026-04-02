@@ -1,6 +1,6 @@
 SMODS.Tag:take_ownership("polychrome", {
     in_pool = function()
-        return (G.GAME.round_resets.ante >= 1 and G.GAME.round_resets.ante <= 7)
+        return (G.GAME.round_resets.ante >= 1 and G.GAME.round_resets.ante <= 3)
     end,
     
     apply = function(self, tag, context)
