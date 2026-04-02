@@ -8,7 +8,6 @@ local banned_Opandoras_Box_jokers = {
     "pasta",
     "red_pepper_flakes",
     "crackedegg",
-    "potato_chips",
  -- Uncommons
     "castor",
     "mrhands",
