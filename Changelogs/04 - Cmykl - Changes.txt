@@ -128,11 +128,25 @@ Original: Rare --- 8 Cost --- X3 Mult if the scoring card's rank is alternating
 Change: Rare >>> Uncommon --- X3 Mult >>> X2
 
 
--- ~All 4 Landscape Jokers~ --
+-- ~The Dune and The Canyon Jokers~ --
 
-Original: 8 Cost --- ~Give a direct and scaling effect based on the amount of cards of a given suit there is in the deck~
+Original: 8 Cost --- ~Give a direct and scaling effect based on the amount of cards of a given suit there are in the deck~
 
 Change: 8 Cost >>> 9 Cost
+
+
+-- The Mountain --
+
+Original: 8 Cost --- Give +13 Chips for every card with a Spades suit in deck
+
+Change: 8 Cost >>> 9 Cost --- Give +13 Chips >>> Give +9 Chips
+
+
+-- The Valley --
+
+Original: 8 Cost --- Give +3 Mult for every card with a Club suit in deck
+
+Change: 8 Cost >>> 9 Cost --- Give +3 Mult >>> Give +2 Mult
 
 
 -- Rebellion --
@@ -140,6 +154,7 @@ Change: 8 Cost >>> 9 Cost
 Original: Rare --- 8 Cost --- Gain X0.07 per face card discarded --- reset when face card scores
 
 Change: Rare >>> Uncommon --- 8 Cost >>> 6 Cost --- Gain X0.07 >>> X0.03
+
 
 -- Twister --
 

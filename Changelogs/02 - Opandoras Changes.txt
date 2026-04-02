@@ -1,14 +1,15 @@
---- Total Jokers After Rebalance = 60 --- 14 Bans = 46
+--- Total Jokers After Rebalance = 60 --- 13 Bans = 47
 
--- Commons = 19 --- 7 Bans = 12 --
+-- Commons = 18 --- 6 Bans = 12 --
    - 6 are Direct Mult --- 2 are Direct Econ --
    - 1 is Direct Chips --- 3 are Indirect Econ
 
--- Uncommons = 31 --- 6 Bans = 25 --
+-- Uncommons = 32 --- 6 Bans = 26 --
    - 3 are Direct XMult   --- 3 are Direct Econ   --- 4 are Scaling Scoring
    - 4 are Scaling XMult  --- 1 is Scaling Econ   --- 1 Creates a Powerful Card
    - 2 are Scaling XChips --- 2 are Indirect Econ --- 1 Scales Joker Slots
    - 2 are Scaling Mult   --- 1 is Direct destroy --- 1 is roulette of effects
+   - 1 is Direct XChips
     
 -- Rares = 7 --- 1 Bans = 6 --
    - 1 are Direct XMult --- 2 is Scaling XMult      --- 1 is Scaling Scoring
@@ -34,6 +35,8 @@
 
 - Crumpled Lucky Card: 3 Cost >>> 4 Cost --- Rework: Now has a 1/2 Chance for +7 Mult --
   - 1/7 for +77 Chips --- 1/30 for X777 Mult
+  
+- Potato Chips: Common >>> Uncommon --- Now gives X2 Chips and -1 chip to every card scored  
 
 
 
@@ -93,7 +96,7 @@
 
 - Pyramid: 8 Cost >>> 9 Cost
 
-- Fermata's Tremolo: 8 Cost >>> 10 Cost
+- Fermata's Tremolo: 8 Cost >>> 9 Cost
 
 - Lifeline: 35 Cost (lmao) >>> 8 Cost --- Rework: Now gives X3.5 Mult if hand is played with exactly $0 Dollars
 

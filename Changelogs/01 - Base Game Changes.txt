@@ -1,4 +1,4 @@
---- Jokers
+----- Jokers -----
 
 --- Commons ---
 
@@ -58,25 +58,25 @@
 
 
 
----Spectral ---
+--- Spectral ---
 
 - Sigil: Changes the suits in hand based on a selected card --- Halves money.
 
 
 
---- Vouchers ---
+----- Vouchers -----
 
 - Tarot and Planet Merchant: Now to appear on Ante 3 onwards.
 
 
 
---- Decks ---
+----- Decks -----
 
 - Green Deck: Seed Money can no longer appear.
 
 
 
---- Tags ---
+----- Tags -----
 
 - All the tags that give a free joker: 
   - Now don't have stickers in them
@@ -84,13 +84,13 @@
   
 -- Ante Changes --  
   
-- Top Up, Foil, Holographic and Uncommon Tags now only may appear from ante 1 to 3
+- Top Up, Foil, Holographic, Polychrome and Uncommon Tags now only may appear from ante 1 to 3
 
 - Buffoon and Coupon Tags now only may appear from ante 1 to 5
 
 - Rare and D6 Tags now may only appear from ante 2 to 5
 
-- Investment and Polychrome Tags now may only appear from ante 1 to 7
+- Investment Tag now may only appear from ante 1 to 7
   
 - Voucher, Economy and Skip Tags: Now appear on Ante 2 onwards
 
@@ -110,13 +110,13 @@
 
 
 
---- Stakes ---
+----- Stakes -----
 
  Blue Stake: Spectral Packs appear x1.8 times often --- Scoring scales faster: Last Ante starts at 300k Chips in Gold Stake.
  
  
  
---- Bans ---
+----- Bans -----
 
 -- Vouchers --
 
