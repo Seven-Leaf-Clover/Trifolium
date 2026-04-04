@@ -1,6 +1,6 @@
 SMODS.Joker:take_ownership('pl_odd_sock', {
     cost = 6,
-    config = { extra = { xmult_mod = 0.1, xmult = 1 } },
+    config = { extra = { xmult_mod = 0.07, xmult = 1 } },
     
   loc_vars = function(self, info_queue, card)
     return { vars = { card.ability.extra.xmult_mod, card.ability.extra.xmult } }
