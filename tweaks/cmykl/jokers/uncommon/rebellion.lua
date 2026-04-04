@@ -1,10 +1,10 @@
 SMODS.Joker:take_ownership('cmykl_rebellion', { 
     cost = 6,
     rarity = 2,
-    config = { extra = { Xmult = 1 } },
+    config = { extra = { Xmult = 1, xmult_gain = 0.04 } },
     
     loc_vars = function(self, info_queue, card)
-        return {vars = {card.ability.extra.Xmult}}
+        return {vars = {card.ability.extra.Xmult, card.ability.extra.xmult_gain}}
     end,
 
     calculate = function(self, card, context)
@@ -24,19 +24,19 @@ SMODS.Joker:take_ownership('cmykl_rebellion', {
         end
         if context.discard  then
             if (function()
-    local rankFound = false
-    for i, c in ipairs(context.full_hand) do
-        if c:is_face() then
-            if context.other_card:is_face() and not context.blueprint then rankFound = true end
-            break
-        end
-    end
+                local rankFound = false
+                for i, c in ipairs(context.full_hand) do
+                    if c:is_face() then
+                        if context.other_card:is_face() and not context.blueprint then rankFound = true end
+                        break
+                    end
+                end
     
-    return rankFound
-end)() then
+                return rankFound
+            end)() then
                 return {
                     func = function()
-                    card.ability.extra.Xmult = (card.ability.extra.Xmult) + 0.03
+                    card.ability.extra.Xmult = (card.ability.extra.Xmult) + card.ability.extra.xmult_gain
                     return true
                 end
                 }
