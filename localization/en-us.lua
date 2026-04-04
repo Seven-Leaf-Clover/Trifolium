@@ -544,7 +544,7 @@ return {
             j_cmykl_rebellion = {
                  name = 'Rebellion',
                  text = {
-                     'Gains {X:red,C:white}X0.03{} Mult for',
+                     'Gains {X:red,C:white}X#2#{} Mult for',
                      'each {C:attention}face{} card discarded,',
                      'resets when a',
                      '{C:attention}face{} card is scored',
