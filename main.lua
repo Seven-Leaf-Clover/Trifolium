@@ -53,10 +53,34 @@ assert(SMODS.load_file('tweaks/vanilla/bans.lua'))()
 
 ----- Opandora's Box
 
--- Jokers and Summon (Spectral)
-local subdir = "tweaks/opandoras/jokers"
+-- Common Jokers
+local subdir = "tweaks/opandoras/jokers/common"
 local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
     for k, filename in pairs(jokers) do
+        assert(SMODS.load_file(subdir .. "/" .. filename))()  
+    end
+-- Uncommon Jokers
+local subdir = "tweaks/opandoras/jokers/uncommon"
+local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(jokers) do
+        assert(SMODS.load_file(subdir .. "/" .. filename))()  
+    end
+-- Rare Jokers
+local subdir = "tweaks/opandoras/jokers/rare"
+local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(jokers) do
+        assert(SMODS.load_file(subdir .. "/" .. filename))()  
+    end
+-- Legendary Jokers
+local subdir = "tweaks/opandoras/jokers/legendary"
+local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(jokers) do
+        assert(SMODS.load_file(subdir .. "/" .. filename))()  
+    end
+-- Spectral and Tag
+local subdir = "tweaks/opandoras/other"
+local other = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(other) do
         assert(SMODS.load_file(subdir .. "/" .. filename))()  
     end
 -- Bans
