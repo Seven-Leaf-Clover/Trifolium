@@ -4,11 +4,11 @@ SMODS.Joker:take_ownership('pl_matryoshka', {
 
 SMODS.Joker:take_ownership('pl_el_dorado', {
     cost = 6,
-    config = { extra = { money_mod = 2 } },
+    config = { extra = { money_mod = 1 } },
 },true)
 
 SMODS.Joker:take_ownership('pl_black_cat', {
-    cost = 9,
+    cost = 10,
     rarity = 3
 },true)
 

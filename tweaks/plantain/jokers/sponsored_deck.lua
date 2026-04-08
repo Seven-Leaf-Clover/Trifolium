@@ -5,4 +5,4 @@ SMODS.Back:take_ownership("pl_sponsored", {
           'v_pl_ad_break'
         },
       },
-})
+},true)

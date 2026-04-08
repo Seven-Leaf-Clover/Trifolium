@@ -3,7 +3,7 @@ SMODS.Joker:take_ownership('pl_mossy_joker', {
 },true)
 
 SMODS.Joker:take_ownership('pl_calculator', {
-    cost = 8,
+    cost = 9,
 },true)
 
 SMODS.Joker:take_ownership('pl_quarry', {
