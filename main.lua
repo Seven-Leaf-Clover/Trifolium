@@ -5,6 +5,13 @@ SMODS.Atlas{
   py = 32
 }
 
+SMODS.Atlas {
+    key = "deck_atlas",
+    path = "decks.png",
+    px = 71,
+    py = 95
+}
+
 -- Global Table
 Trifolium = {}
 
@@ -17,6 +24,21 @@ SMODS.load_file("lovely/fixes.toml")
 -- Libs
 assert(SMODS.load_file('libs/utils.lua'))()
 assert(SMODS.load_file('libs/ui.lua'))()
+
+
+
+
+
+----- Trifolium
+
+-- Decks
+local subdir = "tweaks/trifolium/decks"
+local decks = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(decks) do
+        assert(SMODS.load_file(subdir .. "/" .. filename))()  
+    end
+--
+
 
 
 

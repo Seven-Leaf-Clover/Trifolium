@@ -48,8 +48,27 @@ return {
                 },
             },
          },
-      -- Plantain's Deck   
+      -- Trifolium's Decks   
          Back={
+            b_tfl_fortunae = {
+                name = "Wheel of Fortune Deck",
+                text = {
+                    '{C:attention}+#1#{} Joker slot',
+                    'After defeating each {C:attention}Boss Blind{}',
+                    'randomize {C:attention}rank{} and {C:attention}suit{} of',
+                    '{C:attention}all playing cards{} in the deck'
+                },
+            },
+            b_tfl_embarrased = {
+                name = "Temporarily Embarrased Deck",
+                text = {
+                    'Start run with',
+                    '{C:attention,T:v_seed_money}Seed Money{},',
+                    'a {C:attention,T:tag_coupon}Coupon Tag{}',
+                    'and {C:red}-$6{} into {C:attention}debt{}'
+                },
+            },    
+      -- Plantain's Deck      
             b_pl_sponsored = {
                 name = "Sponsored Deck",
                 text = {
