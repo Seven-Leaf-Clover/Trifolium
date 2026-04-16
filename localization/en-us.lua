@@ -50,8 +50,8 @@ return {
          },
       -- Trifolium's Decks   
          Back={
-            b_tfl_fortunae = {
-                name = "Wheel of Fortune Deck",
+            b_tfl_glitched = {
+                name = "Glitched Deck",
                 text = {
                     '{C:attention}+#1#{} Joker slot',
                     'After defeating each {C:attention}Boss Blind{}',
@@ -59,13 +59,13 @@ return {
                     '{C:attention}all playing cards{} in the deck'
                 },
             },
-            b_tfl_embarrased = {
-                name = "Temporarily Embarrased Deck",
+            b_tfl_embarrassed = {
+                name = "Temporarily Embarrassed Deck",
                 text = {
                     'Start run with',
                     '{C:attention,T:v_seed_money}Seed Money{},',
                     'a {C:attention,T:tag_coupon}Coupon Tag{}',
-                    'and {C:red}-$6{} into {C:attention}debt{}'
+                    'and {C:red}-$5{} into {C:attention}debt{}'
                 },
             },    
       -- Plantain's Deck      
