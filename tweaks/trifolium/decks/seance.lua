@@ -12,6 +12,8 @@ SMODS.Back {
         SMODS.change_booster_limit(-2)
         change_shop_size(2)
      -- Banned Vouchers   
+        G.GAME.banned_keys['v_telescope'] = true
+        G.GAME.banned_keys['v_observatory'] = true
         G.GAME.banned_keys['v_cmykl_mispack'] = true
         G.GAME.banned_keys['v_cmykl_fatstacks'] = true
      -- Banned Jokers   
