@@ -67,7 +67,26 @@ return {
                     'a {C:attention,T:tag_coupon}Coupon Tag{}',
                     'and {C:red}-$5{} into {C:attention}debt{}'
                 },
-            },    
+            },
+            b_tfl_seance = {
+                name = "Séance Deck",
+                text = {
+                    '{C:attention}+2{} Card slots and',
+                    '{C:red}-2{} Booster Packs in shop',
+                    '{C:spectral}Spectral{} cards may',
+                    'appear in the shop'   
+                },
+            },
+            b_tfl_terror = {
+                name = "Terror Deck",
+                text = {
+                    'After each {C:attention}Boss Blind{}',
+                    '{C:attention}fill{} consumable slots',
+                    'with {C:tarot,T:c_hanged_man}The Hanged Man{}.',
+                    '{C:dark_edition}Editioned{} cards and',
+                    '{C:tarot}Tarots{} no longer appear'
+                },
+            },
       -- Plantain's Deck      
             b_pl_sponsored = {
                 name = "Sponsored Deck",
