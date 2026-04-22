@@ -10,7 +10,7 @@
          a Coupon Tag and
           -$5 into debt
                         
------------------      
+-----------    
            
       -- Glitched Deck --         
                                 
@@ -19,7 +19,7 @@
   randomize the rank and suit of
    all playing card in the deck
 
------------------
+-----------
 
       -- Séance Deck --
       
@@ -28,7 +28,7 @@
       Spectral cards may 
       appear in the shop 
       
------------------      
+-----------
       
       -- Terror Deck --
       
@@ -37,3 +37,21 @@
      with The Hanged Man.
      Editioned cards and
    Tarots no longer appear
+   
+-----------
+
+    -- Collector's Deck --
+    
+      Start run with Hone
+       and +1 Shop slot
+      Celestial and Arcana
+     Packs no longer appear
+     
+----------
+
+      -- Roller Deck --
+    
+ Start run with Reroll Surplus
+   -1 Booster Pack in shop
+     
+     
