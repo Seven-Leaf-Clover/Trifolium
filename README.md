@@ -1,7 +1,7 @@
 # **Trifolium**
-Gold Stake focused vanilla and mod rebalance.
+Gold Stake focused vanilla and mod rebalance... and some Decks.
 
-# **about the mod**
+# **About the mod**
 As I've come to play more and more mods, I realized that balance in most of them had been neglected. 
 Particularly as it pertains to higher difficulties and while it's completely understandable that people focus
 on creative expression making them, it does leave a big gap for people like me who enjoy the base game for how well balanced it is and the challenge it provides.
@@ -28,8 +28,6 @@ All of these are incredible works of art. Check them out, with or without my mod
 # **Future Work**
 
 As of writing I'm expecting to work on:
-
-- Greener Jokers
 
 - All in Jest
 
