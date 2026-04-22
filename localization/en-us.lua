@@ -71,7 +71,7 @@ return {
             b_tfl_seance = {
                 name = "Séance Deck",
                 text = {
-                    '{C:attention}+2{} Card slots and',
+                    '{C:attention}+2{} Shop slots and',
                     '{C:red}-2{} Booster Packs in shop',
                     '{C:spectral}Spectral{} cards may',
                     'appear in the shop'   
@@ -85,6 +85,23 @@ return {
                     'with {C:tarot,T:c_hanged_man}The Hanged Man{}.',
                     '{C:dark_edition}Editioned{} cards and',
                     '{C:tarot}Tarots{} no longer appear'
+                },
+            },
+            b_tfl_collector = {
+                name = "Collector's Deck",
+                text = {
+                    'Start run with {C:attention,T:v_hone}Hone{}',
+                    'and {C:attention}+1{} Shop slot.',
+                    '{C:planet}Celestial{} and {C:tarot}Arcana{}',
+                    'Packs no longer appear'
+                },
+            },
+            b_tfl_roller = {
+                name = "Roller Deck",
+                text = {
+                    'Start run with',
+                    '{C:attention,T:v_reroll_surplus}Reroll Surplus{}.',
+                    '{C:red}-1{} Booster Pack in shop'
                 },
             },
       -- Plantain's Deck      
