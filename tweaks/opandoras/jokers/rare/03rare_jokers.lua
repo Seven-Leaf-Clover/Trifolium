@@ -24,11 +24,6 @@ SMODS.Joker:take_ownership('opan_nothanks', {
 	end,   
 },true)
 
-SMODS.Joker:take_ownership('opan_pyramid', { 
-    cost = 9,
-    perishable_compat = false   
-},true)
-
 SMODS.Joker:take_ownership('opan_fermata_tremolo', { 
     cost = 9,
     perishable_compat = false   
