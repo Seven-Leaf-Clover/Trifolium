@@ -2,9 +2,9 @@
 ---@param items table
 ---@param path string
 function Trifolium.file_loader(items, path)
-  for i = 1, #items do
-    SMODS.load_file(path .. "/" .. items[i] .. ".lua")()
-  end
+    for i = 1, #items do
+        SMODS.load_file(path .. "/" .. items[i] .. ".lua")()
+    end
 end
 
 -- Juice Up and Flip for Cards
@@ -29,3 +29,8 @@ function Trifolium.juice_flip(used_tarot)
         }))
     end
 end
+
+-- Weight Modification
+SMODS.current_mod.optional_features = {
+    object_weights = true,
+}
