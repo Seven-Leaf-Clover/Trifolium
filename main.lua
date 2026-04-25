@@ -12,6 +12,20 @@ SMODS.Atlas {
     py = 95
 }
 
+SMODS.Atlas {
+    key = "stake_atlas",
+    path = "stake.png",
+    px = 29,
+    py = 29
+}
+
+SMODS.Atlas {
+    key = "stake_sticker_atlas",
+    path = "stake_sticker.png",
+    px = 71,
+    py = 95
+}
+
 -- Global Table
 Trifolium = {}
 
@@ -37,6 +51,10 @@ local decks = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)
     for k, filename in pairs(decks) do
         assert(SMODS.load_file(subdir .. "/" .. filename))()  
     end
+-- Stakes
+if Trifolium.config.tfl_blue_stake_rework then
+assert(SMODS.load_file('tweaks/trifolium/stakes/emerald.lua'))()
+end
 --
 
 

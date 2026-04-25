@@ -1,24 +1,32 @@
 return {
     descriptions = {
-       -- Vanilla Stakes
-          Stake = Trifolium.config.tfl_blue_stake_rework and {
-            stake_blue = {
-                name = "Blue Stake",
-                text = {
-                    "{C:spectral}Spectral{} packs appear more often",
-                    "Required score scales faster for each {C:attention}Ante",
-                    "{s:0.8}Applies all previous Stakes",
-                },    
-             },  
+      -- Vanilla Stakes
+         Stake = Trifolium.config.tfl_blue_stake_rework and {
+             stake_blue = {
+                 name = "Blue Stake",
+                 text = {
+                     "Required score scales",
+                     "faster for each {C:attention}Ante",
+                     "{s:0.8}Applies all previous Stakes"
+                 },    
+             },
+             stake_tfl_emerald = {
+                 name = "Emerald Stake",
+                 text = { 
+                     "{C:attention}+1{} Shop slot",
+                     "{s:0.9}{C:spectral}Spectral{} Packs appear more often{}",
+                     "{s:0.8}Applies all previous Stakes"
+                 },
+             },
          } or {},
       -- Vanilla Tarots
          Tarot = {
-            c_lovers = {
+             c_lovers = {
                  text = {
                      "Enhances {C:attention}#1#{} selected",
                      "cards to {C:attention}Wild Cards{}",
                  },
-            },
+             },
          },   
       -- Vanilla Spectrals
          Spectral = {
@@ -631,18 +639,20 @@ return {
                      'your {C:attention}full deck{}',
                      '{C:inactive}(Currently{} {C:red}+#1#{} {C:inactive}Mult){}'
                  },    
-            },
-            
-        },		   
+            },  
+        },
     },
     misc = {
         dictionary = {
            -- For the config tab  
              tfl_requires_restart = "Requires Restart",
-             tfl_blue_stake_rework = 'Blue Stake Rework',
+             tfl_blue_stake_rework = 'Stake Rework',
              tfl_enable_blue_info = {
-                                 "{C:spectral}Spectral{} packs appear more often",
-                                 "Required score scales faster each {C:attention}Ante",
+                                 "Eases the transition towards",
+                                 "higher stakes by reworking",
+                                 "the {C:blue}Blue{} Stake and adding",
+                                 "a {C:green}New One{} after it.",
+                                 "{s:0.9}(Read the changelog for more info!)",
              },
            ---- 
              k_potato_chips = "Nom!",
