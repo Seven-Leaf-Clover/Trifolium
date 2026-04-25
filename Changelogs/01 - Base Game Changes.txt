@@ -112,7 +112,16 @@
 
 ----- Stakes -----
 
- Blue Stake: Spectral Packs appear x1.8 times often --- Scoring scales faster: Last Ante starts at 300k Chips in Gold Stake.
+-- Stake Rework --
+
+In the config section of the mod there is an option to enable a small rework to the 
+stakes with the objective of improving the game feeling as the difficulty scales.
+
+It changes:
+
+Blue Stake: Rework: Scoring scales faster: Last Ante starts at 300k Chips in Gold Stake.
+
+New Stake: Emerald (above blue): Spectral Packs appear x1.8 times often --- +1 Shop slot
  
  
  
