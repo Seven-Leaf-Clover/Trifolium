@@ -112,6 +112,25 @@ return {
                     '{C:red}-1{} Booster Pack in shop'
                 },
             },
+            b_tfl_ftl = {
+                name = "FTL Deck",
+                text = {
+                    '{C:red}-1{} Consumable slot and',
+                    '{C:red}-1{} Booster Pack in shop',
+                    'When {C:attention}Skipping{} a {C:attention}Blind{}',
+                    'level up {C:attention}5{} random poker hands'
+                },
+            },
+            b_tfl_gambler = {
+                name = "Gambler's Deck",
+                text = {
+                    '{C:red}-1{} Consumable slot',
+                    'When {C:attention}Selecting{} or {C:attention}Skipping{}',
+                    'a {C:attention}Blind{} create a',
+                    '{C:tarot,T:c_wheel_of_fortune}The Wheel of Fortune',
+                    '{C:inactive,s:0.8}(Must have room)'
+                },
+            },
       -- Plantain's Deck      
             b_pl_sponsored = {
                 name = "Sponsored Deck",
@@ -173,9 +192,8 @@ return {
             },
             tag_meteor = {
                 text = { 
-                    "Upgrade every",
-                    "{C:attention}poker hand",
-                    "by {C:attention}1{} level",
+                    "Upgrade {C:attention}5{} random",
+                    "{C:attention}poker hands",
                 }
             },
             tag_orbital = {
@@ -654,6 +672,7 @@ return {
                                  "a {C:green}New One{} after it.",
                                  "{s:0.9}(Read the changelog for more info!)",
              },
+             tfl_meteor = "5 Hands",
            ---- 
              k_potato_chips = "Nom!",
            -- Framework Joker
