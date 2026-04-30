@@ -4,49 +4,71 @@ SMODS.Tag:take_ownership("meteor", {
     loc_vars = function() return {} end,
     
     apply = function(self, tag, context)
-        if not tag.triggered then
+        if context.type == 'immediate'  then
             tag:yep('+', G.C.SECONDARY_SET.Planet, function()
-                update_hand_text({ sound = 'button', volume = 0.7, pitch = 0.8, delay = 0.3 },
-                    { handname = localize('k_all_hands'), chips = '...', mult = '...', level = '' })
-                G.E_MANAGER:add_event(Event({
-                    trigger = 'after',
-                    delay = 0.2,
-                    func = function()
-                        play_sound('tarot1')
-                        G.TAROT_INTERRUPT_PULSE = true
-                        return true
-                    end
-                }))
-                update_hand_text({ delay = 0 }, { mult = '+', StatusText = true })
-                G.E_MANAGER:add_event(Event({
-                    trigger = 'after',
-                    delay = 0.9,
-                    func = function()
-                        play_sound('tarot1')
-                        return true
-                    end
-                }))
-                update_hand_text({ delay = 0 }, { chips = '+', StatusText = true })
-                G.E_MANAGER:add_event(Event({
-                    trigger = 'after',
-                    delay = 0.9,
-                    func = function()
-                        play_sound('tarot1')
-                        G.TAROT_INTERRUPT_PULSE = nil
-                        return true
-                    end
-                }))
-                update_hand_text({ sound = 'button', volume = 0.7, pitch = 0.9, delay = 0 }, { level = '+1' })
-                delay(1.3)
-                for k in pairs(G.GAME.hands) do
-                    level_up_hand(tag, k, true)
-                end
-                update_hand_text({ sound = 'button', volume = 0.7, pitch = 1.1, delay = 0 },
-                    { mult = 0, chips = 0, handname = '', level = '' })
                 return true
             end)
+            local _poker_hands = {}
+            local random_hands = {}
+            for _, k in ipairs(G.handlist) do
+                local v = G.GAME.hands[k]
+                if v.visible then
+                    _poker_hands[#_poker_hands + 1] = k
+                end
+            end
+            for i = 1, 5 do
+                local random_hand = pseudorandom_element(_poker_hands, pseudoseed('tfl_ftl')) or "High Card"
+                table.insert(random_hands, random_hand)
+                for i = #_poker_hands, 1, -1 do
+                    if _poker_hands[i] == random_hand then
+                        table.remove(_poker_hands, i)
+                    end
+                end
+            end
+            
+        local levels = 1
+        update_hand_text({sound = 'button',volume = 0.7,pitch = 0.8,delay = 0.3}, {
+            handname = localize('tfl_meteor'),
+            chips = "...",
+            mult = "...",
+            level = "..."
+        })
+        for i = 1, #random_hands do
+            level_up_hand(nil, random_hands[i], true, levels)
+        end
+            G.E_MANAGER:add_event(Event({
+                trigger = 'after',
+                delay = 0.2,
+                func = function()
+                    play_sound('tarot1')
+                    G.TAROT_INTERRUPT_PULSE = true
+                    return true
+                end
+            }))
+            update_hand_text({delay = 0}, {mult = "+",StatusText = true})
+            G.E_MANAGER:add_event(Event({
+                trigger = 'after',
+                delay = 0.9,
+                func = function()
+                    play_sound('tarot1')
+                    return true
+                end
+            }))
+            update_hand_text({delay = 0}, {chips = "+",StatusText = true})
+            G.E_MANAGER:add_event(Event({
+                trigger = 'after',
+                delay = 0.9,
+                func = function()
+                    play_sound('tarot1')
+                    G.TAROT_INTERRUPT_PULSE = nil
+                    return true
+                end
+            }))
+            update_hand_text({sound = 'button',volume = 0.7,pitch = 0.9,delay = 0}, {level = "+" .. levels})
+            delay(1.3)
+            update_hand_text({sound = 'button',volume = 0.7,pitch = 1.1,delay = 0}, {mult = 0,chips = 0,handname = '',level = ''})
             tag.triggered = true
             return true
         end
-    end
+    end, 
 })
