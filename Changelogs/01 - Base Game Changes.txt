@@ -104,7 +104,7 @@
 
 - Orbital Tag: Now upgrades the most played hand by 2 levels --- Appears on ante 3+
 
-- Meteor Tag: Now upgrades all hands by 1 level --- Appears on all antes
+- Meteor Tag: Now upgrades 5 random poker hands --- Appears on all antes
 
 - Standard Tag: Now adds 2 cards of your most played rank to the deck --- Appears on ante 3+
 

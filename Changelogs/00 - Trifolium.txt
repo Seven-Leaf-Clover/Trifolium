@@ -54,4 +54,21 @@
  Start run with Reroll Surplus
    -1 Booster Pack in shop
      
-     
+---------
+
+     -- Gambler's Deck --
+      
+     -1 Consumable slot
+   When selecting or skipping
+       a Blind create a
+     The Wheel of Fortune   
+       (Must have room)
+       
+---------
+
+        -- FTL Deck --
+        
+   - 1 Consumable slot and
+   -1 Booster Pack in shop
+     When skipping a Blind
+ level up 5 random poker hands
