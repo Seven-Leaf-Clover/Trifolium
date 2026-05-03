@@ -1,12 +1,12 @@
 # **Trifolium**
-Gold Stake focused vanilla and mod rebalance... and some Decks.
+Gold Stake focused vanilla and mod rebalance.
 
 # **About the mod**
 As I've come to play more and more mods, I realized that balance in most of them had been neglected. 
 Particularly as it pertains to higher difficulties and while it's completely understandable that people focus
 on creative expression making them, it does leave a big gap for people like me who enjoy the base game for how well balanced it is and the challenge it provides.
 
-This mod is an attempt at providing this space with thoughtful balance and design, by tweaking redesigning the community's favorite mods.
+This mod is an attempt at providing this space with thoughtful balance and design.
 
 # **Content**
 All of the changes can be fully reviewed in the changelog folder above.
