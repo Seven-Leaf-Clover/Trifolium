@@ -56,91 +56,17 @@ return {
                 },
             },
          },
-      -- Trifolium's Decks   
-         Back={
-            b_tfl_glitched = {
-                name = "Glitched Deck",
-                text = {
-                    '{C:attention}+#1#{} Joker slot',
-                    'After defeating each {C:attention}Boss Blind{}',
-                    'randomize {C:attention}rank{} and {C:attention}suit{} of',
-                    '{C:attention}all playing cards{} in the deck'
-                },
-            },
-            b_tfl_embarrassed = {
-                name = "Temporarily Embarrassed Deck",
-                text = {
-                    'Start run with',
-                    '{C:attention,T:v_seed_money}Seed Money{},',
-                    'a {C:attention,T:tag_coupon}Coupon Tag{}',
-                    'and {C:red}-$5{} into {C:attention}debt{}'
-                },
-            },
-            b_tfl_seance = {
-                name = "Séance Deck",
-                text = {
-                    '{C:attention}+2{} Shop slots and',
-                    '{C:red}-2{} Booster Packs in shop',
-                    '{C:spectral}Spectral{} cards may',
-                    'appear in the shop'   
-                },
-            },
-            b_tfl_terror = {
-                name = "Terror Deck",
-                text = {
-                    'After each {C:attention}Boss Blind{}',
-                    '{C:attention}fill{} consumable slots',
-                    'with {C:tarot,T:c_hanged_man}The Hanged Man{}.',
-                    '{C:dark_edition}Editioned{} cards and',
-                    '{C:tarot}Tarots{} no longer appear'
-                },
-            },
-            b_tfl_collector = {
-                name = "Collector's Deck",
-                text = {
-                    'Start run with {C:attention,T:v_hone}Hone{}',
-                    'and {C:attention}+1{} Shop slot.',
-                    '{C:planet}Celestial{} and {C:tarot}Arcana{}',
-                    'Packs no longer appear'
-                },
-            },
-            b_tfl_roller = {
-                name = "Roller Deck",
-                text = {
-                    'Start run with',
-                    '{C:attention,T:v_reroll_surplus}Reroll Surplus{}.',
-                    '{C:red}-1{} Booster Pack in shop'
-                },
-            },
-            b_tfl_ftl = {
-                name = "FTL Deck",
-                text = {
-                    '{C:red}-1{} Consumable slot and',
-                    '{C:red}-1{} Booster Pack in shop',
-                    'When {C:attention}Skipping{} a {C:attention}Blind{}',
-                    'level up {C:attention}5{} random poker hands'
-                },
-            },
-            b_tfl_gambler = {
-                name = "Gambler's Deck",
-                text = {
-                    '{C:red}-1{} Consumable slot',
-                    'When {C:attention}Selecting{} or {C:attention}Skipping{}',
-                    'a {C:attention}Blind{} create a',
-                    '{C:tarot,T:c_wheel_of_fortune}The Wheel of Fortune',
-                    '{C:inactive,s:0.8}(Must have room)'
-                },
-            },
+         Back = {
       -- Plantain's Deck      
-            b_pl_sponsored = {
-                name = "Sponsored Deck",
-                text = {
-                    'Start run with',
-                    '{C:attention,T:v_pl_ad_break}Ad Break{} and',
-                    '{C:attention,T:j_pl_plantain}Plantain{}',
-                    '{C:attention}-1{} shop slot'
-                },
-            },
+             b_pl_sponsored = {
+                 name = "Sponsored Deck",
+                 text = {
+                     'Start run with',
+                     '{C:attention,T:v_pl_ad_break}Ad Break{} and',
+                     '{C:attention,T:j_pl_plantain}Plantain{}',
+                     '{C:attention}-1{} shop slot'
+                 },
+             },
          },
        --Vanilla Tags 
          Tag = {
@@ -672,7 +598,6 @@ return {
                                  "a {C:green}New One{} after it.",
                                  "{s:0.9}(Read the changelog for more info!)",
              },
-             tfl_meteor = "5 Hands",
            ---- 
              k_potato_chips = "Nom!",
            -- Framework Joker
