@@ -6,13 +6,6 @@ SMODS.Atlas{
 }
 
 SMODS.Atlas {
-    key = "deck_atlas",
-    path = "decks.png",
-    px = 71,
-    py = 95
-}
-
-SMODS.Atlas {
     key = "stake_atlas",
     path = "stake.png",
     px = 29,
@@ -45,12 +38,6 @@ assert(SMODS.load_file('libs/ui.lua'))()
 
 ----- Trifolium
 
--- Decks
-local subdir = "tweaks/trifolium/decks"
-local decks = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
-    for k, filename in pairs(decks) do
-        assert(SMODS.load_file(subdir .. "/" .. filename))()  
-    end
 -- Stakes
 if Trifolium.config.tfl_blue_stake_rework then
 assert(SMODS.load_file('tweaks/trifolium/stakes/emerald.lua'))()
