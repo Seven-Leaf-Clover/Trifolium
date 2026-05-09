@@ -598,6 +598,7 @@ return {
                                  "a {C:green}New One{} after it.",
                                  "{s:0.9}(Read the changelog for more info!)",
              },
+			 tfl_meteor = "5 Hands",
            ---- 
              k_potato_chips = "Nom!",
            -- Framework Joker
