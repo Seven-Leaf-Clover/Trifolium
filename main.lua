@@ -41,6 +41,7 @@ assert(SMODS.load_file('libs/ui.lua'))()
 -- Stakes
 if Trifolium.config.tfl_blue_stake_rework then
 assert(SMODS.load_file('tweaks/trifolium/stakes/emerald.lua'))()
+assert(SMODS.load_file('tweaks/trifolium/stakes/spectral.lua'))()
 end
 --
 
