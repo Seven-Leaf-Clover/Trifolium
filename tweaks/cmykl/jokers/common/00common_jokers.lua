@@ -28,3 +28,10 @@ SMODS.Joker:take_ownership('cmykl_doubletap', {
 SMODS.Joker:take_ownership('cmykl_humanity', {
     cost = 2
 },true)
+
+SMODS.Joker:take_ownership('cmykl_tabletop', {
+    cost = 6,
+    rarity = 2,
+    
+    config = { extra = { chip_mod = 20, chips = 0 } },
+},true)
