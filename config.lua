@@ -1,3 +1,3 @@
 return {
-  ["tfl_blue_stake_rework"] = false,
+  ["tfl_blue_stake_rework"] = true,
 }
