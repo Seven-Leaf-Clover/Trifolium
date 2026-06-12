@@ -14,7 +14,13 @@ return {
                  name = "Emerald Stake",
                  text = { 
                      "{C:attention}+1{} Shop slot",
-                     "{s:0.9}{C:spectral}Spectral{} Packs appear more often{}",
+                     "{s:0.8}Applies all previous Stakes"
+                 },
+             },
+             stake_tfl_spectral = {
+                 name = "Azure Stake",
+                 text = { 
+                     "{C:spectral}Spectral{} Packs appear more often{}",
                      "{s:0.8}Applies all previous Stakes"
                  },
              },
@@ -189,10 +195,10 @@ return {
 		 name = "Scratch Card",
 		 text = {
 		     "Chance to create a {C:attention}Joker{} when sold!",
-		     "{C:green}1 in #5#{} to create a {C:blue}Common{}",
-		     "{C:green}1 in #6#{} to create an {C:green}Uncommon{}",
-		     "{C:green}1 in #7#{} to create a {C:red}Rare{}",
-		     "{C:green}1 in #8#{} to create a... {C:legendary,E:1}Soul{}?!",
+		     "{C:green}#1# in #5#{} to create a {C:blue}Common{}",
+		     "{C:green}#2# in #6#{} to create an {C:green}Uncommon{}",
+		     "{C:green}#3# in #7#{} to create a {C:red}Rare{}",
+		     "{C:green}#4# in #8#{} to create a... {C:legendary,E:1}Soul{}?!",
 		     "{C:inactive}(Must have room)",
 		     "{C:inactive}(Sells for {C:money}$0{C:inactive})",
 		 },
@@ -201,7 +207,7 @@ return {
 	         name = "Crumpled Lucky Card",
 		 text = {
 		     "{C:green}///in #4#{} //r/ {C:mult}+#7#{}////",
-		     "{C:green}1 i// /{} /f///{C:chips}+#8#{}///ps",
+		     "{C:green}#2# i// /{} /f///{C:chips}+#8#{}///ps",
 		     "{C:green}/ //n //{} ////{X:mult,C:white}X#9#{}/u//",
 		 },
 	    },
@@ -304,8 +310,8 @@ return {
                  name = 'Middle Child',
                  text = {
                      "Gain {C:attention}+#1#{} Joker slot for each {C:attention}#2#{} Jokers held.",
-                     "{C:mult}-#3#{} Mult for each Joker to the left,",
-                     "{C:chips}-#4#{} Chips for each Joker to the right",
+                     "{C:mult}-#3#{} Mult for each Joker to the right,",
+                     "{C:chips}-#4#{} Chips for each Joker to the left",
                      "{C:inactive}(Currently {C:mult}-#5#{C:inactive} Mult and {C:chips}-#6#{C:inactive} Chips){}",
 
                  },
@@ -583,7 +589,16 @@ return {
                      'your {C:attention}full deck{}',
                      '{C:inactive}(Currently{} {C:red}+#1#{} {C:inactive}Mult){}'
                  },    
-            },  
+            },
+            j_cmykl_puzzle = {
+                 name = 'Puzzle',
+                 text = {
+                     'This Joker gains {X:red,C:white}X#1#{} Mult',
+                     'for each discarded {C:attention}#3#{},',
+                     'rank changes every round',
+                     '{C:inactive}(Currently {X:red,C:white}X#2#{C:inactive} Mult)',
+                 },    
+            },
         },
     },
     misc = {
@@ -594,11 +609,10 @@ return {
              tfl_enable_blue_info = {
                                  "Eases the transition towards",
                                  "higher stakes by reworking",
-                                 "the {C:blue}Blue{} Stake and adding",
-                                 "a {C:green}New One{} after it.",
+                                 "the {C:attention}Stake{} system",
                                  "{s:0.9}(Read the changelog for more info!)",
              },
-			 tfl_meteor = "5 Hands",
+             tfl_meteor = "5 Hands",
            ---- 
              k_potato_chips = "Nom!",
            -- Framework Joker
