@@ -123,7 +123,7 @@ Blue Stake: Rework: Scoring scales faster: Last Ante starts at 400k Chips in Gol
 
 New Stake: Emerald (above blue): +1 Shop slot
 
-New Stake: Azure (Above orage): Spectral Packs appear x1.8 times often
+New Stake: Azure (Above orange): Spectral Packs appear x1.8 times often
  
  
  
