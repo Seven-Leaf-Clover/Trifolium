@@ -187,3 +187,8 @@ SMODS.Joker:take_ownership('opan_polyglot', {
 	Xchips = 2, 
 	toggle = 2}}
 },true)
+
+SMODS.Joker:take_ownership('opan_spirit_box', { 
+    cost = 6,
+},true)
+
