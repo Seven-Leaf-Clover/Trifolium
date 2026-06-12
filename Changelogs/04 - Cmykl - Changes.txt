@@ -1,12 +1,12 @@
---- Total Jokers After Rebalance = 24 --- 1 Bans = 23
+--- Total Jokers After Rebalance = 27 --- 1 Bans = 26
 
 -- Commons = 4 --- 0 Bans --
    - 1 is Direct Mult  --- 1 is Direct Econ
    - 1 is Scaling Mult --- 1 is extra hand
    
--- Uncommons = 12 --- 0 Bans --
-   - 3 are Direct XMult --- 1 is Scaling XMult --- 2 Scales Scoring --- 1 is Direct Econ
-   - 1 is Direct Mult   --- 1 Scales Chips     --- 3 are Indirect Econ
+-- Uncommons = 15 --- 0 Bans --
+   - 3 are Direct XMult --- 2 is Scaling XMult --- 2 Scales Scoring --- 1 is Direct Econ
+   - 1 is Direct Mult   --- 2 Scales Chips     --- 3 are Indirect Econ  --- 1 Gives a Rare
    
 -- Rares = 7 --- 0 Bans --   
    - 4 is Direct XMult  --- 1 is Direct chips --- 1 is Direct Econ
@@ -48,6 +48,13 @@ Change: 4 Cost >>> 5 Cost --- Now the last card also give +2 Mult when scored
 Original: Common --- 5 Cost --- Stores +2 Mult for each scored card unleashes mult during the boss
 
 Change: Common >>> Uncommon --- 5 Cost >>> 6 Cost --- +2 Mult for each scored card >>> +0.07 XMult for each scored card
+
+
+-- Tabletop --
+
+Original: Common --- 4 Cost --- Gain +8 Chips when a probability succesfully triggers
+
+Change: Common >>> Uncommon --- 4 Cost >>> 6 Cost --- Gain +8 Chips >>> Gain +20 Chips
 
 
 
@@ -161,6 +168,13 @@ Change: Rare >>> Uncommon --- 8 Cost >>> 6 Cost --- Gain X0.07 >>> X0.03
 Original: 9 Cost --- Seals have a 1 in 4 chance of triggering another seal when triggered
 
 Change: 9 Cost >>> 8 Cost --- Rework: Played and held in hand cards with a seal give X2 Mult
+
+
+-- Puzzle --
+
+Original: 8 Cost --- Rare --- Gains +6 Mult per "XX" card discarded, Changes every round
+
+Change: 8 Cost >>> 7 Cost --- Rare >>> Uncommon --- Gains +6 Mult >>> Gains + X0.1 Mult
 
 
 
