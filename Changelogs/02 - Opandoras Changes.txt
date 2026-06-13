@@ -81,6 +81,8 @@
 - Polyglot: 6 Cost >>> 8 Cost --- $6 Dollars at end of round >>> $7 >>> +15 Mult >>> +20 --
   - +50 Chips >>> +100
 
+- Spirit Box: 7 Cost >>> 6 Cost
+
 
 
 --- Rare Jokers ---
