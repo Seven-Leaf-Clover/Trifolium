@@ -188,7 +188,13 @@ SMODS.Joker:take_ownership('opan_polyglot', {
 	toggle = 2}}
 },true)
 
-SMODS.Joker:take_ownership('opan_spirit_box', { 
-    cost = 6,
+SMODS.Joker:take_ownership('opan_spirit_box', {    
+    add_to_deck = function(self, card, from_debuff)
+	G.GAME.spectral_rate = 2.7
+    end,
+    
+    remove_from_deck = function(self, card, from_debuff)
+	G.GAME.spectral_rate = 0
+    end
 },true)
 
