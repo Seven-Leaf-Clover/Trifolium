@@ -4,11 +4,13 @@ SMODS.Joker:take_ownership('j_seance', {
     cost = 4
 })
 
+SMODS.Joker:take_ownership('j_loyalty_card', { 
+    config = {extra = {Xmult = 4, every = 4, remaining = "4 remaining"}},
+})
+
 SMODS.Joker:take_ownership('j_space', { 
     cost = 8,
-    config = { 
-        extra = 3
-    }
+    config = {extra = 3}
 })
 
 SMODS.Joker:take_ownership('j_card_sharp', { 
