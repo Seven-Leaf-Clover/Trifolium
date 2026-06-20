@@ -40,7 +40,7 @@ return {
                  text = {
                      "Converts all cards in",
                      "hand to {C:attention}selected suit{}.",
-                     "Lose {C:attention}half{} of your money",
+                     "{C:attention}Halve{} your money",
                  },
             },
           -- Opandora's Spectrals  
@@ -141,6 +141,12 @@ return {
                     'your most played',
                     '{C:attention}rank{} to deck',
                     '{C:inactive}(Currently {C:attention}#2#{}{C:inactive})'
+                }
+            },
+            tag_ethereal = {
+                text = { 
+                    'Gives a free',
+                    '{C:spectral}Jumbo Spectral Pack'
                 }
             },
           -- Opandora's Tags
