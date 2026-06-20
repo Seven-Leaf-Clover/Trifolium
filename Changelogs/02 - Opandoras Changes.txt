@@ -80,8 +80,8 @@
 
 - Polyglot: 6 Cost >>> 8 Cost --- $6 Dollars at end of round >>> $7 >>> +15 Mult >>> +20 --
   - +50 Chips >>> +100
-
-- Spirit Box: 7 Cost >>> 6 Cost
+  
+- Spirit Box: Spectral rate of appearance 2.0 >>> 2.7
 
 
 
@@ -127,7 +127,7 @@
 
 --- Tags ---
 
-- Focus:Rework: Now enhances 4 unenhanced cards in deck to Mult, Bonus or Wild Cards.
+- Focus:Rework: Now enhances 6 unenhanced cards in deck to Mult, Bonus or Wild Cards.
  - And may only appear from ante 3 to 7
 
 

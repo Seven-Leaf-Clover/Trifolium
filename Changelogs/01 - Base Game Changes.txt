@@ -40,6 +40,8 @@
 
 - Mime: Uncommon >>> Rare --- 5 Cost >>> 7 Cost --- Now can only appear if there is a gold or steel card in deck
 
+- Loyalty Card: X4 Mult every 6 Hands >>> Every 5 Hands
+
 
 
 --- Rare ---
@@ -58,7 +60,13 @@
 
 
 
---- Spectral ---
+--- Planets ---
+
+- Five of a Kind level up (Planet X): +35 Chips >>> +40 Chips
+
+
+
+--- Spectrals ---
 
 - Sigil: Changes the suits in hand based on a selected card --- Halves money.
 
@@ -90,7 +98,7 @@
 
 - Rare and D6 Tags now may only appear from ante 2 to 5
 
-- Investment Tag now may only appear from ante 1 to 7
+- Investment Tag now may only appear from ante 1 to 6
   
 - Voucher, Economy and Skip Tags: Now appear on Ante 2 onwards
 
@@ -102,11 +110,13 @@
 
 - Investment Tag: +$25 at the end of the Boss Blind >>> +$20
 
-- Orbital Tag: Now upgrades the most played hand by 2 levels --- Appears on ante 3+
+- Orbital Tag: Now upgrades the most played hand by 3 levels --- Appears on ante 3+
 
 - Meteor Tag: Now upgrades 5 random poker hands --- Appears on all antes
 
 - Standard Tag: Now adds 2 cards of your most played rank to the deck --- Appears on ante 3+
+
+- Ethereal Tag: Now gives a Jumbo Spectral Pack --- Appears from ante 1
 
 
 

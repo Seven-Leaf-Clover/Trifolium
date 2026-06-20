@@ -91,9 +91,9 @@ Change: Uncommon >>> Rare --- 5 Cost >>> 9 Cost --- X0.2 Mult >>> X0.3
 
 -- Apparition --
 
-Original: 4 Cost --- 1 in 8 chance to create a spectral card per reroll on the shop
+Original: 1 in 8 chance to create a spectral card per reroll on the shop
 
-Change: 4 Cost >>> 5 Cost --- 1 in 8 chance to create a spectral card >>> 1 in 5 --- Clarified it doesn't need consumable space
+Change: 1 in 8 chance to create a spectral card >>> 1 in 4
 
 
 -- Company ID --
