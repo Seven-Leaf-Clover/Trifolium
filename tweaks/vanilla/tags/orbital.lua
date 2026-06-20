@@ -1,6 +1,6 @@
 SMODS.Tag:take_ownership("orbital", {
     min_ante = 3,
-    config = { extra = { times = 2 } },
+    config = { extra = { times = 3 } },
     
     loc_vars = function(self, info_queue, tag)
         local _hand, _tally = nil, 0
