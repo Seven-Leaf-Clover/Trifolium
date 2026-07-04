@@ -7,11 +7,11 @@ SMODS.Joker:take_ownership('cmykl_thevalley', {
         if G.playing_cards then
             if next(SMODS.find_card("j_smeared")) then
                 for _, playing_card in ipairs(G.playing_cards) do
-                    if playing_card:is_suit("Clubs") and playing_card:is_suit("Spades") or SMODS.has_enhancement(playing_card, 'm_wild') then clubtally = clubtally + 1 end
+                    if playing_card:is_suit("Clubs", nil, true) and playing_card:is_suit("Spades", nil, true) or SMODS.has_enhancement(playing_card, 'm_wild') then clubtally = clubtally + 1 end
                 end
             else
                 for _, playing_card in ipairs(G.playing_cards) do
-                    if playing_card:is_suit("Clubs") or SMODS.has_enhancement(playing_card, 'm_wild') then clubtally = clubtally + 1 end
+                    if playing_card:is_suit("Clubs", nil, true) or SMODS.has_enhancement(playing_card, 'm_wild') then clubtally = clubtally + 1 end
                 end
             end
         end
@@ -21,9 +21,9 @@ SMODS.Joker:take_ownership('cmykl_thevalley', {
 
     calculate = function(self, card, context)
         if context.cardarea == G.jokers and context.joker_main  then
-                return {
-                    mult = card.ability.extra.clubsindeck
-                }
+           return {
+               mult = card.ability.extra.clubsindeck
+           }
         end
     end
 },true)

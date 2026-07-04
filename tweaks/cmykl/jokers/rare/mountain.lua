@@ -7,11 +7,11 @@ SMODS.Joker:take_ownership('cmykl_themountain', {
         if G.playing_cards then
             if next(SMODS.find_card("j_smeared")) then
                 for _, playing_card in ipairs(G.playing_cards) do
-                    if playing_card:is_suit("Spades") and playing_card:is_suit("Clubs") or SMODS.has_enhancement(playing_card, 'm_wild') then spadetally = spadetally + 1 end
+                    if playing_card:is_suit("Spades", nil, true) and playing_card:is_suit("Clubs", nil, true) or SMODS.has_enhancement(playing_card, 'm_wild') then spadetally = spadetally + 1 end
                 end
             else
                 for _, playing_card in ipairs(G.playing_cards) do
-                    if playing_card:is_suit("Spades") or SMODS.has_enhancement(playing_card, 'm_wild') then spadetally = spadetally + 1 end
+                    if playing_card:is_suit("Spades", nil, true) or SMODS.has_enhancement(playing_card, 'm_wild') then spadetally = spadetally + 1 end
                 end
             end
         end
@@ -21,9 +21,9 @@ SMODS.Joker:take_ownership('cmykl_themountain', {
 
     calculate = function(self, card, context)
         if context.cardarea == G.jokers and context.joker_main  then
-                return {
-                    chips = card.ability.extra.spadesindeck
-                }
+            return {
+                chips = card.ability.extra.spadesindeck
+            }
         end
     end
 },true)
