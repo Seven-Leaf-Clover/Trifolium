@@ -4,15 +4,17 @@ SMODS.Seal:take_ownership('cmykl_spectralseal', {
         name = 'Spectral Seal',
         label = 'Spectral Seal',
         text = {
-        'Creates a {C:dark_edition}Negative{}',
-        '{C:spectral}Spectral{} card',
+        'Create {C:attention}#1#{} {C:dark_edition}Negative{}',
+        '{C:spectral}Spectral{} cards',
         'when {C:attention}destroyed{}'
     }
     },
+    
+    config = { extra = { cards = 2 } },
 
     loc_vars = function(self, info_queue, card)
         info_queue[#info_queue + 1] = { key = 'e_negative_consumable', set = 'Edition', config = { extra = 1 } }
-        return {vars = {   }}
+        return {vars = {self.config.extra.cards}}
     end,
 
     calculate = function(self, card, context)
@@ -21,6 +23,7 @@ SMODS.Seal:take_ownership('cmykl_spectralseal', {
                 if ssd == card then
                     return {
                         func = function()
+                            for i = 1, self.config.extra.cards do
                             local created_consumable = false
                                 created_consumable = true
                                 G.GAME.consumeable_buffer = G.GAME.consumeable_buffer + 1
@@ -35,16 +38,11 @@ SMODS.Seal:take_ownership('cmykl_spectralseal', {
                                         G.GAME.consumeable_buffer = 0
                                         return true
                                     end
-                                }))
-                            if created_consumable then
-                                card_eval_status_text(context.blueprint_card or card, 'extra', nil, nil, nil, {
-                                    message = "+1 Spectral!",
-                                    colour = G.C.SECONDARY_SET.Spectral
-                                })
+                                }))    
                             end
-                            return true
+                            return true    
                         end
-                    }
+                    }    
                 end
             end
         end
