@@ -135,11 +135,18 @@ Original: Rare --- 8 Cost --- X3 Mult if the scoring card's rank is alternating
 Change: Rare >>> Uncommon --- X3 Mult >>> X2
 
 
--- ~The Dune and The Canyon Jokers~ --
+-- The Dune --
 
-Original: 8 Cost --- ~Give a direct and scaling effect based on the amount of cards of a given suit there are in the deck~
+Original: 8 Cost --- Give X0.15 Mult for every card with a heart suit in deck (starts at x0)
 
 Change: 8 Cost >>> 9 Cost
+
+
+-- The Canyon --
+
+Original: 8 Cost --- Give $1.5 for every card with a diamond suit in deck at the end of the boss blind (rounded down)
+
+Change: 8 Cost >>> 9 Cost --- Give $1.5 >>> $1.3
 
 
 -- The Mountain --
@@ -184,7 +191,7 @@ Change: 8 Cost >>> 7 Cost --- Rare >>> Uncommon --- Gains +6 Mult >>> Gains + X0
 
 Original: Create a Spectral card when destroyed (Must have room)
 
-Change: Create a Negative Spectral card when destroyed (No room needed)
+Change: Create 2 Negative Spectral cards when destroyed (No room needed)
 
 
 

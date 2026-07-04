@@ -62,6 +62,7 @@
 
 --- Planets ---
 
+- Flush level up (Jupiter): +15 Chips >>> +20 Chips
 - Five of a Kind level up (Planet X): +35 Chips >>> +40 Chips
 
 
@@ -104,6 +105,8 @@
 
 - Charm Tag: Now appears on ante 3 onwards
 
+- Garbage Tag: Now appears on ante 4 onwards
+
 - Juggle and Boss Tag: Now appear on ante 6 onwards
 
 -- Re-balance --
@@ -116,7 +119,7 @@
 
 - Standard Tag: Now adds 2 cards of your most played rank to the deck --- Appears on ante 3+
 
-- Ethereal Tag: Now gives a Jumbo Spectral Pack --- Appears from ante 1
+- Ethereal Tag: Now gives a Jumbo Spectral Pack --- Appears on all antes
 
 
 
