@@ -594,7 +594,26 @@ return {
                      '{C:clubs}Club{} card in',
                      'your {C:attention}full deck{}',
                      '{C:inactive}(Currently{} {C:red}+#1#{} {C:inactive}Mult){}'
-                 },    
+                 },
+            },     
+            j_cmykl_thedune = {
+                 name = 'The Dune',
+                 text = {
+                     '{X:red,C:white}X#2#{} Mult for each',
+                     '{C:hearts}Heart{} card in',
+                     'your {C:attention}full deck{}',
+                     '{C:inactive}(Currently{} {X:red,C:white}X#1#{} {C:inactive}Mult){}'
+                 },
+            },
+            j_cmykl_thecanyon = {
+                 name = 'The Canyon',
+                 text = {
+                     'Earn {C:money}$#2#{} for each {C:diamonds}Diamond{}',
+                     'card in your {C:attention}full deck{}',
+                     'when {C:attention}Boss Blind{} is defeated',
+                     '{C:inactive}(Currently{} {C:money}$#1#{}{C:inactive})',
+                     '{s:0.8,C:inactive}(Rounded down)'
+                 },
             },
             j_cmykl_puzzle = {
                  name = 'Puzzle',
