@@ -101,7 +101,7 @@ Change: Uncommon >>> Rare --- 6 Cost >>> 9 Cost
 
 Original: 5 Cost --- Gains +5 Chips if discarded hand contains no Pairs
 
-Change: Rework: Gain X0.07 per consecutive discard containing no pairs --- 5 Cost >>> 6 Cost
+Change: Rework: Gain X0.1 per consecutive discard containing no pairs --- 5 Cost >>> 6 Cost
 
 
 -- Loose Batteries --
@@ -155,7 +155,7 @@ Change: 7 Cost >>> 8 Cost
 
 - Original: Rare --- 9 Cost --- After defeating a Boss Blind sell this to go back 1 ante.
 
-- Change: Rare >>> Uncommon --- 9 Cost >>> 5 Cost --- Now requires defeating 2 bosses to activate.
+- Change: Rare >>> Uncommon --- 9 Cost >>> 6 Cost --- Now requires defeating 2 bosses to activate.
 
 
 -- Quarry --

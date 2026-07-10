@@ -83,33 +83,17 @@
 
 - Green Deck: Seed Money can no longer appear.
 
+- Ghost Deck: 2.0 Spectral Ratio >>> 2.5
+
 
 
 ----- Tags -----
 
+-- Re-balance --
+
 - All the tags that give a free joker: 
   - Now don't have stickers in them
   - Are 25% off instead of instead of being free
-  
--- Ante Changes --  
-  
-- Top Up, Foil, Holographic, Polychrome and Uncommon Tags now only may appear from ante 1 to 3
-
-- Buffoon and Coupon Tags now only may appear from ante 1 to 5
-
-- Rare and D6 Tags now may only appear from ante 2 to 5
-
-- Investment Tag now may only appear from ante 1 to 6
-  
-- Voucher, Economy and Skip Tags: Now appear on Ante 2 onwards
-
-- Charm Tag: Now appears on ante 3 onwards
-
-- Garbage Tag: Now appears on ante 4 onwards
-
-- Juggle and Boss Tag: Now appear on ante 6 onwards
-
--- Re-balance --
 
 - Investment Tag: +$25 at the end of the Boss Blind >>> +$20
 
@@ -120,6 +104,29 @@
 - Standard Tag: Now adds 2 cards of your most played rank to the deck --- Appears on ante 3+
 
 - Ethereal Tag: Now gives a Jumbo Spectral Pack --- Appears on all antes
+
+
+-- Ante Changes --  
+  
+- Foil Tag now may only appear from ante 1 to 2
+  
+- Top Up, Holographic and Polychrome Tags now may only appear from ante 1 to 3
+
+- Buffoon and Coupon Tags now may only appear from ante 1 to 5
+
+- Investment Tag now may only appear from ante 1 to 6
+
+- Uncommon Tag now may only appear from ante 2 to 4
+
+- Rare and D6 Tags now may only appear from ante 2 to 5
+  
+- Economy and Skip Tags: Now appear on Ante 2 onward
+
+- Voucher, Charm and Handy Tags: Now appear on ante 3 onward
+
+- Garbage Tag: Now appears on ante 4 onward
+
+- Juggle and Boss Tag: Now appear on ante 6 onward
 
 
 
