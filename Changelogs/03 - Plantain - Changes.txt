@@ -101,7 +101,7 @@ Change: Uncommon >>> Rare --- 6 Cost >>> 9 Cost
 
 Original: 5 Cost --- Gains +5 Chips if discarded hand contains no Pairs
 
-Change: Rework: Gain X0.1 per consecutive discard containing no pairs --- 5 Cost >>> 6 Cost
+Change: Rework: Gain X0.07 per consecutive discard containing no pairs --- 5 Cost >>> 6 Cost
 
 
 -- Loose Batteries --
