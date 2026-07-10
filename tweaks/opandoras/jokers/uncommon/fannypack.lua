@@ -1,5 +1,6 @@
 SMODS.Joker:take_ownership('opan_fannypack', { 
     rarity = 1,
+    cost = 5,
     config = {extra = { mult = 4, slot = 1, money = 10, odds = 4}},
 
 	loc_vars = function(self, info_queue, card)

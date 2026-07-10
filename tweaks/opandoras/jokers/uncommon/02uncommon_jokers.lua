@@ -143,7 +143,7 @@ SMODS.Joker:take_ownership('opan_moolah', {
 
 SMODS.Joker:take_ownership('opan_morethemerrier', {
     cost = 6,
-    config = {extra = 1.25},
+    config = {extra = 1.3},
 
     loc_vars = function(self, info_queue, card)
 	return {vars = {card.ability.extra, (G.jokers and G.jokers.cards and #G.jokers.cards or 0)*card.ability.extra}}
