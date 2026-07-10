@@ -1,7 +1,7 @@
 SMODS.Joker:take_ownership('cmykl_rebellion', { 
     cost = 6,
     rarity = 2,
-    config = { extra = { Xmult = 1, xmult_gain = 0.04 } },
+    config = { extra = { Xmult = 1, xmult_gain = 0.05 } },
     
     loc_vars = function(self, info_queue, card)
         return {vars = {card.ability.extra.Xmult, card.ability.extra.xmult_gain}}
