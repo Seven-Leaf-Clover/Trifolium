@@ -178,7 +178,7 @@ return {
                  name = "Encore",
 	         text = {
 		     "Creates a {C:dark_edition}Negative{} {C:tarot}The Fool{}",
-		     "at the {C:attention}end of the Boss Blind{}",
+		     "at the end of the {C:attention}Boss Blind{}",
 				
 	         },
 	    },
@@ -343,8 +343,10 @@ return {
 		 name = "Fermata's Tremolo",
 		 text = {
 		     "Gain {C:attention}+#1#{} per {C:attention}played hand{}.",
-		     "if {C:attention}total{} number of hands is a {C:attention}whole number,",
-		     "{C:attention}retrigger all{} cards equal to {C:attention}total",
+		     "If {C:attention}total{} number of hands",
+		     "is a {C:attention}whole number{},",
+		     "{C:attention}retrigger all{} cards",
+		     "equal to {C:attention}total",
 		     "{C:inactive}(Currently {C:attention}#2#{C:inactive})",
 		 },
 	    },
@@ -564,8 +566,8 @@ return {
                  name = 'Rebellion',
                  text = {
                      'Gains {X:red,C:white}X#2#{} Mult for',
-                     'each {C:attention}face{} card discarded,',
-                     'resets when a',
+                     'each {C:attention}face{} card discarded.',
+                     'Resets when a',
                      '{C:attention}face{} card is scored',
                      '{C:inactive}(Currently{} {X:red,C:white}X#1#{} {C:inactive}Mult){}'
                  },    
