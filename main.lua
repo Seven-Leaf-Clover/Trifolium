@@ -73,6 +73,7 @@ if Trifolium.config.tfl_blue_stake_rework then
 end
 -- Decks
 assert(SMODS.load_file('tweaks/vanilla/decks/green.lua'))()
+assert(SMODS.load_file('tweaks/vanilla/decks/ghost.lua'))()
 -- Bans
 assert(SMODS.load_file('tweaks/vanilla/bans.lua'))()
 
