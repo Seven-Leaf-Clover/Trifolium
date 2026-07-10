@@ -1,5 +1,5 @@
 SMODS.Joker:take_ownership('pl_raw_meat', {
-    cost = 5,
+    cost = 6,
     rarity = 2,
     
     config = { extra = { current_rounds = 0, total_rounds = 2, antes = 1 }},
