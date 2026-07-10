@@ -15,6 +15,7 @@ local banned_Opandoras_Box_jokers = {
     "numerophobia",
     "void",
     "chromahand",
+    "russian_roulette",
  -- Rares
     "pollux",
 }
