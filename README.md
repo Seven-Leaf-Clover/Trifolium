@@ -25,12 +25,6 @@ All of these are incredible works of art. Check them out, with or without my mod
 - Cmykl.
 - https://github.com/comykel/cmykl
 
-# **Future Work**
-
-As of writing I'm expecting to work on:
-
-- All in Jest
-
 # **Communication**
 
 You can reach me here on GitHub and over at Discord in this channel or in my Direct Messages in both(? Idk if GitHub has that).
