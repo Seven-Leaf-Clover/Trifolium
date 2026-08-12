@@ -168,7 +168,8 @@ SMODS.Joker:take_ownership('opan_multitool', {
 },true)
 
 SMODS.Joker:take_ownership('opan_pickpocket', {
-    config = {extra = {odds = 3, money = 0, multiplier = 2}},
+    cost = 7,
+    config = {extra = {odds = 2, money = 0, multiplier = 2}},
 },true)
 
 SMODS.Joker:take_ownership('opan_whitecollar', { 
