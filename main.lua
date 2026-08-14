@@ -19,6 +19,20 @@ SMODS.Atlas {
     py = 95
 }
 
+SMODS.Atlas {
+    key = "joker_atlas",
+    path = "jokers.png",
+    px = 71,
+    py = 95
+}
+
+SMODS.Atlas {
+    key = "consumable_atlas",
+    path = "consumables.png",
+    px = 71,
+    py = 95
+}
+
 -- Global Table
 Trifolium = {}
 
@@ -38,10 +52,23 @@ assert(SMODS.load_file('libs/ui.lua'))()
 
 ----- Trifolium
 
--- Stakes
+--- Stakes
 if Trifolium.config.tfl_blue_stake_rework then
 assert(SMODS.load_file('tweaks/trifolium/stakes/emerald.lua'))()
 assert(SMODS.load_file('tweaks/trifolium/stakes/spectral.lua'))()
+end
+
+if Trifolium.config.tfl_new_stakes then
+assert(SMODS.load_file('tweaks/trifolium/stakes/yellow.lua'))()
+assert(SMODS.load_file('tweaks/trifolium/stakes/gray.lua'))()
+end
+
+--- Card Support
+if Trifolium.config.tfl_card_support_one then
+-- Jokers
+assert(SMODS.load_file('tweaks/trifolium/jokers/rare/clover.lua'))()
+-- Spectrals
+assert(SMODS.load_file('tweaks/trifolium/consumables/spectral/pit.lua'))()
 end
 --
 
