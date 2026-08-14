@@ -1,6 +1,6 @@
 SMODS.Tag:take_ownership("foil", {
     in_pool = function()
-        return (G.GAME.round_resets.ante >= 5 and G.GAME.round_resets.ante <= 7)
+        return (G.GAME.round_resets.ante >= 5 and G.GAME.round_resets.ante <= 6)
     end,
     
     apply = function(self, tag, context)

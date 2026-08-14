@@ -1,3 +1,5 @@
 SMODS.Tag:take_ownership("double", {
-    min_ante = 2,
+    in_pool = function()
+        return (G.GAME.round_resets.ante >= 2 and G.GAME.round_resets.ante <= 7)
+    end,
 })
