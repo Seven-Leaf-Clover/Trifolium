@@ -1,7 +1,8 @@
 return {
     descriptions = {
-      -- Vanilla Stakes
-         Stake = Trifolium.config.tfl_blue_stake_rework and {
+      -- Stakes
+         Stake = {
+           -- Vanilla Stakes
              stake_blue = {
                  name = "Blue Stake",
                  text = {
@@ -10,6 +11,7 @@ return {
                      "{s:0.8}Applies all previous Stakes"
                  },    
              },
+           -- Trifolium's Stakes  
              stake_tfl_emerald = {
                  name = "Emerald Stake",
                  text = { 
@@ -24,7 +26,23 @@ return {
                      "{s:0.8}Applies all previous Stakes"
                  },
              },
-         } or {},
+             stake_tfl_yellow = {
+                 name = "Yellow Stake",
+                 text = { 
+                     "On {C:attention}Ante 5{} onward defeating a {C:attention}Small{} or",
+                     "{C:attention}Big Blind{} permanently raises prices by {C:money}$1",
+                     "{s:0.8}Applies all previous Stakes"
+                 },
+             },
+             stake_tfl_gray = {
+                 name = "Gray Stake",
+                 text = { 
+                     "Defeating a {C:attention}Small{} or {C:attention}Big Blind",
+                     "slightly scales the required score",
+                     "{s:0.8}Applies all previous Stakes"
+                 },
+             },
+         },
       -- Vanilla Tarots
          Tarot = {
              c_lovers = {
@@ -43,6 +61,17 @@ return {
                      "{C:attention}Halve{} your money",
                  },
             },
+          -- Trifolium Spectrals  
+            c_tfl_pit = {
+                 name = "Pit",
+	         text = {
+		     "Destroys the {C:attention}#1# highest{}",
+		     "ranked cards in hand.",
+		     "Gain {C:attention}#2#{} free {C:green}Rerolls{}",
+		     "this round",
+				
+	         },
+	    },
           -- Opandora's Spectrals  
             c_opan_summon = {
                  name = "Summon",
@@ -169,6 +198,17 @@ return {
 		     "Retrigger all played",
 		     "cards in {C:attention}final hand",
 		     "of round, twice"
+				
+	         },
+	    },
+	  --- Trifolium Jokers
+	   -- Rare Jokers
+	    j_tfl_clover = {
+                 name = "Clover",
+	         text = {
+		     "Triples all {C:attention}listed",
+		     "{C:green,E:1,S:1.1}probabilities",
+		     "{C:inactive}(ex: {C:green}1 in 4{C:inactive} -> {C:green}3 in 4{C:inactive})"
 				
 	         },
 	    },
@@ -639,6 +679,21 @@ return {
                                  "the {C:attention}Stake{} system",
                                  "{s:0.9}(Read the changelog for more info!)",
              },
+             tfl_new_stakes = 'Negative Stakes',
+             tfl_new_stakes_info = {
+                                 "Expansion of the reworked",
+                                 "{C:attention}Stake{} system which adds a",
+                                 "couple new {C:red}Negative{} {C:attention}Stakes{}",
+                                 "{s:0.9}(Read the changelog for more info!)",
+             },
+             tfl_card_support_one = 'Card Support #1',
+             tfl_card_support_one_info = {
+                                 "Wave of items meant to",
+                                 "maintain parity of {C:attention}Vanilla{}",
+                                 "mechanics as mods are added",
+                                 "{s:0.9}(Read the changelog for more info!)",
+             },
+           ----  
              tfl_meteor = "5 Hands",
            ---- 
              k_potato_chips = "Nom!",
