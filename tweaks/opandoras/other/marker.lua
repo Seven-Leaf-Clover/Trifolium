@@ -1,9 +1,9 @@
 SMODS.Tag:take_ownership("opan_focus", {
     in_pool = function()
-        return (G.GAME.round_resets.ante >= 3 and G.GAME.round_resets.ante <= 7)
+        return (G.GAME.round_resets.ante >= 4 and G.GAME.round_resets.ante <= 6)
     end,
     
-    config = { extra = { enhance = 6 } },
+    config = { extra = { enhance = 8 } },
 
     loc_vars = function(self, info_queue, tag)
         info_queue[#info_queue + 1] = G.P_CENTERS.m_mult
