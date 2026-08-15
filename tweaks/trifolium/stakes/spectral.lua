@@ -1,9 +1,9 @@
 SMODS.Stake {
     name = "Azure Stake",
     key = "spectral",
-    unlocked_stake = 'gold',
-    applied_stakes = { "orange" },
-    above_stake = 'orange',
+    unlocked_stake = 'orange',
+    applied_stakes = { "purple" },
+    above_stake = 'purple',
     prefix_config = {above_stake = {mod = false}, applied_stakes = {mod = false}},
     calculate = function(self,context)
         if context.modify_weights and context.pool_types.Booster then
@@ -25,7 +25,7 @@ SMODS.Stake {
     sticker_atlas = 'stake_sticker_atlas'
 }
 
-SMODS.Stake:take_ownership('gold', {
+SMODS.Stake:take_ownership('orange', {
     applied_stakes = {'tfl_spectral'},
     above_stake = 'tfl_spectral'
 },true)
