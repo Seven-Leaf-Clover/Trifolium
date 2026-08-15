@@ -1,0 +1,18 @@
+--- Card Waves ---
+
+In the config section there is an option to enable (#1 on by default) a series of card packages
+with the objective of maintaining the parity of vanilla mechanics as mods are added to the game.
+
+These packages will feature basic elements such as probability increases, card destruction, economy,
+etc. And you may activate more or less as necessary or to your liking.
+
+Wave #1 currently contains!:
+
+-- Jokers --
+
+"Clover" -- Rare -- 9 cost: Triples all listed probabilities.
+
+
+-- Spectrals --
+
+"Pit": Destroys the 3 highest ranked cards in hand. Gain 3 free rerolls this round.

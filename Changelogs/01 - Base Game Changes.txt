@@ -99,7 +99,7 @@
 
 - Orbital Tag: Now upgrades the most played hand by 3 levels --- Appears on ante 3+
 
-- Meteor Tag: Now upgrades 5 random poker hands --- Appears on all antes
+- Meteor Tag: Now upgrades 5 random poker hands --- Appears from ante 1 to 4
 
 - Standard Tag: Now adds 2 cards of your most played rank to the deck --- Appears on ante 3+
 
@@ -108,21 +108,25 @@
 
 -- Ante Changes --  
   
-- Foil Tag now may only appear from ante 1 to 2
-  
-- Top Up, Holographic and Polychrome Tags now may only appear from ante 1 to 3
+- Top Up and Holographic Tags now may only appear from ante 1 to 2
 
-- Buffoon and Coupon Tags now may only appear from ante 1 to 5
+- Buffoon, Coupon and Investment Tags now may only appear from ante 1 to 4
 
-- Investment Tag now may only appear from ante 1 to 6
+- Polychrome Tag now may only appear from ante 2 to 3
 
 - Uncommon Tag now may only appear from ante 2 to 4
 
 - Rare and D6 Tags now may only appear from ante 2 to 5
+
+- Double Tag now may only appear from ante 2 to 7
+
+- Charm Tag now may only appear from ante 3 to 7
+
+- Foil Tag now may only appear from ante 5 to 6
   
 - Economy and Skip Tags: Now appear on Ante 2 onward
 
-- Voucher, Charm and Handy Tags: Now appear on ante 3 onward
+- Voucher and Handy Tags: Now appear on ante 3 onward
 
 - Garbage Tag: Now appears on ante 4 onward
 
@@ -144,6 +148,29 @@ Blue Stake: Rework: Scoring scales faster: Last Ante starts at 400k Chips in Gol
 New Stake: Emerald (above blue): +1 Shop slot
 
 New Stake: Azure (Above orange): Spectral Packs appear x1.8 times often
+
+
+-- Stake Expansion --
+
+Also in the config section you can find an option to enable (on by default) the addition of two new
+stakes that increase the difficulty of the rework.
+
+It adds:
+
+Yellow Stake: On ante 5 onward defeating a Small or Big Blind raises shop prices permanently by $1.
+
+Gray Stake: Defeating a Small or Big Blind slightly increases the required score:
+
+ - Given that the game's score scales based on an arbitrary pattern and not a percentage for example
+   I will use ante 8 to explain for how much it ends up increasing. 
+   
+   On ante 8 assuming both the rework and expansion are enabled the Small Blind starts at 400k chips
+   and every time you beat a Basic Blind with the Gray Stake enabled it will increase by 30k, after
+   6 defeated Blinds, on the 7th it will start increasing by 40k and by the 15th it will start to
+   increase by 50k.
+   
+   By the end of ante 6 or after 12 played Basic Blinds the game score requirement has doubled and
+   if all 16 Blinds are played (in an 8 ante game) the score requirement would increase by 150%.
  
  
  

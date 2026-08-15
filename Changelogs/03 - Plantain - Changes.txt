@@ -158,13 +158,6 @@ Change: 7 Cost >>> 8 Cost
 - Change: Rare >>> Uncommon --- 9 Cost >>> 6 Cost --- Now requires defeating 2 bosses to activate.
 
 
--- Quarry --
-
-Original: 6 Cost --- Rare --- Gains X0.5 Mult each time a Stone card scores, destroy all played Stone cards
-
-Change: Rare >>> Uncommon --- Gains X0.5 >>> X0.4
-
-
 -- Lasagna --
 
 Original: 8 Cost --- X3 Mult, loses X0.5 Mult per card sold
