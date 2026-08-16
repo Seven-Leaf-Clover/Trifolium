@@ -158,6 +158,7 @@ stakes that increase the difficulty of the rework.
 It adds:
 
 Yellow Stake: On ante 5 onward defeating a Small or Big Blind raises shop prices permanently by $1.
+ - This Stake resets and disables itself on Winning the game to allow for a better endless mode!
 
 Gray Stake: Defeating a Small or Big Blind slightly increases the required score:
 
