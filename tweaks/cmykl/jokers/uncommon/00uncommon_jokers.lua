@@ -28,8 +28,9 @@ SMODS.Joker:take_ownership('cmykl_polycoria', {
 },true)
 
 SMODS.Joker:take_ownership('cmykl_apparition', {
+    cost = 5,
     config = {
-        extra = { odds = 4 } },
+        extra = { odds = 3 } },
 },true)
 
 SMODS.Joker:take_ownership('cmykl_companyid', {
