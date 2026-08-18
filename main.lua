@@ -86,6 +86,8 @@ assert(SMODS.load_file('tweaks/vanilla/jokers/rare_jokers.lua'))()
 assert(SMODS.load_file('tweaks/vanilla/consumables/tarots.lua'))()
 assert(SMODS.load_file('tweaks/vanilla/consumables/spectrals.lua'))()
 assert(SMODS.load_file('tweaks/vanilla/consumables/planets.lua'))()
+-- Enhancements
+assert(SMODS.load_file('tweaks/vanilla/enhancements/glass.lua'))()
 -- Vouchers
 assert(SMODS.load_file('tweaks/vanilla/vouchers/vouchers.lua'))()
 -- Tags
