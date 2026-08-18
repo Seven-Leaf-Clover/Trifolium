@@ -45,3 +45,19 @@ SMODS.Joker:take_ownership('j_business', {
 SMODS.Joker:take_ownership('j_reserved_parking', { 
     cost = 4
 })
+
+SMODS.Joker:take_ownership('j_greedy_joker', { 
+    cost = 4
+})
+
+SMODS.Joker:take_ownership('j_lusty_joker', { 
+    cost = 4
+})
+
+SMODS.Joker:take_ownership('j_wrathful_joker', { 
+    cost = 4
+})
+
+SMODS.Joker:take_ownership('j_gluttenous_joker', { 
+    cost = 4
+})

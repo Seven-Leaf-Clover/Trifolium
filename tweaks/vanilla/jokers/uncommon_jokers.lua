@@ -18,6 +18,10 @@ SMODS.Joker:take_ownership('j_card_sharp', {
     config = {extra = {Xmult = 2.5}}
 })
 
+SMODS.Joker:take_ownership('j_glass', { 
+    config = {extra = 1, Xmult = 1},
+})
+
 SMODS.Joker:take_ownership('j_hack', { 
     cost = 7
 })
