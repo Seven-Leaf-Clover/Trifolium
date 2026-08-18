@@ -8,7 +8,7 @@ on creative expression making them, it does leave a big gap for people like me w
 
 This mod is an attempt at providing this space with thoughtful balance and design.
 
-* Also, the license mentions it. But just in case, you have my blessing to use the assets for your own work. :)
+Also, the license mentions it. But just in case, you have my blessing to use the assets for your own work. :)
 
 # **Content**
 All of the changes can be fully reviewed in the changelog folder above.
