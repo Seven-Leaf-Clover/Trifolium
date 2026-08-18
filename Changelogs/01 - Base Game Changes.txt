@@ -20,6 +20,8 @@
 
 - Reserved Parking: 6 Cost >>> 4 Cost
 
+- Greedy, Lusty, Wrathful, Gluttonous Jokers: 5 Cost >>> 4 Cost
+
 
 
 --- Uncommons ---
@@ -41,6 +43,8 @@
 - Mime: Uncommon >>> Rare --- 5 Cost >>> 7 Cost --- Now can only appear if there is a gold or steel card in deck
 
 - Loyalty Card: X4 Mult every 6 Hands >>> Every 5 Hands
+
+- Glass Joker: +X0.75 Mult every time a Glass Card is destroyed >>> +X1 Mult
 
 
 
@@ -70,6 +74,12 @@
 --- Spectrals ---
 
 - Sigil: Changes the suits in hand based on a selected card --- Halves money.
+
+
+
+----- Enhancements -----
+
+- Glass: Now gives X1.5 Mult with a chance of 1 in 6 to destroy the card
 
 
 
@@ -157,10 +167,12 @@ stakes that increase the difficulty of the rework.
 
 It adds:
 
-Yellow Stake: On ante 5 onward defeating a Small or Big Blind raises shop prices permanently by $1.
+* Basic Blind refers to the Small and Big Blinds!
+
+Yellow Stake: From Ante 5 until Win defeating a Baisc Blind permanently raises shop prices by $1.
  - This Stake resets and disables itself on Winning the game to allow for a better endless mode!
 
-Gray Stake: Defeating a Small or Big Blind slightly increases the required score:
+Gray Stake: Defeating a Basic Blind slightly increases the required score:
 
  - Given that the game's score scales based on an arbitrary pattern and not a percentage for example
    I will use ante 8 to explain for how much it ends up increasing. 
