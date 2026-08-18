@@ -29,16 +29,16 @@ return {
              stake_tfl_yellow = {
                  name = "Yellow Stake",
                  text = { 
-                     "On {C:attention}Ante 5{} onward defeating a {C:attention}Small{} or",
-                     "{C:attention}Big Blind{} permanently raises prices by {C:money}$1",
+                     "From {C:attention}Ante 5{} until {C:attention}Win{} defeating a",
+                     "{C:attention}Basic Blind{} raises prices by {C:money}$1",
                      "{s:0.8}Applies all previous Stakes"
                  },
              },
              stake_tfl_gray = {
                  name = "Gray Stake",
                  text = { 
-                     "Defeating a {C:attention}Small{} or {C:attention}Big Blind",
-                     "slightly scales the required score",
+                     "Defeating a {C:attention}Basic Blind{} slightly",
+                     "scales the required score",
                      "{s:0.8}Applies all previous Stakes"
                  },
              },
@@ -139,7 +139,7 @@ return {
                 text = {
                     "Next base edition shop",
                     "Joker is {C:attention}25%{} off and",
-                    "becomes {C:dark_edition}Hologrraphic",
+                    "becomes {C:dark_edition}Holographic",
                     "{C:inactive,s:0.8}(Without Stickers)",
                 }
             },
@@ -305,9 +305,9 @@ return {
             j_opan_last_resort = {
 		 name = "Last Resort",
 		 text = {
-		     "{X:mult,C:white} X#1# {} Mult if there",
+		     "{X:mult,C:white}X#1#{} Mult if there",
 		     "are {C:attention}exactly 26{} cards",
-		     "{C:attention}left in deck",
+		     "left in {C:attention}deck",
 		 },
 	    },
 	    j_opan_miner = {
