@@ -82,6 +82,7 @@ end
 assert(SMODS.load_file('tweaks/vanilla/jokers/common_jokers.lua'))()
 assert(SMODS.load_file('tweaks/vanilla/jokers/uncommon_jokers.lua'))()
 assert(SMODS.load_file('tweaks/vanilla/jokers/rare_jokers.lua'))()
+assert(SMODS.load_file('tweaks/vanilla/jokers/golden_ticket.lua'))()
 -- Consumables
 assert(SMODS.load_file('tweaks/vanilla/consumables/tarots.lua'))()
 assert(SMODS.load_file('tweaks/vanilla/consumables/spectrals.lua'))()
