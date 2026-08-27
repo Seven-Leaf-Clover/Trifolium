@@ -22,14 +22,6 @@ SMODS.Joker:take_ownership('j_superposition', {
     cost = 3
 })
 
-SMODS.Joker:take_ownership('j_ticket', { 
-    cost = 6,
-    rarity = 2,
-    config = { 
-        extra = 5
-    }
-})
-
 SMODS.Joker:take_ownership('j_odd_todd', { 
     cost = 5
 })

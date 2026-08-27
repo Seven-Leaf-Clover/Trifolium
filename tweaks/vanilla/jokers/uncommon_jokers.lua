@@ -40,6 +40,10 @@ SMODS.Joker:take_ownership('j_dusk', {
     config = {extra = 2}
 })
 
+SMODS.Joker:take_ownership('j_steel_joker', { 
+    config = {extra = 0.25},
+})
+
 SMODS.Joker:take_ownership('j_mime', { 
     cost = 7,
     rarity = 3,
