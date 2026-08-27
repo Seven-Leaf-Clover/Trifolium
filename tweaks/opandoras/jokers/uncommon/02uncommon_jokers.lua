@@ -122,13 +122,9 @@ SMODS.Joker:take_ownership('opan_litany', {
 },true)
 
 SMODS.Joker:take_ownership('opan_miner', { 
-    cost = 7,
-    config = {extra = 2},
-    
-    set_ability = function(self, card, initial)
-        card:set_rental(true)
-    end,
-    
+    rarity = 1,
+    cost = 5,
+    config = {extra = 1}   
 },true)
 
 SMODS.Joker:take_ownership('opan_moolah', { 
