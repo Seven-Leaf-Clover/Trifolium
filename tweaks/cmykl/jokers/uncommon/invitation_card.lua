@@ -1,8 +1,8 @@
 SMODS.Joker:take_ownership('cmykl_invitationcard', {
-    cost = 6,
-    rarity = 2,
+    cost = 8,
+    rarity = 3,
     
-    config = { extra = { hype = 1, xmult_gain = 0.07 } },
+    config = { extra = { hype = 1, xmult_gain = 0.1 } },
     
     loc_vars = function(self, info_queue, card)
         return {vars = {card.ability.extra.hype, card.ability.extra.xmult_gain}}

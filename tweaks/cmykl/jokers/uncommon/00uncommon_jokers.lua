@@ -42,8 +42,8 @@ SMODS.Joker:take_ownership('cmykl_licenseplate', {
 },true)
 
 SMODS.Joker:take_ownership('cmykl_cubedjoker', {
-    rarity = 3,
-    cost = 7,
+    perishable_compat = false,
+    cost = 6,
     
     config = { extra = { xmult = 4, cards = 64 } },
     
