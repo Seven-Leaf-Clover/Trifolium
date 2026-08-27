@@ -191,6 +191,17 @@ return {
         }, 
         Joker = {
           --- Vanilla Jokers
+           -- Common Jokers
+            j_ticket = {
+                 name = "Golden Ticket",
+	         text = {
+		     "{C:attention}Booster Packs{} cost {C:money}$#1#{}",
+		     "less per {C:attention}Gold Card{} in",
+		     "in your {C:attention}full deck",
+		     "{C:inactive}(Currently {C:money}$#2#{} {C:inactive}less)"
+				
+	         },
+	    },
            -- Rare Jokers
             j_dusk = {
                  name = "Dusk",
@@ -290,8 +301,9 @@ return {
 		 name = "Blob",
 		 text = {
 		     "When {C:attention}Blind{} is selected",
-		     "set {C:red}Discards{} to {C:attention}1{} and",
-		     "gain {C:money}$#1#{} {C:attention}per card scored",
+		     "set {C:red}Discards{} to {C:attention}1{}.",
+		     "Earn {C:money}$#1#{} when a",
+		     "card is scored",
 		 },
 	    },
 	    j_opan_fannypack = {
@@ -314,7 +326,7 @@ return {
 		 name = "Miner",
 		 text = {
 		     "Retrigger all played",
-		     "{C:attention}Stone Cards{}, twice",
+		     "{C:attention}Stone Cards{}",
 		 },
 	    },
 	    j_opan_morethemerrier = {
@@ -415,8 +427,8 @@ return {
 		 name = "Cicero",
 		 text = {
 		     "When {C:attention}Blind{} is selected, destroy",
-		     "{C:attention}Joker{} to the right to create",
-		     "a random {C:dark_edition}Negative{} {C:spectral}Spectral{} card",
+		     "{C:attention}Joker{} to the right to create {C:attention}#1#{}",
+		     "random {C:dark_edition}Negative{} {C:spectral}Spectral{} cards",
 	         },
 	    },
 	 --- Plantain Jokers
@@ -531,9 +543,10 @@ return {
             j_cmykl_invitationcard = {
                  name = 'Invitation Card',
                  text = {
-                     'Stores {X:mult,C:white} X#2#{} Mult',
-                     'for each scored card',
-                     'Unleashes it at the {C:attention}Boss Blind{}',
+                     'Stores {X:mult,C:white}X#2#{} Mult',
+                     'for each scored card.',
+                     '{C:attention}Unleashes{} it',
+                     'at the {C:attention}Boss Blind{}',
                      '{C:inactive}(Currently {}{X:mult,C:white} X#1#{}{C:inactive} Mult){}'
                  },
             },
