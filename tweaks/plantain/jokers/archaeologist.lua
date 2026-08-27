@@ -1,6 +1,6 @@
 SMODS.Joker:take_ownership('pl_archaeologist', {
 
-config = { extra = { mult = 3 } },
+config = { extra = { mult = 5 } },
   loc_vars = function(self, info_queue, card)
     return {vars = { localize(card.ability.extra.suit, 'suits_singular'), card.ability.extra.mult, colours = {G.C.SUITS[card.ability.extra.suit]}}}
   end,

@@ -7,7 +7,9 @@ SMODS.Joker:take_ownership('pl_calculator', {
 },true)
 
 SMODS.Joker:take_ownership('pl_lasagna', {
-    cost = 9,
+    cost = 6,
+    rarity = 2,
+    config = { extra = { Xmult = 2, Xmult_loss = 0.05 } }
 },true)
 
 

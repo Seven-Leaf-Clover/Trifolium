@@ -20,8 +20,7 @@ SMODS.Joker:take_ownership('pl_lamp', {
 },true)
 
 SMODS.Joker:take_ownership('pl_early_man', {
-    cost = 5,
-    rarity = 2
+    cost = 5
 },true)
 
 

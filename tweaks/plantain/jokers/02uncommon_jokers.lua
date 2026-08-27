@@ -8,8 +8,7 @@ SMODS.Joker:take_ownership('pl_el_dorado', {
 },true)
 
 SMODS.Joker:take_ownership('pl_black_cat', {
-    cost = 10,
-    rarity = 3
+    config = { extra = { chips_mod = 6, chips = 0 } },
 },true)
 
 SMODS.Joker:take_ownership('pl_loose_batteries', {
