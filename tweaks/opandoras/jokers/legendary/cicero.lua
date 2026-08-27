@@ -1,8 +1,9 @@
 SMODS.Joker:take_ownership('opan_cicero', { 
+    config = {extra = {spectrals = 2}},
     
     loc_vars = function(self, info_queue, card)
         info_queue[#info_queue + 1] = { key = 'e_negative_consumable', set = 'Edition', config = { extra = 1 } }
-        return {vars = {   }}
+        return {vars = { card.ability.extra.spectrals }}
     end,
 
     calculate = function(self, card, context)
@@ -31,6 +32,7 @@ SMODS.Joker:take_ownership('opan_cicero', {
                 local sliced_card = G.jokers.cards[my_pos + 1]
                 sliced_card.getting_sliced = true
                 G.GAME.joker_buffer = G.GAME.joker_buffer - 1
+                for i = 1, card.ability.extra.spectrals do
                 G.E_MANAGER:add_event(Event({
                     func = function()
                         G.GAME.joker_buffer = 0
@@ -42,7 +44,8 @@ SMODS.Joker:take_ownership('opan_cicero', {
                                          })
                         return true
                     end
-                }))  
+                })) 
+                end
                 return {
                     message = messages[math.random(#messages)],
                     colour = G.C.PURPLE,
