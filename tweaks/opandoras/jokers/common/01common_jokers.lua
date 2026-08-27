@@ -2,18 +2,18 @@ SMODS.Joker:take_ownership('opan_cobblestonejoker', {
     cost = 6,
     rarity = 2,
     perishable_compat = false,
-    enhancement_gate = "m_stone",
+    enhancement_gate = "m_stone",    
+    config = {extra = 2},
     
     loc_vars = function(self, info_queue, card)
         info_queue[#info_queue + 1] = G.P_CENTERS.m_stone    
-	    return {vars = {card.ability.extra, card.ability.mult}}
-	    end,
-    
+        return {vars = {card.ability.extra, card.ability.mult}}
+    end,   
 },true)
 
 SMODS.Joker:take_ownership('opan_croon', { 
     cost = 5,
-    config = {extra = 4}
+    config = {extra = 5}
 },true)
 
 SMODS.Joker:take_ownership('opan_bynine', { 
