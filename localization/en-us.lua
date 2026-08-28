@@ -202,6 +202,16 @@ return {
 				
 	         },
 	    },
+	   -- Uncommon Jokers
+            j_marble = {
+                 name = "Marble Joker",
+	         text = {
+		     "Adds one {C:attention}Stone{} card",
+                     "to deck when a {C:attention}Blind{}",
+                     "is selected or skipped",
+				
+	         },
+	    }, 
            -- Rare Jokers
             j_dusk = {
                  name = "Dusk",
@@ -676,9 +686,17 @@ return {
                      'This Joker gains {X:red,C:white}X#1#{} Mult',
                      'for each discarded {C:attention}#3#{},',
                      'rank changes every round',
-                     '{C:inactive}(Currently {X:red,C:white}X#2#{C:inactive} Mult)',
+                     '{C:inactive}(Currently {X:red,C:white}X#2#{C:inactive} Mult)'
                  },    
             },
+          -- Legendary Jokers  
+            j_cmykl_medrano = {
+                 name = '{X:dark_edition}Medrano{}',
+                 text = {
+                     'The {X:dark_edition,C:white,E:1}Troupe{} joins',
+                     'during Blinds!'
+                 },    
+            },  
         },
     },
     misc = {
