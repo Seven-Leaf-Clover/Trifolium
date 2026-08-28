@@ -79,10 +79,11 @@ end
 ----- Vanilla
 
 -- Jokers
-assert(SMODS.load_file('tweaks/vanilla/jokers/common_jokers.lua'))()
-assert(SMODS.load_file('tweaks/vanilla/jokers/uncommon_jokers.lua'))()
-assert(SMODS.load_file('tweaks/vanilla/jokers/rare_jokers.lua'))()
-assert(SMODS.load_file('tweaks/vanilla/jokers/golden_ticket.lua'))()
+local subdir = "tweaks/vanilla/jokers"
+local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(jokers) do
+        assert(SMODS.load_file(subdir .. "/" .. filename))()  
+    end
 -- Consumables
 assert(SMODS.load_file('tweaks/vanilla/consumables/tarots.lua'))()
 assert(SMODS.load_file('tweaks/vanilla/consumables/spectrals.lua'))()
@@ -185,6 +186,12 @@ local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)
     for k, filename in pairs(jokers) do
         assert(SMODS.load_file(subdir .. "/" .. filename))()  
     end 
+-- Legendary Jokers    
+local subdir = "tweaks/cmykl/jokers/legendary"
+local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(jokers) do
+        assert(SMODS.load_file(subdir .. "/" .. filename))()  
+    end     
 -- Seal
 local subdir = "tweaks/cmykl/seals"
 local seal = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
