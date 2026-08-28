@@ -1,6 +1,6 @@
 SMODS.Tag:take_ownership("meteor", {
     in_pool = function()
-        return (G.GAME.round_resets.ante >= 1 and G.GAME.round_resets.ante <= 4)
+        return (G.GAME.round_resets.ante >= 1 and G.GAME.round_resets.ante <= 3)
     end,
     
     loc_vars = function() return {} end,
