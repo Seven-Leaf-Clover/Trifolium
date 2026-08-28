@@ -16,6 +16,10 @@ SMODS.Joker:take_ownership('opan_croon', {
     config = {extra = 5}
 },true)
 
+SMODS.Joker:take_ownership('opan_hoarder', { 
+    config = {extra = 10},
+},true)
+
 SMODS.Joker:take_ownership('opan_bynine', { 
     config = {extra = 9},
 
