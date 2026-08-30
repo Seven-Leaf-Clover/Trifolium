@@ -1,18 +1,32 @@
 --- Total Jokers After Rebalance = 60 --- 14 Bans = 46
 
 -- Commons = 18 --- 6 Bans = 12 --
-   - 6 are Direct Mult --- 2 are Direct Econ --
-   - 1 is Direct Chips --- 3 are Indirect Econ
+   - 6 Direct Mult  --- 2 Direct Econ --
+   - 1 Direct Chips --- 3 Indirect Econ
+   
+-- Enhancement/Seal Restricted Commons = 1
+   - Stone Cards: Scaling Scoring (Retrigger)
 
--- Uncommons = 32 --- 7 Bans = 25 --
-   - 3 are Direct XMult   --- 3 are Direct Econ   --- 4 are Scaling Scoring
-   - 4 are Scaling XMult  --- 1 is Scaling Econ   --- 1 Creates a Powerful Card
-   - 2 are Scaling XChips --- 2 are Indirect Econ --- 1 is Direct XChips
-   - 2 are Scaling Mult   --- 1 is Direct destroy --- 1 is roulette of effects
+-- Uncommons = 24 --- 7 Bans = 17 --
+   - 3 Direct XMult   --- 3 Direct Econ         --- 2 Scaling Scoring
+   - 2 Scaling XMult  --- 1 roulette of effects --- 1 Creates a Powerful Card
+   - 1 Scaling XChips --- 1 Indirect Econ       --- 1 Direct XChips
+   - 1 Scaling Mult   --- 1 Direct destroy 
+   
+-- Enhancement/Seal Restricted Uncommons = 8   
+   - Stone Cards: 1 Scales Mult --- 1 Scales XMult
+   - Bonus Cards: 1 Scales XChips
+   - Gold/Steel Cards: 1 Scales XMult
+   - Gold Cards: 1 Scaling Econ
+   - Lucky Cards: 1 Scaling Scoring (Retrigger)
+   - Purple Seals: 1 Indirect Econ
     
--- Rares = 7 --- 1 Bans = 6 --
-   - 1 are Direct XMult --- 2 is Scaling XMult      --- 1 is Scaling Scoring
-   - 1 is Direct XChips --- 1 is Scaling Joker Slot
+-- Rares = 6 --- 1 Bans = 5 --
+   - 1 Direct XMult  --- 1 Scaling Joker Slot
+   - 2 Scaling XMult --- 1 Scaling Scoring
+   
+-- Enhancement/Seal Restricted Rares = 1
+   - Bonus Cards: 1 Direct XChips
 
 -- Legendary = 3 --- 0 Bans --
 
@@ -22,11 +36,11 @@
 
 --- Common Jokers ---
 
-- Shale Joker: Common >>> Uncommon --- 5 Cost >>> 6 Cost
+- Shale Joker: Common >>> Uncommon --- 5 Cost >>> 6 Cost --- +3 Mult >>> +2 Mult
 
 - Oh, Lord: Common >>> Uncommon --- 4 Cost >>> 7 Cost
 
-- Croon Joker: 4 Cost >>> 5 Cost --- 6 Mult >>> 4 Mult
+- Croon Joker: 4 Cost >>> 5 Cost --- 6 Mult >>> 5 Mult
 
 - By the nine!: +99 Chips >>> +9 Mult
 
@@ -36,6 +50,8 @@
   - 1/7 for +77 Chips --- 1/30 for X777 Mult
   
 - Potato Chips: Common >>> Uncommon --- Now gives X2 Chips and -1 chip to every card scored  
+
+- Hoarder Joker: +12 Mult per Consumable card held >>> +10 Mult
 
 
 
@@ -64,7 +80,7 @@
   
 - Litany: +0.5 Xmult >>> +0.75 
 
-- Miner: 7 Cost >>> 6 Cost --- 1 Re-trigger >>> 2 --- Now has a rental sticker.
+- Miner: Uncommon >>> Common --- 7 Cost >>> 5 Cost
 
 - Moolah: $2 Dollars per 2 Gold Cards >>> $5
 
@@ -114,8 +130,7 @@
 
 - Balanzone: Starts at 0 Retriggers but gains one per $40 Dollars
 
-- Cicero: Now gives a negative spectral if a joker to the right was destroyed when blind
-   was selected.
+- Cicero: Now creates 2 Negative Spectral cards after destroying the joker to the right when blind is selected.
    
    
 

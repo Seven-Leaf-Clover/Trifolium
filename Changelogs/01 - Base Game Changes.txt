@@ -10,7 +10,7 @@
 
 - Superposition: 4 Cost >>> 3 Cost
 
-- Golden Ticket: Common >>> Uncommon --- 5 Cost >>> 6 Cost --- $4 When Scored >>> $5
+- Golden Ticket: Rework: 4 Cost --- Now makes Booster packs cost $1 less per Gold Card in deck
 
 - Odd Todd: 4 Cost >>> 5 Cost
 
@@ -45,6 +45,10 @@
 - Loyalty Card: X4 Mult every 6 Hands >>> Every 5 Hands
 
 - Glass Joker: +X0.75 Mult every time a Glass Card is destroyed >>> +X1 Mult
+
+- Steel Joker: +X0.2 Mult for every Steel Card in deck >>> +X0.25
+
+- Marble Joker: Now also gives a Stone Card when Skipping a Blind
 
 
 
@@ -85,13 +89,17 @@
 
 ----- Vouchers -----
 
-- Tarot and Planet Merchant: Now to appear on Ante 3 onwards.
+- Tarot and Planet Merchant: Now from appear on Ante 3 onward.
+
+- Telescope, Seed Money and Director's Cut: Now also appear from Ante 3 onward
+
+- Blank: Now appears from ante 2 onward
 
 
 
 ----- Decks -----
 
-- Green Deck: Seed Money can no longer appear.
+- Green Deck: Seed Money and To the Moon can no longer appear.
 
 - Ghost Deck: 2.0 Spectral Ratio >>> 2.5
 
@@ -109,7 +117,7 @@
 
 - Orbital Tag: Now upgrades the most played hand by 3 levels --- Appears on ante 3+
 
-- Meteor Tag: Now upgrades 5 random poker hands --- Appears from ante 1 to 4
+- Meteor Tag: Now upgrades 5 random poker hands --- Appears from ante 1 to 3
 
 - Standard Tag: Now adds 2 cards of your most played rank to the deck --- Appears on ante 3+
 
@@ -124,9 +132,9 @@
 
 - Polychrome Tag now may only appear from ante 2 to 3
 
-- Uncommon Tag now may only appear from ante 2 to 4
+- Uncommon and D6 Tags now may only appear from ante 2 to 4
 
-- Rare and D6 Tags now may only appear from ante 2 to 5
+- Rare Tag now may only appear from ante 2 to 5
 
 - Double Tag now may only appear from ante 2 to 7
 

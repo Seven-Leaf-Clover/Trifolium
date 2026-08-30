@@ -1,18 +1,21 @@
 --- Total Jokers After Rebalance = 30 --- 0 Bans
 
--- Commons = 7 --- 0 Bans --
-   - 3 are Direct Mult    --- 1 is Direct Chips --- 1 is Direct Level
-   - 1 is Indirect X/Mult --- 1 is Direct Econ
+-- Commons = 8 --- 0 Bans --
+   - 3 Direct Mult     --- 1 Direct Chips --- 1 Direct Level
+   - 1 Indirect X/Mult --- 1 Direct Econ  --- 1 Indirect Econ
    
--- Uncommons = 16 --- 0 Bans --
-   - 1 is Direct XMult   --- 1 is Direct Mult  --- 2 are Scaling Econ  --- 3 are Scaling Scoring
-   - 3 are Scaling XMult --- 1 is Scaling Mult --- 4 are Indirect Econ --- 1 Reduces Ante
+-- Uncommons = 13 --- 0 Bans --
+   - 2 Direct XMult   --- 1 Direct Mult  --- 1 Scaling Econ  --- 3 Scaling Scoring
+   - 2 Scaling XMult  --- 1 Scaling Mult --- 2 Indirect Econ --- 1 Reduces Ante
 
+-- Enhancement/Seal Restricted Uncommons = 4
+   - Stone Cards: 1 Scaling XMult --- 1 Indirect Econ
+   - Wild Cards: 1 Scaling Econ
+   - Lucky Cards: 1 Scales Chips
 
-
--- Rares = 7 --- 0 Bans --
-   - 4 are Direct XMult --- 1 Scales chips --- 1 Scales Scoring
-                                           --- 1 Scales Level
+-- Rares = 5 --- 0 Bans --
+   - 3 Direct XMult --- 1 Scales Scoring
+   - 1 Scales Level
    
 
 
@@ -62,14 +65,14 @@ Change: 5 Cost >>>> 8 Cost --- Common >>> Uncommon --- +3 Mult when Joker card s
 
 Original: 3 Cost --- Common --- Create a copy of The Wheel of Fortune when Blind selected 
 
-Change: 3 Cost >>> 5 Cost --- Common >>> Uncommon
+Change: 3 Cost >>> 5 Cost
 
 
 -- Archaeologist --
 
 Original: 5 Cost --- Each card held in hand with *suit* gives +25 Chips
 
-Change: +25 Chips >>> +3 Mult
+Change: +25 Chips >>> +5 Mult
               
 
                         
@@ -94,7 +97,7 @@ Change: Earn $3 >>> $2
 
 Original: Uncommon --- 6 Cost --- Gains +13 Chips each time a Lucky card fails to trigger
 
-Change: Uncommon >>> Rare --- 6 Cost >>> 9 Cost
+Change: Gains +13 Chips >>> +6 Chips
 
 
 -- Odd Sock --
@@ -162,7 +165,7 @@ Change: 7 Cost >>> 8 Cost
 
 Original: 8 Cost --- X3 Mult, loses X0.5 Mult per card sold
 
-Change: 8 Cost >>> 9 Cost
+Change: Rare >>> Uncommon --- 8 Cost >>> 6 Cost --- x3 Mult >>> X2 Mult --- loses X0.5 Mult >>> loses X0.05
 
 
 

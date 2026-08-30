@@ -1,16 +1,23 @@
 --- Total Jokers After Rebalance = 27 --- 1 Bans = 26
 
 -- Commons = 4 --- 0 Bans --
-   - 1 is Direct Mult  --- 1 is Direct Econ
-   - 1 is Scaling Mult --- 1 is extra hand
+   - 1 Direct Mult  --- 1 Direct Econ
+   - 1 Scaling Mult --- 1 Extra hand
    
--- Uncommons = 15 --- 0 Bans --
-   - 3 are Direct XMult --- 2 is Scaling XMult --- 2 Scales Scoring --- 1 is Direct Econ
-   - 1 is Direct Mult   --- 2 Scales Chips     --- 3 are Indirect Econ  --- 1 Gives a Rare
+-- Uncommons = 13 --- 0 Bans --
+   - 2 Direct XMult  --- 1 Direct Mult  --- 1 Scales Scoring --- 1 Scaling Econ
+   - 2 Scaling XMult --- 2 Scalings Chips --- 2 Indirect Econ  --- 1 Creates a Rare
+   - 1 Quest XMult
    
--- Rares = 7 --- 0 Bans --   
-   - 4 is Direct XMult  --- 1 is Direct chips --- 1 is Direct Econ
-   - 1 is Direct Mult
+-- Enhancement/Seal Restricted Uncommons = 2
+   - Stone Cards: 1 Direct Econ --- 1 Scales Scoring
+   
+-- Rares = 6 --- 0 Bans --   
+   - 3 Direct XMult  --- 1 Direct chips --- 1 Direct Econ
+   - 1 Direct Mult
+   
+-- Enhancement/Seal Restricted Rares = 1   
+   - Seals: 1 Direct XMult
    
 -- Legendary = 1 --- 1 Ban = 0 --   
    
@@ -47,7 +54,7 @@ Change: 4 Cost >>> 5 Cost --- Now the last card also give +2 Mult when scored
 
 Original: Common --- 5 Cost --- Stores +2 Mult for each scored card unleashes mult during the boss
 
-Change: Common >>> Uncommon --- 5 Cost >>> 6 Cost --- +2 Mult for each scored card >>> +0.07 XMult for each scored card
+Change: Common >>> Rare --- 5 Cost >>> 8 Cost --- +2 Mult for each scored card >>> +0.1 XMult for each scored card
 
 
 -- Tabletop --
@@ -121,7 +128,7 @@ Change: 5 Cost >>> 7 Cost
 
 Original: Uncommon --- 8 Cost --- +8 Mult for each card above 64 in your full deck
 
-Change: Uncommon >>> Rare --- 8 Cost >>> 7 Cost --- Rework: Now gives X4 Mult if you have 64 or more cards in your full deck
+Change: 8 Cost >>> 6 Cost --- Rework: Now gives X4 Mult if you have 64 or more cards in your full deck
 
 
 
@@ -185,6 +192,22 @@ Change: 8 Cost >>> 7 Cost --- Rare >>> Uncommon --- Gains +6 Mult >>> Gains + X0
 
 
 
+----- Legendary Jokers -----
+
+-- Medrano --
+
+Original: +50 Chips when a Seal is Triggered
+
+Rework: Now gives one random effect out of six during the joker phase:
+- +30 Mult
+- +160 Chips
+- X3 Mult
+- 1 Negative Spectral
+- 2 Negative Tarots
+- +1 Level to 5 random hands
+
+
+
 ----- Seal -----
 
 -- Spectral Seal --
@@ -193,13 +216,6 @@ Original: Create a Spectral card when destroyed (Must have room)
 
 Change: Create 2 Negative Spectral cards when destroyed (No room needed)
 
-
-
------ Bans -----
-
---- Legendary Jokers ---
-
--- Medrano --
 
 
 --- Booster Pack ---
