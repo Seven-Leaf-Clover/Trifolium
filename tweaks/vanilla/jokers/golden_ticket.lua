@@ -1,6 +1,6 @@
 SMODS.Joker:take_ownership('j_ticket', {
     blueprint_compat = false,
-    cost = 5,
+    cost = 4,
     enhancement_gate = "m_gold",
     config = { extra = { off = 1 } },
     
