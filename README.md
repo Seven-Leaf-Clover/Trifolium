@@ -29,7 +29,7 @@ All of these are incredible works of art. Check them out, with or without my mod
 
 # **Communication**
 
-You can reach me here on GitHub and over at Discord in this channel or in my Direct Messages in both(? Idk if GitHub has that).
+You can reach me over at Discord in this channel or in my Direct Messages. <3
 
 - https://discord.com/channels/1116389027176787968/1477075771049902221
 
