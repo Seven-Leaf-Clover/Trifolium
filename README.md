@@ -7,15 +7,16 @@ Particularly as it pertains to higher difficulties and while it's completely und
 on creative expression making them, it does leave a big gap for people like me who enjoy the base game for how well balanced it is and the challenge it provides.
 
 This mod is an attempt at providing this space with thoughtful balance and design.
+Most changes will be justified in Discord and I also invite you to inquire about them.
 
 Also, the license mentions it. But, just in case, you have my blessing to use the assets for your own work. :)
 
 # **Content**
-All of the changes can be fully reviewed in the changelog folder above.
+All of the changes can be fully reviewed in the changelog folder.
 
 Please reach out to ask about any questions you might have about the changes made.
 
-# **Suported Mods**
+# **Supported Mods**
 All of these are incredible works of art. Check them out, with or without my mod.
 
 - Opandora's Box.
