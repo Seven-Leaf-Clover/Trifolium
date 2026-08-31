@@ -1,0 +1,9 @@
+{
+	"name": "Trifolium",
+	"description": "Gold Stake focused Vanilla and Mod Re-balance",
+	"version_number": "1.6.2",
+	"website_url": "https://github.com/Seven-Leaf-Clover/Trifolium",
+	"dependencies": ["Thunderstore-lovely-0.9.0",
+	                 "Steamodded-Steamodded-26.829.0"
+	]
+}
