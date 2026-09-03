@@ -196,7 +196,7 @@ return {
                  name = "Golden Ticket",
 	         text = {
 		     "{C:attention}Booster Packs{} cost {C:money}$#1#{}",
-		     "less per {C:attention}Gold{} card",
+		     "less per {C:attention}Gold Card{}",
 		     "in your {C:attention}full deck",
 		     "{C:inactive}(Currently {C:money}$#2#{} {C:inactive}less)"
 				
