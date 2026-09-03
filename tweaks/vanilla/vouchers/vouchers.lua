@@ -30,6 +30,6 @@ SMODS.Voucher:take_ownership('directors_cut', {
 
 SMODS.Voucher:take_ownership('blank', {
     in_pool = function()
-        return (G.GAME.round_resets.ante >= 2)
+        return (G.GAME.round_resets.ante >= 3)
     end,
 })
