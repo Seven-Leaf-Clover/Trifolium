@@ -703,6 +703,14 @@ return {
         dictionary = {
            -- For the config tab  
              tfl_requires_restart = "Requires Restart",
+             tfl_vanilla_rebalance = 'Vanilla Rebalance',
+             tfl_vanilla_rebalance_info = {
+                                 "{C:3f8451,E:1}Trifolium's{} suite of",
+                                 "{C:attention}Vanilla{} modifications with",
+                                 "the exception of the",
+                                 "{C:attention}Stakes{} and {C:attention}Card Waves{}",
+                                 "{s:0.9}(Disable to only play mod rebalance!)",
+             },
              tfl_blue_stake_rework = 'Stake Rework',
              tfl_enable_blue_info = {
                                  "Eases the transition towards",
