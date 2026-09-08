@@ -19,6 +19,17 @@ SMODS.current_mod.config_tab = function()
             nodes = {
               {
                 n = G.UIT.C,
+                config = {tooltip = {text = localize('tfl_vanilla_rebalance_info')}},
+                nodes = {
+                  create_toggle {
+                    label = localize('tfl_vanilla_rebalance'),
+                    ref_table = Trifolium.config,
+                    ref_value = "tfl_vanilla_rebalance"
+                  },
+                },
+              },
+              {
+                n = G.UIT.C,
                 config = {tooltip = {text = localize('tfl_enable_blue_info')}},
                 nodes = {
                   create_toggle {
@@ -27,7 +38,12 @@ SMODS.current_mod.config_tab = function()
                     ref_value = "tfl_blue_stake_rework"
                   },
                 },
-              },
+              }
+            }
+          },
+          {
+            n = G.UIT.R,
+            nodes = {
               {
                 n = G.UIT.C,
                 config = {tooltip = {text = localize('tfl_new_stakes_info')}},
@@ -38,12 +54,7 @@ SMODS.current_mod.config_tab = function()
                     ref_value = "tfl_new_stakes"
                   },
                 },
-              }
-            }
-          },
-          {
-            n = G.UIT.R,
-            nodes = {
+              },
               {
                 n = G.UIT.C,
                 config = {tooltip = {text = localize('tfl_card_support_one_info')}},
