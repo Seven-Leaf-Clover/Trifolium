@@ -45,8 +45,7 @@ SMODS.Joker:take_ownership('j_steel_joker', {
 })
 
 SMODS.Joker:take_ownership('j_mime', { 
-    cost = 7,
-    rarity = 3,
+    cost = 6,
     in_pool = function(self, args)
      if G.playing_cards then
       for _, card in ipairs(G.playing_cards) do
