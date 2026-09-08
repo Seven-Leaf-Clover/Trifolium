@@ -40,7 +40,7 @@
 
 - Dusk: Uncommon >>> Rare --- 5 Cost >>> 7 Cost --- 1 retrigger >>> 2
 
-- Mime: Uncommon >>> Rare --- 5 Cost >>> 7 Cost --- Now can only appear if there is a gold or steel card in deck
+- Mime: 5 Cost >>> 6 Cost --- Now can only appear if there is a gold or steel card in deck
 
 - Loyalty Card: X4 Mult every 6 Hands >>> Every 5 Hands
 
@@ -77,7 +77,7 @@
 
 --- Spectrals ---
 
-- Sigil: Changes the suits in hand based on a selected card --- Halves money.
+- Sigil: Converts all cards in hand to selected suit --- Halves money.
 
 
 
@@ -91,9 +91,7 @@
 
 - Tarot and Planet Merchant: Now from appear on Ante 3 onward.
 
-- Telescope, Seed Money and Director's Cut: Now also appear from Ante 3 onward
-
-- Blank: Now appears from ante 2 onward
+- Telescope, Blank, Seed Money and Director's Cut: Now also appear from Ante 3 onward
 
 
 
@@ -165,7 +163,7 @@ Blue Stake: Rework: Scoring scales faster: Last Ante starts at 400k Chips in Gol
 
 New Stake: Emerald (above blue): +1 Shop slot
 
-New Stake: Azure (Above orange): Spectral Packs appear x1.8 times often
+New Stake: Azure (Above purple): Spectral Packs appear x1.8 times often
 
 
 -- Stake Expansion --
