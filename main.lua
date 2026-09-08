@@ -54,6 +54,7 @@ assert(SMODS.load_file('libs/ui.lua'))()
 
 --- Stakes
 if Trifolium.config.tfl_blue_stake_rework then
+assert(SMODS.load_file('tweaks/vanilla/stakes/blue.lua'))()
 assert(SMODS.load_file('tweaks/trifolium/stakes/emerald.lua'))()
 assert(SMODS.load_file('tweaks/trifolium/stakes/spectral.lua'))()
 end
@@ -78,6 +79,7 @@ end
 
 ----- Vanilla
 
+if Trifolium.config.tfl_vanilla_rebalance then
 -- Jokers
 local subdir = "tweaks/vanilla/jokers"
 local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
@@ -98,15 +100,12 @@ local tags = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)
     for k, filename in pairs(tags) do
         assert(SMODS.load_file(subdir .. "/" .. filename))()  
     end
--- Stakes
-if Trifolium.config.tfl_blue_stake_rework then
-  assert(SMODS.load_file('tweaks/vanilla/stakes/blue.lua'))()
-end
 -- Decks
 assert(SMODS.load_file('tweaks/vanilla/decks/green.lua'))()
 assert(SMODS.load_file('tweaks/vanilla/decks/ghost.lua'))()
 -- Bans
 assert(SMODS.load_file('tweaks/vanilla/bans.lua'))()
+end
 
 
 
