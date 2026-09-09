@@ -705,7 +705,7 @@ return {
              tfl_requires_restart = "Requires Restart",
              tfl_vanilla_rebalance = 'Vanilla Rebalance',
              tfl_vanilla_rebalance_info = {
-                                 "{C:3f8451,E:1}Trifolium's{} suite of",
+                                 "{C:3f9e59,E:1}Trifolium's{} suite of",
                                  "{C:attention}Vanilla{} modifications with",
                                  "the exception of the",
                                  "{C:attention}Stakes{} and {C:attention}Card Waves{}",
