@@ -1,6 +1,3 @@
-# **Trifolium**
-Gold Stake focused vanilla and mod rebalance.
-
 # **About the mod**
 As I've come to play more and more mods, I realized that balance in most of them had been neglected. 
 Particularly as it pertains to higher difficulties and while it's completely understandable that people focus
@@ -13,7 +10,7 @@ Also, the license mentions it. But, just in case, you have my blessing to use th
 # **Content**
 The mod's Wiki is in development and currently you can review the entirety of Vanilla changes here:
 
-https://balatromods.miraheze.org/wiki/Trifolium
+- https://balatromods.miraheze.org/wiki/Trifolium
 
 All of the changes to mods can be fully reviewed in the changelog folder.
 
