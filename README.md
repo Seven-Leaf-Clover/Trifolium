@@ -19,6 +19,8 @@ Most changes will be justified in Discord or Wiki and I also invite you to inqui
 # **Supported Mods**
 All of these are incredible works of art. Check them out, with or without my mod.
 
+Just play them alongside Trifolium and the changes will be automatically made!
+
 - Opandora's Box.
 - https://github.com/ohpahn/opandoras-box/
 
