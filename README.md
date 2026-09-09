@@ -12,7 +12,7 @@ The mod's Wiki is in development and currently you can review the entirety of Va
 
 - https://balatromods.miraheze.org/wiki/Trifolium
 
-All of the changes to mods can be fully reviewed in the changelog folder.
+All of the modifications including Vanilla can be fully reviewed in the **changelog** folder in an offline format.
 
 Most changes will be justified in Discord or Wiki and I also invite you to inquire about them!
 
