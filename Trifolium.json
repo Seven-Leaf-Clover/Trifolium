@@ -7,7 +7,7 @@
 	"prefix": "tfl",
 	"main_file": "main.lua",
 	"priority": 1,
-	"badge_colour": "3f8451",
+	"badge_colour": "3f9e59",
 	"badge_text_colour": "FFFFFF",
 	"version": "1.0",
 	"dependencies": [
