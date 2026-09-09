@@ -11,9 +11,13 @@ This mod is an attempt at providing this space with thoughtful balance and desig
 Also, the license mentions it. But, just in case, you have my blessing to use the assets for your own work. :)
 
 # **Content**
-All of the changes can be fully reviewed in the changelog folder.
+The mod's Wiki is in development and currently you can review the entirety of Vanilla changes here:
 
-Most changes will be justified in Discord and I also invite you to inquire about them.
+https://balatromods.miraheze.org/wiki/Trifolium
+
+All of the changes to mods can be fully reviewed in the changelog folder.
+
+Most changes will be justified in Discord or Wiki and I also invite you to inquire about them!
 
 # **Supported Mods**
 All of these are incredible works of art. Check them out, with or without my mod.
@@ -35,6 +39,7 @@ You can reach me over at Discord in this channel or in my Direct Messages. <3
 
 # **Bugs**
 
-Please mention any problems this mod might have in Discord or here on GitHub. 
-While I've not found any problems, I literally learned to code a week ago. So, you know.
+Please mention any problems this mod might have in Discord or on GitHub. 
+
+While I've not found any problems, I literally learned to code with this mod. So... you know.
 
