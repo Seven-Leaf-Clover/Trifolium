@@ -41,6 +41,11 @@ SMODS.Joker:take_ownership('cmykl_licenseplate', {
     cost = 7
 },true)
 
+SMODS.Joker:take_ownership('cmykl_ihopeitsa', {
+    blueprint_compat = false,
+    eternal_compat = false
+},true)
+
 SMODS.Joker:take_ownership('cmykl_cubedjoker', {
     perishable_compat = false,
     cost = 6,
