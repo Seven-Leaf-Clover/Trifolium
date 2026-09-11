@@ -7,7 +7,7 @@ SMODS.Stake {
     prefix_config = {above_stake = {mod = false}, applied_stakes = {mod = false}},
     calculate = function(self,context)
         if context.end_of_round and context.game_over == false and context.main_eval then
-            if not G.GAME.blind.boss and (G.GAME.round_resets.ante >= 5 and G.GAME.round_resets.ante <= G.GAME.win_ante) then
+            if not G.GAME.blind.boss and (G.GAME.round_resets.ante >= 6 and G.GAME.round_resets.ante <= G.GAME.win_ante) then
                 G.GAME.inflation = G.GAME.inflation + 1
             end    
         end
