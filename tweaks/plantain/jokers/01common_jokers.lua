@@ -19,10 +19,6 @@ SMODS.Joker:take_ownership('pl_lamp', {
     config = { extra = { mult = 3, mult_gain = 2, mult_loss = 1 } },
 },true)
 
-SMODS.Joker:take_ownership('pl_early_man', {
-    cost = 5
-},true)
-
 
 
 
