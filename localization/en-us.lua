@@ -29,7 +29,7 @@ return {
              stake_tfl_yellow = {
                  name = "Yellow Stake",
                  text = { 
-                     "From {C:attention}Ante 5{} until {C:attention}Win{} defeating a",
+                     "From {C:attention}Ante 6{} until {C:attention}Win{} defeating a",
                      "{C:attention}Basic Blind{} raises prices by {C:money}$1",
                      "{s:0.8}Applies all previous Stakes"
                  },
@@ -202,6 +202,16 @@ return {
 				
 	         },
 	    },
+	    j_riff_raff = {
+                 name = "Riff-Raff",
+	         text = {
+		     "When {C:attention}Blind{} is selected",
+		     "or skipped, create",
+                     "{C:attention}#1# {C:blue}Common{C:attention} Jokers",
+                     "{C:inactive}(Must have room)",
+				
+	         },
+	    },
 	   -- Uncommon Jokers
             j_marble = {
                  name = "Marble Joker",
@@ -211,7 +221,17 @@ return {
                      "is selected or skipped",
 				
 	         },
-	    }, 
+	    },
+	    j_cartomancer = {
+                 name = "Cartomancer",
+	         text = {
+		     "Create a {C:tarot}Tarot{}",
+                     "card when {C:attention}Blind{} is",
+                     "selected or skipped",
+                     "{C:inactive}(Must have room)",
+				
+	         },
+	    },
            -- Rare Jokers
             j_dusk = {
                  name = "Dusk",
@@ -478,7 +498,8 @@ return {
                  text = {
                      'Create a copy of',
                      '{C:tarot}The Wheel of Fortune',
-                     'when {C:attention}Blind{} is selected',
+                     'when {C:attention}Blind{} is',
+                     'selected or skipped',
                      '{C:inactive}(Must have room)'
                  },
             },
