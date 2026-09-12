@@ -65,7 +65,7 @@ Change: 5 Cost >>>> 8 Cost --- Common >>> Uncommon --- +3 Mult when Joker card s
 
 Original: 3 Cost --- Common --- Create a copy of The Wheel of Fortune when Blind selected 
 
-Change: 3 Cost >>> 5 Cost
+Change: 3 Cost >>> 5 Cost --- Now also gives a copy on Blind skip
 
 
 -- Archaeologist --

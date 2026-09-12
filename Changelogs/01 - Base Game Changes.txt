@@ -22,6 +22,8 @@
 
 - Greedy, Lusty, Wrathful, Gluttonous Jokers: 5 Cost >>> 4 Cost
 
+- Riff-Raff: Now also gives the 2 Common Jokers on Blind Skip
+
 
 
 --- Uncommons ---
@@ -49,6 +51,8 @@
 - Steel Joker: +X0.2 Mult for every Steel Card in deck >>> +X0.25
 
 - Marble Joker: Now also gives a Stone Card when Skipping a Blind
+
+- Cartomancer: Now also gives a Tarot card when Skipping a Blind
 
 
 
@@ -175,7 +179,7 @@ It adds:
 
 * Basic Blind refers to the Small and Big Blinds!
 
-Yellow Stake: From Ante 5 until Win defeating a Baisc Blind permanently raises shop prices by $1.
+Yellow Stake: From Ante 6 until Win defeating a Baisc Blind permanently raises shop prices by $1.
  - This Stake resets and disables itself on Winning the game to allow for a better endless mode!
 
 Gray Stake: Defeating a Basic Blind slightly increases the required score:

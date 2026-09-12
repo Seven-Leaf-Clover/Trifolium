@@ -1,8 +1,8 @@
 --- Total Jokers After Rebalance = 60 --- 14 Bans = 46
 
 -- Commons = 18 --- 6 Bans = 12 --
-   - 6 Direct Mult  --- 2 Direct Econ --
-   - 1 Direct Chips --- 3 Indirect Econ
+   - 4 Direct Mult  --- 1 Direct Chips/Mult --- 2 Direct Econ  --- 2 Indirect Econ
+   - 1 Direct Xmult --- 1 Direct Chips      --- 1 Direct Level
    
 -- Enhancement/Seal Restricted Commons = 1
    - Stone Cards: Scaling Scoring (Retrigger)
