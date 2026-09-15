@@ -100,6 +100,12 @@ local tags = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)
     for k, filename in pairs(tags) do
         assert(SMODS.load_file(subdir .. "/" .. filename))()  
     end
+-- Boosters
+local subdir = "tweaks/vanilla/boosters"
+local boosters = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(boosters) do
+        assert(SMODS.load_file(subdir .. "/" .. filename))()  
+    end
 -- Decks
 assert(SMODS.load_file('tweaks/vanilla/decks/green.lua'))()
 assert(SMODS.load_file('tweaks/vanilla/decks/ghost.lua'))()
