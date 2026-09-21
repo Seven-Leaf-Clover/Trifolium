@@ -12,7 +12,7 @@ SMODS.Stake {
                     pack.key == "p_spectral_normal_2" or
                     pack.key == "p_spectral_jumbo_1" or
                     pack.key == "p_spectral_mega_1" then
-                    pack.weight = pack.weight * 1.8
+                    pack.weight = pack.weight * 1.7
                 end    
             end
         end
