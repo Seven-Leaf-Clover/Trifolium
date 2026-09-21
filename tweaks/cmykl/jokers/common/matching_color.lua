@@ -1,5 +1,5 @@
 SMODS.Joker:take_ownership('cmykl_matchingcolorchip', {
-
+    perishable_compat = false,
     rarity = 1,
     config = { extra = { mult = 0, mult_gain = 1 } },
     

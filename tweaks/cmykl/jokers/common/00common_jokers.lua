@@ -30,6 +30,7 @@ SMODS.Joker:take_ownership('cmykl_humanity', {
 },true)
 
 SMODS.Joker:take_ownership('cmykl_tabletop', {
+    perishable_compat = false,
     cost = 6,
     rarity = 2,
     
