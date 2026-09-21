@@ -34,6 +34,7 @@ SMODS.Joker:take_ownership('cmykl_apparition', {
 },true)
 
 SMODS.Joker:take_ownership('cmykl_companyid', {
+    perishable_compat = false,
     cost = 6
 },true)
 
