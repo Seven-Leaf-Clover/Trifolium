@@ -3,14 +3,14 @@ return {
       -- Stakes
          Stake = {
            -- Vanilla Stakes
-             stake_blue = {
+             stake_blue = Trifolium.config.tfl_blue_stake_rework and {
                  name = "Blue Stake",
                  text = {
                      "Required score scales",
                      "faster for each {C:attention}Ante",
                      "{s:0.8}Applies all previous Stakes"
                  },    
-             },
+             } or {},
            -- Trifolium's Stakes  
              stake_tfl_emerald = {
                  name = "Emerald Stake",
@@ -22,7 +22,14 @@ return {
              stake_tfl_spectral = {
                  name = "Azure Stake",
                  text = { 
-                     "{C:spectral}Spectral{} Packs appear more often{}",
+                     "{C:spectral}Spectral{} Packs appear more often",
+                     "{s:0.8}Applies all previous Stakes"
+                 },
+             },
+             stake_tfl_opal = {
+                 name = "Opal Stake",
+                 text = { 
+                     "{C:attention}Standard{} Packs are {C:attention}50%{} off!",
                      "{s:0.8}Applies all previous Stakes"
                  },
              },
