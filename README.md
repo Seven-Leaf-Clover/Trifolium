@@ -6,7 +6,7 @@ This mod is an attempt at providing this space with thoughtful balance and desig
 
 Also, the license mentions it. But, just in case, you have my blessing to use the assets for your own work. :)
 
-# **Content**
+## **Content**
 The mod's Wiki is in development and currently you can review the entirety of Vanilla changes here:
 
 - https://balatromods.miraheze.org/wiki/Trifolium
@@ -15,7 +15,7 @@ All of the modifications including Vanilla can also be fully reviewed in the **c
 
 Most changes will be justified in Discord or Wiki and I also invite you to inquire about them!
 
-# **Supported Mods**
+## **Supported Mods**
 All of these are incredible works of art. Check them out, with or without my mod.
 
 Just play them alongside Trifolium and the changes will be automatically made!
@@ -29,13 +29,13 @@ Just play them alongside Trifolium and the changes will be automatically made!
 - Cmykl.
 - https://github.com/comykel/cmykl
 
-# **Communication**
+## **Communication**
 
 You can reach me over at Discord in this channel or in my Direct Messages. <3
 
 - https://discord.com/channels/1116389027176787968/1477075771049902221
 
-# **Bugs**
+## **Bugs**
 
 Please mention any problems this mod might have in Discord or on GitHub. 
 
