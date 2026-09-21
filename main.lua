@@ -57,6 +57,7 @@ if Trifolium.config.tfl_blue_stake_rework then
 assert(SMODS.load_file('tweaks/vanilla/stakes/blue.lua'))()
 assert(SMODS.load_file('tweaks/trifolium/stakes/emerald.lua'))()
 assert(SMODS.load_file('tweaks/trifolium/stakes/spectral.lua'))()
+assert(SMODS.load_file('tweaks/trifolium/stakes/opal.lua'))()
 end
 
 if Trifolium.config.tfl_new_stakes then
@@ -197,10 +198,10 @@ local jokers = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)
     for k, filename in pairs(jokers) do
         assert(SMODS.load_file(subdir .. "/" .. filename))()  
     end     
--- Seal
-local subdir = "tweaks/cmykl/seals"
-local seal = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
-    for k, filename in pairs(seal) do
+-- Seal and Spectral
+local subdir = "tweaks/cmykl/other"
+local other = NFS.getDirectoryItems(SMODS.current_mod.path .. "/" .. subdir)  
+    for k, filename in pairs(other) do
         assert(SMODS.load_file(subdir .. "/" .. filename))()  
     end
 -- Bans
