@@ -1,4 +1,5 @@
 SMODS.Joker:take_ownership('cmykl_puzzle', { 
+    perishable_compat = false,
     cost = 7,
     rarity = 2,
     
