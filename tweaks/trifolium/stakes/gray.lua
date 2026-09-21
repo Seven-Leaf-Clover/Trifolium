@@ -15,7 +15,7 @@ SMODS.Stake {
     colour = HEX('acabb8'),
     shiny = false,
     pos = { x = 3, y = 0 },
-    sticker_pos = { x = 0, y = 0 },
+    sticker_pos = { x = 3, y = 0 },
     atlas = 'stake_atlas',
     sticker_atlas = 'stake_sticker_atlas'
 }
