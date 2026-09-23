@@ -20,7 +20,7 @@ return {
                  },
              },
              stake_tfl_spectral = {
-                 name = "Azure Stake",
+                 name = "Sapphire Stake",
                  text = { 
                      "{C:spectral}Spectral{} Packs appear more often",
                      "{s:0.8}Applies all previous Stakes"
@@ -726,6 +726,48 @@ return {
                  },    
             },  
         },
+        Other = {
+            tfl_emerald_sticker = {
+                name = "Emerald Sticker",
+                text = {
+                    "Used this Joker",
+                    "to win on {C:attention}Emerald",
+                    "{C:attention}Stake{} difficulty",
+                },
+            },
+            tfl_spectral_sticker = {
+                name = "Sapphire Sticker",
+                text = {
+                    "Used this Joker",
+                    "to win on {C:attention}Sapphire",
+                    "{C:attention}Stake{} difficulty",
+                },
+            },
+            tfl_opal_sticker = {
+                name = "Opal Sticker",
+                text = {
+                    "Used this Joker",
+                    "to win on {C:attention}Opal",
+                    "{C:attention}Stake{} difficulty",
+                },
+            },
+            tfl_yellow_sticker = {
+                name = "Yellow Sticker",
+                text = {
+                    "Used this Joker",
+                    "to win on {C:attention}Yellow",
+                    "{C:attention}Stake{} difficulty",
+                },
+            },
+            tfl_gray_sticker = {
+                name = "Gray Sticker",
+                text = {
+                    "Used this Joker",
+                    "to win on {C:attention}Gray",
+                    "{C:attention}Stake{} difficulty",
+                },
+            },
+        },    
     },
     misc = {
         dictionary = {
