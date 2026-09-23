@@ -1,5 +1,5 @@
 SMODS.Stake {
-    name = "Azure Stake",
+    name = "Sapphire Stake",
     key = "spectral",
     unlocked_stake = 'orange',
     applied_stakes = { "purple" },
