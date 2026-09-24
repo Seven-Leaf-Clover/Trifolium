@@ -154,6 +154,20 @@
 
 
 
+----- Booster Packs -----
+
+-- Ante Changes --
+
+- Buffoon Packs now may only appear from ante 1 to 5
+
+- Standard Packs now may only appear from ante 1 to 6
+
+- Arcana Packs now start appearing on ante 2
+
+- Celestial Packs now start appearing on ante 3
+
+
+
 ----- Stakes -----
 
 -- Stake Rework --
@@ -167,7 +181,9 @@ Blue Stake: Rework: Scoring scales faster: Last Ante starts at 400k Chips in Gol
 
 New Stake: Emerald (above blue): +1 Shop slot
 
-New Stake: Azure (Above purple): Spectral Packs appear x1.8 times often
+New Stake: Sapphire (Above purple): Spectral Packs appear x1.7 times often
+
+New Stake: Opal (Temporarily above gold): Standard packs are 50% off
 
 
 -- Stake Expansion --
